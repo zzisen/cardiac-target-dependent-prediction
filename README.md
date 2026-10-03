@@ -74,3 +74,6 @@ at record level with this mixed-license policy described explicitly.
 Repository: [zzisen/cardiac-target-dependent-prediction](https://github.com/zzisen/cardiac-target-dependent-prediction). Release version: v1.0.1.
 
 Frozen input bytes are preserved by .gitattributes so recorded hashes agree across operating systems and release archives.
+
+Archived release: [v1.0.1](https://github.com/zzisen/cardiac-target-dependent-prediction/releases/tag/v1.0.1). Zenodo DOI: [10.5281/zenodo.23113844](https://doi.org/10.5281/zenodo.23113844).
+The archive records the exact v1.0.1 tagged tree; this citation update is documentation only.

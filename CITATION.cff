@@ -13,3 +13,5 @@ authors:
 license: MIT
 message: "Please cite this software and the upstream sources listed in DATA_SOURCES.md."
 repository-code: "https://github.com/zzisen/cardiac-target-dependent-prediction"
+doi: "10.5281/zenodo.23113844"
+url: "https://doi.org/10.5281/zenodo.23113844"
