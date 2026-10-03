@@ -1,0 +1,11 @@
+﻿heldout_animal,heldout_cells,training_animals,n_training_animals,n_training_cells,n_heldout_cells,grouped_by_animal
+Mouse_328,N47K|Control,Mouse_331;Mouse_333;Mouse_394;Mouse_401;Mouse_460;Mouse_464;Mouse_467;Mouse_469;Mouse_470,9,18,1,True
+Mouse_331,N47K|0.3_uM_mavacamten;N47K|Control,Mouse_328;Mouse_333;Mouse_394;Mouse_401;Mouse_460;Mouse_464;Mouse_467;Mouse_469;Mouse_470,9,17,2,True
+Mouse_333,N47K|0.3_uM_mavacamten;N47K|Control,Mouse_328;Mouse_331;Mouse_394;Mouse_401;Mouse_460;Mouse_464;Mouse_467;Mouse_469;Mouse_470,9,17,2,True
+Mouse_394,N47K|0.3_uM_mavacamten;N47K|Control,Mouse_328;Mouse_331;Mouse_333;Mouse_401;Mouse_460;Mouse_464;Mouse_467;Mouse_469;Mouse_470,9,17,2,True
+Mouse_401,N47K|0.3_uM_mavacamten;N47K|Control,Mouse_328;Mouse_331;Mouse_333;Mouse_394;Mouse_460;Mouse_464;Mouse_467;Mouse_469;Mouse_470,9,17,2,True
+Mouse_460,WT-RLC|0.3_uM_mavacamten;WT-RLC|Control,Mouse_328;Mouse_331;Mouse_333;Mouse_394;Mouse_401;Mouse_464;Mouse_467;Mouse_469;Mouse_470,9,17,2,True
+Mouse_464,WT-RLC|0.3_uM_mavacamten;WT-RLC|Control,Mouse_328;Mouse_331;Mouse_333;Mouse_394;Mouse_401;Mouse_460;Mouse_467;Mouse_469;Mouse_470,9,17,2,True
+Mouse_467,WT-RLC|0.3_uM_mavacamten;WT-RLC|Control,Mouse_328;Mouse_331;Mouse_333;Mouse_394;Mouse_401;Mouse_460;Mouse_464;Mouse_469;Mouse_470,9,17,2,True
+Mouse_469,WT-RLC|0.3_uM_mavacamten;WT-RLC|Control,Mouse_328;Mouse_331;Mouse_333;Mouse_394;Mouse_401;Mouse_460;Mouse_464;Mouse_467;Mouse_470,9,17,2,True
+Mouse_470,WT-RLC|0.3_uM_mavacamten;WT-RLC|Control,Mouse_328;Mouse_331;Mouse_333;Mouse_394;Mouse_401;Mouse_460;Mouse_464;Mouse_467;Mouse_469,9,17,2,True

@@ -1,0 +1,18 @@
+{
+  "budget": 3,
+  "candidate_condition": "ATP0.1",
+  "design_method": "R_maximin_normalized_oracle_utility",
+  "destination_evaluation_started": false,
+  "frozen_at_utc": "2026-10-02T03:13:09.944314+00:00",
+  "nominal_frequency_hz": [
+    10.0,
+    1.0,
+    31.6228
+  ],
+  "panel_id": "CM_ATP0.1_10Hz;CM_ATP0.1_1Hz;CM_ATP0.1_31.6228Hz",
+  "rule": "frozen R shared-vocabulary robust panel selected across five prespecified model variants and two Model16D domains",
+  "shared_vocabulary_rule": "rat/human exact nominal and Awinda nearest within 5%; no interpolation",
+  "source": "rat_N_model_ensemble_plus_K_domains",
+  "target": "ATP1",
+  "worst_case_fraction_oracle": 0.9996021934118756
+}

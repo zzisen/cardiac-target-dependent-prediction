@@ -1,0 +1,156 @@
+{
+  "files": [
+    {
+      "id": 43612779,
+      "name": "tanner et al PLOSone_data.xlsx",
+      "size": 5631944,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/43612779",
+      "supplied_md5": "23d4ce44c6c027ea1e14c58b80cd4cba",
+      "computed_md5": "23d4ce44c6c027ea1e14c58b80cd4cba",
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 8827978,
+      "full_name": "Bertrand Tanner",
+      "first_name": "Bertrand",
+      "last_name": "Tanner",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 13841179,
+      "full_name": "Charles Chung",
+      "first_name": "Charles",
+      "last_name": "Chung",
+      "is_active": true,
+      "url_name": "Charles_Chung",
+      "orcid_id": "0000-0001-9180-3236"
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/Source_Data_Tanner_et_al_PLOSone/24796689",
+  "download_disabled": false,
+  "description": "<p dir=\"ltr\">Source Data for Figures 3 and 5 of Tanner et al PLOSone</p>",
+  "funding": "R01HL149164",
+  "funding_list": [
+    {
+      "id": 23996787,
+      "title": "R01HL149164",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    },
+    {
+      "id": 23996790,
+      "title": "R44HL137603",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    },
+    {
+      "id": 23996793,
+      "title": "R01HL151738",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    },
+    {
+      "id": 23996796,
+      "title": "23TPA1074093",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    },
+    {
+      "id": 23996799,
+      "title": "18TPA34170169",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    },
+    {
+      "id": 23996802,
+      "title": "2312925",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    },
+    {
+      "id": 23996805,
+      "title": "1660908",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    }
+  ],
+  "version": 1,
+  "status": "public",
+  "size": 5631944,
+  "created_date": "2024-01-05T18:11:41Z",
+  "modified_date": "2024-06-12T00:22:49Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "intact trabecula",
+    "crossbridge",
+    "stress relaxation"
+  ],
+  "keywords": [
+    "intact trabecula",
+    "crossbridge",
+    "stress relaxation"
+  ],
+  "categories": [
+    {
+      "id": 24463,
+      "title": "Cardiology (incl. cardiovascular diseases)",
+      "parent_id": 24460,
+      "path": "/24457/24460/24463",
+      "source_id": "320101",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Tanner, Bertrand; Chung, Charles (2024). Source Data, Tanner et al PLOSone. figshare. Dataset. https://doi.org/10.6084/m9.figshare.24796689.v1",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 24796689,
+  "title": "Source Data, Tanner et al PLOSone",
+  "doi": "10.6084/m9.figshare.24796689.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/24796689",
+  "published_date": "2024-06-12T00:10:07Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/24796689",
+  "url_public_api": "https://api.figshare.com/v2/articles/24796689",
+  "url_private_html": "https://figshare.com/account/articles/24796689",
+  "url_public_html": "https://figshare.com/articles/dataset/Source_Data_Tanner_et_al_PLOSone/24796689",
+  "timeline": {
+    "posted": "2024-06-12T00:10:07",
+    "firstOnline": "2024-06-12"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

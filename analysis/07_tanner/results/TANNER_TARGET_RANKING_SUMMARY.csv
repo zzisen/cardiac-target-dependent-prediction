@@ -1,0 +1,12 @@
+﻿outcome_family,row_type,target_a_s_inv,target_b_s_inv,candidate_100_mae,candidate_250_mae,candidate_100_rank,candidate_250_rank,best_candidate_rate_s_inv,spearman_rank_correlation,top1_same_candidate,interpretation,candidate_100_target_wins,candidate_250_target_wins
+peak_stress_response,TARGET_WINNER,25,,0.3424265271777056,0.3179183054937231,2,1,250,,,Ranks from outer-LOTO predictions; descriptive across only seven subjects.,,
+peak_stress_response,TARGET_WINNER,100,,0.7117804289777657,0.7037603786681034,2,1,250,,,Ranks from outer-LOTO predictions; descriptive across only seven subjects.,,
+peak_stress_response,TARGET_WINNER,250,,0.7728777839797996,0.7297749150874289,2,1,250,,,Ranks from outer-LOTO predictions; descriptive across only seven subjects.,,
+peak_stress_response,TARGET_WINNER,1000,,0.6638206088169908,0.6845328415098552,1,2,100,,,Ranks from outer-LOTO predictions; descriptive across only seven subjects.,,
+peak_stress_response,TARGET_PAIR_RANK_ASSOCIATION,25,100,,,,,,0.9999999999999999,True,"With two candidates, rank correlation is descriptive and can only show concordance/reversal.",,
+peak_stress_response,TARGET_PAIR_RANK_ASSOCIATION,25,250,,,,,,0.9999999999999999,True,"With two candidates, rank correlation is descriptive and can only show concordance/reversal.",,
+peak_stress_response,TARGET_PAIR_RANK_ASSOCIATION,25,1000,,,,,,-0.9999999999999999,False,"With two candidates, rank correlation is descriptive and can only show concordance/reversal.",,
+peak_stress_response,TARGET_PAIR_RANK_ASSOCIATION,100,250,,,,,,0.9999999999999999,True,"With two candidates, rank correlation is descriptive and can only show concordance/reversal.",,
+peak_stress_response,TARGET_PAIR_RANK_ASSOCIATION,100,1000,,,,,,-0.9999999999999999,False,"With two candidates, rank correlation is descriptive and can only show concordance/reversal.",,
+peak_stress_response,TARGET_PAIR_RANK_ASSOCIATION,250,1000,,,,,,-0.9999999999999999,False,"With two candidates, rank correlation is descriptive and can only show concordance/reversal.",,
+peak_stress_response,RANK_REVERSAL_SUMMARY,ALL,,,,,,,,,Candidate 100 wins 1/4 targets; candidate 250 wins 3/4.,1,3

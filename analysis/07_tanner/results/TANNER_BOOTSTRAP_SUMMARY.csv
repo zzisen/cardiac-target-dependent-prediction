@@ -1,0 +1,3 @@
+﻿outcome_family,contrast,n_subject_clusters,observed_mean_paired_mae_difference,bootstrap_2_5_percentile,bootstrap_97_5_percentile,resamples,seed,interpretation
+peak_stress_response,C2_MINUS_C0_TARGET_MEAN,7,-1.58516819808426,-2.14849738634588,-0.984468412428537,10000,20261003,Descriptive subject-cluster bootstrap interval; small n.
+peak_stress_response,C2_MINUS_C1_GLOBAL_FIXED,7,-0.0183690234478704,-0.0348720590719943,-0.00179552258431722,10000,20261003,Descriptive subject-cluster bootstrap interval; small n.

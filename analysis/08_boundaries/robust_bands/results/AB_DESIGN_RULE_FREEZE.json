@@ -1,0 +1,577 @@
+{
+  "candidate_frequency_grid_Hz": [
+    0.14678,
+    0.215443,
+    0.316228,
+    0.464159,
+    0.681292,
+    1.0,
+    1.4678,
+    2.15443,
+    3.16228,
+    4.64159,
+    6.81292,
+    10.0,
+    14.678,
+    21.5443,
+    31.6228,
+    46.4159,
+    68.1292
+  ],
+  "candidate_scenario_contexts": [
+    "P1_pair_plus_0.5",
+    "P1_pair_plus_1.0",
+    "md4_best_alternative",
+    "md4_best_single_strain",
+    "md4_best_without_kminus2_strain",
+    "md4_second_best_alternative",
+    "published_Model16D"
+  ],
+  "code_sha256": "bbe513fc1573f722509f257778770914445a6e98726286faa68dac1d85a2a102",
+  "cross_system_band_definition_file": "03_AA_CROSS_MODEL_STATE_SURFACE/AA_BAND_DEFINITION_FREEZE.md",
+  "cross_system_band_policy": "Project the selected rat-grid frequency to its pre-frozen ordinal rank band only; within Awinda/human that band, choose the frequency using outer-training target/preparation utilities, then score the held-out unit/target.",
+  "frequency_grid_sha256": "d1904340553b046ea4ec99edb7c0dd8ebb44aeffc3c8f219f1ee37a8160ae095",
+  "full_scenario_policy": {
+    "AB0_global_fixed_frequency": {
+      "ATP0.1": 14.678,
+      "ATP1": 14.678,
+      "band_by_target": {
+        "ATP0.1": "high",
+        "ATP1": "high"
+      },
+      "global_frequency_Hz": 14.678,
+      "objective_score": 0.6607142857142857,
+      "policy_objective": "mean rank score"
+    },
+    "AB1_target_conditioned_mean": {
+      "ATP0.1": {
+        "frequency_Hz": 14.678,
+        "objective_score": 0.7589285714285714,
+        "policy_objective": "mean scenario rank score"
+      },
+      "ATP1": {
+        "frequency_Hz": 46.4159,
+        "objective_score": 0.6607142857142857,
+        "policy_objective": "mean scenario rank score"
+      },
+      "band_by_target": {
+        "ATP0.1": "high",
+        "ATP1": "high"
+      }
+    },
+    "AB2_target_conditioned_minimax": {
+      "ATP0.1": {
+        "frequency_Hz": 6.81292,
+        "objective_score": 0.4375,
+        "policy_objective": "worst-case scenario rank score"
+      },
+      "ATP1": {
+        "frequency_Hz": 68.1292,
+        "objective_score": 0.375,
+        "policy_objective": "worst-case scenario rank score"
+      },
+      "band_by_target": {
+        "ATP0.1": "mid",
+        "ATP1": "high"
+      }
+    },
+    "AB3_global_minimax_target_agnostic": {
+      "ATP0.1": 46.4159,
+      "ATP1": 46.4159,
+      "band_by_target": {
+        "ATP0.1": "high",
+        "ATP1": "high"
+      },
+      "global_frequency_Hz": 46.4159,
+      "objective_score": 0.3125,
+      "policy_objective": "minimum rank score"
+    }
+  },
+  "input_hashes": {
+    "03_AA_CROSS_MODEL_STATE_SURFACE\\results\\AA_CROSS_SYSTEM_TARGET_SURFACE.csv": "650bbbe55b0840644170eda34664fc584f9393a715e46c2ee51a15063babedf6"
+  },
+  "leave_one_scenario_out_frozen_policies": [
+    {
+      "heldout_scenario_context": "P1_pair_plus_0.5",
+      "policy_recommendations": {
+        "AB0_global_fixed_frequency": {
+          "ATP0.1": 14.678,
+          "ATP1": 14.678,
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "high"
+          },
+          "global_frequency_Hz": 14.678,
+          "objective_score": 0.7604166666666666,
+          "policy_objective": "mean rank score"
+        },
+        "AB1_target_conditioned_mean": {
+          "ATP0.1": {
+            "frequency_Hz": 14.678,
+            "objective_score": 0.875,
+            "policy_objective": "mean scenario rank score"
+          },
+          "ATP1": {
+            "frequency_Hz": 46.4159,
+            "objective_score": 0.71875,
+            "policy_objective": "mean scenario rank score"
+          },
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "high"
+          }
+        },
+        "AB2_target_conditioned_minimax": {
+          "ATP0.1": {
+            "frequency_Hz": 10.0,
+            "objective_score": 0.6875,
+            "policy_objective": "worst-case scenario rank score"
+          },
+          "ATP1": {
+            "frequency_Hz": 46.4159,
+            "objective_score": 0.5,
+            "policy_objective": "worst-case scenario rank score"
+          },
+          "band_by_target": {
+            "ATP0.1": "mid",
+            "ATP1": "high"
+          }
+        },
+        "AB3_global_minimax_target_agnostic": {
+          "ATP0.1": 46.4159,
+          "ATP1": 46.4159,
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "high"
+          },
+          "global_frequency_Hz": 46.4159,
+          "objective_score": 0.4375,
+          "policy_objective": "minimum rank score"
+        }
+      },
+      "training_scenario_contexts": [
+        "P1_pair_plus_1.0",
+        "md4_best_alternative",
+        "md4_best_single_strain",
+        "md4_best_without_kminus2_strain",
+        "md4_second_best_alternative",
+        "published_Model16D"
+      ]
+    },
+    {
+      "heldout_scenario_context": "P1_pair_plus_1.0",
+      "policy_recommendations": {
+        "AB0_global_fixed_frequency": {
+          "ATP0.1": 14.678,
+          "ATP1": 14.678,
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "high"
+          },
+          "global_frequency_Hz": 14.678,
+          "objective_score": 0.6510416666666666,
+          "policy_objective": "mean rank score"
+        },
+        "AB1_target_conditioned_mean": {
+          "ATP0.1": {
+            "frequency_Hz": 14.678,
+            "objective_score": 0.7395833333333334,
+            "policy_objective": "mean scenario rank score"
+          },
+          "ATP1": {
+            "frequency_Hz": 46.4159,
+            "objective_score": 0.6666666666666666,
+            "policy_objective": "mean scenario rank score"
+          },
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "high"
+          }
+        },
+        "AB2_target_conditioned_minimax": {
+          "ATP0.1": {
+            "frequency_Hz": 6.81292,
+            "objective_score": 0.4375,
+            "policy_objective": "worst-case scenario rank score"
+          },
+          "ATP1": {
+            "frequency_Hz": 68.1292,
+            "objective_score": 0.375,
+            "policy_objective": "worst-case scenario rank score"
+          },
+          "band_by_target": {
+            "ATP0.1": "mid",
+            "ATP1": "high"
+          }
+        },
+        "AB3_global_minimax_target_agnostic": {
+          "ATP0.1": 46.4159,
+          "ATP1": 46.4159,
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "high"
+          },
+          "global_frequency_Hz": 46.4159,
+          "objective_score": 0.3125,
+          "policy_objective": "minimum rank score"
+        }
+      },
+      "training_scenario_contexts": [
+        "P1_pair_plus_0.5",
+        "md4_best_alternative",
+        "md4_best_single_strain",
+        "md4_best_without_kminus2_strain",
+        "md4_second_best_alternative",
+        "published_Model16D"
+      ]
+    },
+    {
+      "heldout_scenario_context": "md4_best_alternative",
+      "policy_recommendations": {
+        "AB0_global_fixed_frequency": {
+          "ATP0.1": 21.5443,
+          "ATP1": 21.5443,
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "high"
+          },
+          "global_frequency_Hz": 21.5443,
+          "objective_score": 0.734375,
+          "policy_objective": "mean rank score"
+        },
+        "AB1_target_conditioned_mean": {
+          "ATP0.1": {
+            "frequency_Hz": 21.5443,
+            "objective_score": 0.8333333333333334,
+            "policy_objective": "mean scenario rank score"
+          },
+          "ATP1": {
+            "frequency_Hz": 0.14678,
+            "objective_score": 0.7083333333333334,
+            "policy_objective": "mean scenario rank score"
+          },
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "low"
+          }
+        },
+        "AB2_target_conditioned_minimax": {
+          "ATP0.1": {
+            "frequency_Hz": 6.81292,
+            "objective_score": 0.4375,
+            "policy_objective": "worst-case scenario rank score"
+          },
+          "ATP1": {
+            "frequency_Hz": 68.1292,
+            "objective_score": 0.375,
+            "policy_objective": "worst-case scenario rank score"
+          },
+          "band_by_target": {
+            "ATP0.1": "mid",
+            "ATP1": "high"
+          }
+        },
+        "AB3_global_minimax_target_agnostic": {
+          "ATP0.1": 68.1292,
+          "ATP1": 68.1292,
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "high"
+          },
+          "global_frequency_Hz": 68.1292,
+          "objective_score": 0.375,
+          "policy_objective": "minimum rank score"
+        }
+      },
+      "training_scenario_contexts": [
+        "P1_pair_plus_0.5",
+        "P1_pair_plus_1.0",
+        "md4_best_single_strain",
+        "md4_best_without_kminus2_strain",
+        "md4_second_best_alternative",
+        "published_Model16D"
+      ]
+    },
+    {
+      "heldout_scenario_context": "md4_best_single_strain",
+      "policy_recommendations": {
+        "AB0_global_fixed_frequency": {
+          "ATP0.1": 14.678,
+          "ATP1": 14.678,
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "high"
+          },
+          "global_frequency_Hz": 14.678,
+          "objective_score": 0.6354166666666666,
+          "policy_objective": "mean rank score"
+        },
+        "AB1_target_conditioned_mean": {
+          "ATP0.1": {
+            "frequency_Hz": 14.678,
+            "objective_score": 0.7395833333333334,
+            "policy_objective": "mean scenario rank score"
+          },
+          "ATP1": {
+            "frequency_Hz": 0.14678,
+            "objective_score": 0.625,
+            "policy_objective": "mean scenario rank score"
+          },
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "low"
+          }
+        },
+        "AB2_target_conditioned_minimax": {
+          "ATP0.1": {
+            "frequency_Hz": 6.81292,
+            "objective_score": 0.4375,
+            "policy_objective": "worst-case scenario rank score"
+          },
+          "ATP1": {
+            "frequency_Hz": 68.1292,
+            "objective_score": 0.375,
+            "policy_objective": "worst-case scenario rank score"
+          },
+          "band_by_target": {
+            "ATP0.1": "mid",
+            "ATP1": "high"
+          }
+        },
+        "AB3_global_minimax_target_agnostic": {
+          "ATP0.1": 46.4159,
+          "ATP1": 46.4159,
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "high"
+          },
+          "global_frequency_Hz": 46.4159,
+          "objective_score": 0.3125,
+          "policy_objective": "minimum rank score"
+        }
+      },
+      "training_scenario_contexts": [
+        "P1_pair_plus_0.5",
+        "P1_pair_plus_1.0",
+        "md4_best_alternative",
+        "md4_best_without_kminus2_strain",
+        "md4_second_best_alternative",
+        "published_Model16D"
+      ]
+    },
+    {
+      "heldout_scenario_context": "md4_best_without_kminus2_strain",
+      "policy_recommendations": {
+        "AB0_global_fixed_frequency": {
+          "ATP0.1": 0.14678,
+          "ATP1": 0.14678,
+          "band_by_target": {
+            "ATP0.1": "low",
+            "ATP1": "low"
+          },
+          "global_frequency_Hz": 0.14678,
+          "objective_score": 0.625,
+          "policy_objective": "mean rank score"
+        },
+        "AB1_target_conditioned_mean": {
+          "ATP0.1": {
+            "frequency_Hz": 14.678,
+            "objective_score": 0.71875,
+            "policy_objective": "mean scenario rank score"
+          },
+          "ATP1": {
+            "frequency_Hz": 0.14678,
+            "objective_score": 0.6458333333333334,
+            "policy_objective": "mean scenario rank score"
+          },
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "low"
+          }
+        },
+        "AB2_target_conditioned_minimax": {
+          "ATP0.1": {
+            "frequency_Hz": 6.81292,
+            "objective_score": 0.4375,
+            "policy_objective": "worst-case scenario rank score"
+          },
+          "ATP1": {
+            "frequency_Hz": 68.1292,
+            "objective_score": 0.375,
+            "policy_objective": "worst-case scenario rank score"
+          },
+          "band_by_target": {
+            "ATP0.1": "mid",
+            "ATP1": "high"
+          }
+        },
+        "AB3_global_minimax_target_agnostic": {
+          "ATP0.1": 46.4159,
+          "ATP1": 46.4159,
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "high"
+          },
+          "global_frequency_Hz": 46.4159,
+          "objective_score": 0.3125,
+          "policy_objective": "minimum rank score"
+        }
+      },
+      "training_scenario_contexts": [
+        "P1_pair_plus_0.5",
+        "P1_pair_plus_1.0",
+        "md4_best_alternative",
+        "md4_best_single_strain",
+        "md4_second_best_alternative",
+        "published_Model16D"
+      ]
+    },
+    {
+      "heldout_scenario_context": "md4_second_best_alternative",
+      "policy_recommendations": {
+        "AB0_global_fixed_frequency": {
+          "ATP0.1": 14.678,
+          "ATP1": 14.678,
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "high"
+          },
+          "global_frequency_Hz": 14.678,
+          "objective_score": 0.671875,
+          "policy_objective": "mean rank score"
+        },
+        "AB1_target_conditioned_mean": {
+          "ATP0.1": {
+            "frequency_Hz": 14.678,
+            "objective_score": 0.7291666666666666,
+            "policy_objective": "mean scenario rank score"
+          },
+          "ATP1": {
+            "frequency_Hz": 46.4159,
+            "objective_score": 0.6770833333333334,
+            "policy_objective": "mean scenario rank score"
+          },
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "high"
+          }
+        },
+        "AB2_target_conditioned_minimax": {
+          "ATP0.1": {
+            "frequency_Hz": 0.14678,
+            "objective_score": 0.5,
+            "policy_objective": "worst-case scenario rank score"
+          },
+          "ATP1": {
+            "frequency_Hz": 3.16228,
+            "objective_score": 0.375,
+            "policy_objective": "worst-case scenario rank score"
+          },
+          "band_by_target": {
+            "ATP0.1": "low",
+            "ATP1": "mid"
+          }
+        },
+        "AB3_global_minimax_target_agnostic": {
+          "ATP0.1": 4.64159,
+          "ATP1": 4.64159,
+          "band_by_target": {
+            "ATP0.1": "mid",
+            "ATP1": "mid"
+          },
+          "global_frequency_Hz": 4.64159,
+          "objective_score": 0.3125,
+          "policy_objective": "minimum rank score"
+        }
+      },
+      "training_scenario_contexts": [
+        "P1_pair_plus_0.5",
+        "P1_pair_plus_1.0",
+        "md4_best_alternative",
+        "md4_best_single_strain",
+        "md4_best_without_kminus2_strain",
+        "published_Model16D"
+      ]
+    },
+    {
+      "heldout_scenario_context": "published_Model16D",
+      "policy_recommendations": {
+        "AB0_global_fixed_frequency": {
+          "ATP0.1": 46.4159,
+          "ATP1": 46.4159,
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "high"
+          },
+          "global_frequency_Hz": 46.4159,
+          "objective_score": 0.6510416666666666,
+          "policy_objective": "mean rank score"
+        },
+        "AB1_target_conditioned_mean": {
+          "ATP0.1": {
+            "frequency_Hz": 14.678,
+            "objective_score": 0.71875,
+            "policy_objective": "mean scenario rank score"
+          },
+          "ATP1": {
+            "frequency_Hz": 0.14678,
+            "objective_score": 0.6770833333333334,
+            "policy_objective": "mean scenario rank score"
+          },
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "low"
+          }
+        },
+        "AB2_target_conditioned_minimax": {
+          "ATP0.1": {
+            "frequency_Hz": 6.81292,
+            "objective_score": 0.4375,
+            "policy_objective": "worst-case scenario rank score"
+          },
+          "ATP1": {
+            "frequency_Hz": 68.1292,
+            "objective_score": 0.375,
+            "policy_objective": "worst-case scenario rank score"
+          },
+          "band_by_target": {
+            "ATP0.1": "mid",
+            "ATP1": "high"
+          }
+        },
+        "AB3_global_minimax_target_agnostic": {
+          "ATP0.1": 46.4159,
+          "ATP1": 46.4159,
+          "band_by_target": {
+            "ATP0.1": "high",
+            "ATP1": "high"
+          },
+          "global_frequency_Hz": 46.4159,
+          "objective_score": 0.3125,
+          "policy_objective": "minimum rank score"
+        }
+      },
+      "training_scenario_contexts": [
+        "P1_pair_plus_0.5",
+        "P1_pair_plus_1.0",
+        "md4_best_alternative",
+        "md4_best_single_strain",
+        "md4_best_without_kminus2_strain",
+        "md4_second_best_alternative"
+      ]
+    }
+  ],
+  "rule_definitions": {
+    "AB0_global_fixed_frequency": "maximize mean rank score across training model/domain contexts and both target states; one frequency for every target",
+    "AB1_target_conditioned_mean": "for each target state, maximize mean rank score across training contexts",
+    "AB2_target_conditioned_minimax": "for each target state, maximize worst-case rank score across training contexts",
+    "AB3_global_minimax_target_agnostic": "maximize worst-case rank score across training contexts and both targets; one frequency for every target"
+  },
+  "status": "FROZEN_BEFORE_AB_OUTCOME_SCORING",
+  "target_states": [
+    "ATP0.1",
+    "ATP1"
+  ],
+  "utility_selection_metric": "Within-context frequency rank score (1 best, 0 worst), frozen to avoid unstable raw local Fisher magnitudes.",
+  "version": "YAB-AB-1.0"
+}

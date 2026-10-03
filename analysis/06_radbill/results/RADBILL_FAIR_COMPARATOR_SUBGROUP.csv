@@ -1,0 +1,11 @@
+cohort,comparator,count,mean
+Control,C0,63,0.6711074880156347
+Control,C1_family_global,63,0.41973466601089937
+Control,C1_fixed_family,63,0.4142955932082258
+Control,C1_original_global,63,0.5831584216165653
+Control,C2_target_specific,63,0.3886281487858776
+HCM,C0,69,0.9550309904384708
+HCM,C1_family_global,69,0.6946400754316151
+HCM,C1_fixed_family,69,0.5556571170733792
+HCM,C1_original_global,69,1.0150560448692783
+HCM,C2_target_specific,69,0.6405279916940847

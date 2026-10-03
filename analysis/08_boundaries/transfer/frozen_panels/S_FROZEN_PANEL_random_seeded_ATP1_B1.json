@@ -1,0 +1,16 @@
+{
+  "budget": 1,
+  "candidate_condition": "ATP0.1",
+  "design_method": "uniform_without_replacement",
+  "destination_evaluation_started": false,
+  "frozen_at_utc": "2026-10-02T03:13:09.938315+00:00",
+  "nominal_frequency_hz": [
+    1.0
+  ],
+  "panel_id": "ATP0.1_1Hz",
+  "rule": "one seeded uniform draw from four shared frequencies",
+  "seed": 20261103,
+  "shared_vocabulary_rule": "rat/human exact nominal and Awinda nearest within 5%; no interpolation",
+  "source": "prespecified_rng_20261002",
+  "target": "ATP1"
+}

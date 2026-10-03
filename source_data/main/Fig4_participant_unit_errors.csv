@@ -1,0 +1,91 @@
+participant,comparator,mean_standardized_absolute_error,future_targets
+1,Family-aware global,0.71231227144484355,8
+1,Fixed family-matched,0.71231227144484355,8
+1,No added measurement,0.61329474038840914,8
+1,Single global measurement,1.1177579508543336,8
+1,Target-specific,0.62261456140040106,8
+2,Family-aware global,0.85934582633481804,8
+2,Fixed family-matched,0.47044792534417779,8
+2,No added measurement,0.98794477117754353,8
+2,Single global measurement,0.91019950290694163,8
+2,Target-specific,0.8424308466939594,8
+3,Family-aware global,0.55544345008173024,8
+3,Fixed family-matched,0.55544345008173024,8
+3,No added measurement,0.62544927319800048,8
+3,Single global measurement,0.80837747483756395,8
+3,Target-specific,0.58145717949919762,8
+4,Family-aware global,0.84046120678480218,8
+4,Fixed family-matched,0.72392867044822995,8
+4,No added measurement,1.6916296185218849,8
+4,Single global measurement,1.2134614225146843,8
+4,Target-specific,0.75623293376732703,8
+5,Family-aware global,0.4169228460353015,8
+5,Fixed family-matched,0.24302715863226176,8
+5,No added measurement,0.39956870400535405,8
+5,Single global measurement,0.38324330306748494,8
+5,Target-specific,0.3383726114079979,8
+6,Family-aware global,0.87229958587578227,5
+6,Fixed family-matched,0.87229958587578227,5
+6,No added measurement,1.9371679664907802,5
+6,Single global measurement,2.0388825222494611,5
+6,Target-specific,0.70798022296458951,5
+7,Family-aware global,0.50495219574234129,8
+7,Fixed family-matched,0.45858525675118061,8
+7,No added measurement,0.53372522169628767,8
+7,Single global measurement,0.57526922901033561,8
+7,Target-specific,0.48994118599077946,8
+8,Family-aware global,0.532945529167826,8
+8,Fixed family-matched,0.532945529167826,8
+8,No added measurement,0.81457461877358328,8
+8,Single global measurement,0.82388449254822727,8
+8,Target-specific,0.4309262786074961,8
+9,Family-aware global,0.34757196813831692,6
+9,Fixed family-matched,0.34757196813831692,6
+9,No added measurement,0.46835763465299002,6
+9,Single global measurement,0.24514500554187627,6
+9,Target-specific,0.3075858080891431,6
+10,Family-aware global,0.36656320338157677,8
+10,Fixed family-matched,0.36656320338157677,8
+10,No added measurement,0.95360408951620923,8
+10,Single global measurement,0.64979119252691475,8
+10,Target-specific,0.22585686537358995,8
+11,Family-aware global,0.37832075555720601,8
+11,Fixed family-matched,0.37832075555720601,8
+11,No added measurement,0.39963618375073484,8
+11,Single global measurement,0.488668611017953,8
+11,Target-specific,0.40155858356376262,8
+12,Family-aware global,0.66190817154990833,7
+12,Fixed family-matched,0.66190817154990833,7
+12,No added measurement,0.65744363404582684,7
+12,Single global measurement,0.64477768195222218,7
+12,Target-specific,0.64733268348578221,7
+13,Family-aware global,0.16343742888145307,8
+13,Fixed family-matched,0.16343742888145307,8
+13,No added measurement,0.26307086239058713,8
+13,Single global measurement,0.30287151044045102,8
+13,Target-specific,0.20723876875264227,8
+14,Family-aware global,0.27939128413323888,8
+14,Fixed family-matched,0.27939128413323888,8
+14,No added measurement,0.62066145362622005,8
+14,Single global measurement,0.54281801585052825,8
+14,Target-specific,0.23745812654191992,8
+15,Family-aware global,0.14047384136655516,2
+15,Fixed family-matched,0.14047384136655516,2
+15,No added measurement,1.0165655361895576,2
+15,Single global measurement,0.14569150571765815,2
+15,Target-specific,0.14047384136655516,2
+16,Family-aware global,1.0237000838336536,8
+16,Fixed family-matched,0.55066513171528131,8
+16,No added measurement,1.3602253657140106,8
+16,Single global measurement,1.6483634348520395,8
+16,Target-specific,1.0200906916414532,8
+17,Family-aware global,0.9033760119019052,8
+17,Fixed family-matched,0.9033760119019052,8
+17,No added measurement,0.9659084228077055,8
+17,Single global measurement,1.0909018062184359,8
+17,Target-specific,0.83703873071725743,8
+18,Family-aware global,0.33935472442890618,8
+18,Fixed family-matched,0.29652202610785156,8
+18,No added measurement,0.90141766620443564,8
+18,Single global measurement,0.73285933188215213,8
+18,Target-specific,0.31907168228105831,8

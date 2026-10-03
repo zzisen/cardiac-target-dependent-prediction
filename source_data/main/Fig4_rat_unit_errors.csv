@@ -1,0 +1,22 @@
+aligned_rat_summary_row,comparator,mean_standardized_absolute_error,future_targets
+1,Global/shared,0.34703543061793335,6
+1,No added measurement,0.44519414697050003,6
+1,Target-specific,0.40734637246076666,6
+2,Global/shared,0.9794629720093333,6
+2,No added measurement,1.0571936836998332,6
+2,Target-specific,0.80254289986683336,6
+3,Global/shared,0.51872094284949999,6
+3,No added measurement,0.69493729039516661,6
+3,Target-specific,0.43836484802649994,6
+4,Global/shared,2.7447813005864998,6
+4,No added measurement,2.5818331348783334,6
+4,Target-specific,2.0332271787738336,6
+5,Global/shared,0.15171269784593333,6
+5,No added measurement,0.55565137481806659,6
+5,Target-specific,0.30944347629518337,6
+6,Global/shared,1.0620562970121668,6
+6,No added measurement,0.5814216379199334,6
+6,Target-specific,0.80118021435250009,6
+7,Global/shared,1.1861613031488332,6
+7,No added measurement,1.42146809225315,6
+7,Target-specific,1.1839903416785,6

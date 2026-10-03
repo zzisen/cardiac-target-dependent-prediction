@@ -1,0 +1,25 @@
+system,context,future_target_label,future_target_mM,preferred_ordinal_band,preferred_band_mean_rank_score,mean_rank_score_low,mean_rank_score_mid,mean_rank_score_high,peak_frequency_Hz,peak_band,peak_utility_raw,target_state_band_direction
+Awinda_mouse_public,all_mouse_states; ATP5_baseline_measurement,ATP0.05,0.05,high,0.7658450704225351,0.198943661971831,0.5352112676056339,0.7658450704225351,2.0083,low,1.870322482315398,decreasing
+Awinda_mouse_public,all_mouse_states; ATP5_baseline_measurement,ATP0.1,0.1,mid,0.7142018779342724,0.1813380281690141,0.7142018779342724,0.6044600938967136,34.0084,mid,2.753807464711188,decreasing
+Awinda_mouse_public,all_mouse_states; ATP5_baseline_measurement,ATP0.25,0.25,mid,0.7687793427230046,0.16314553990610328,0.7687793427230046,0.568075117370892,38.0084,mid,5.305933986501979,decreasing
+Awinda_mouse_public,all_mouse_states; ATP5_baseline_measurement,ATP0.5,0.5,mid,0.7535211267605634,0.1625586854460094,0.7535211267605634,0.5839201877934272,38.0084,mid,6.913137940982087,decreasing
+Awinda_mouse_public,all_mouse_states; ATP5_baseline_measurement,ATP1,1.0,mid,0.7282863849765259,0.1625586854460094,0.7282863849765259,0.6091549295774648,38.0084,mid,8.020928526313842,decreasing
+Awinda_mouse_public,all_mouse_states; ATP5_baseline_measurement,ATP2.5,2.5,mid,0.7007042253521126,0.1625586854460094,0.7007042253521126,0.6367370892018779,38.0084,mid,9.227687259496502,decreasing
+Human_public,diabetic,ATP0.1,0.1,high,0.8636363636363636,0.5,0.13636363636363635,0.8636363636363636,56.23,high,9.465771512013474,decreasing
+Human_public,diabetic,ATP1,1.0,mid,0.6363636363636364,0.36363636363636365,0.6363636363636364,0.5,3.162,mid,4.844505410873419,decreasing
+Human_public,non-diabetic,ATP0.1,0.1,high,0.6590909090909091,0.2727272727272727,0.5681818181818181,0.6590909090909091,3.162,mid,10.395857762302782,no_band_shift_or_single_target
+Human_public,non-diabetic,ATP1,1.0,high,0.8409090909090908,0.4090909090909091,0.24999999999999997,0.8409090909090908,56.23,high,10.098899087025588,no_band_shift_or_single_target
+Rat_Model16D,P1_pair_plus_0.5,ATP0.1,0.1,low,0.7291666666666666,0.7291666666666666,0.5104166666666666,0.2125,0.316228,low,7910171.750724988,no_band_shift_or_single_target
+Rat_Model16D,P1_pair_plus_0.5,ATP1,1.0,low,0.7083333333333334,0.7083333333333334,0.5104166666666666,0.2375,0.14678,low,1004286.9038266011,no_band_shift_or_single_target
+Rat_Model16D,P1_pair_plus_1.0,ATP0.1,0.1,high,0.875,0.34375,0.34375,0.875,21.5443,high,399535.88626017014,no_band_shift_or_single_target
+Rat_Model16D,P1_pair_plus_1.0,ATP1,1.0,high,0.6875,0.5625,0.28125,0.6875,0.14678,low,52584.543508968236,no_band_shift_or_single_target
+Rat_Model16D,md4_best_alternative,ATP0.1,0.1,mid,0.84375,0.3125,0.84375,0.3125,3.16228,mid,2106.977072832371,no_band_shift_or_single_target
+Rat_Model16D,md4_best_alternative,ATP1,1.0,mid,0.7916666666666666,0.2916666666666667,0.7916666666666666,0.4,1.4678,mid,118.72634597046877,no_band_shift_or_single_target
+Rat_Model16D,md4_best_single_strain,ATP0.1,0.1,high,0.875,0.3854166666666667,0.3020833333333333,0.875,21.5443,high,3830871120.9179287,no_band_shift_or_single_target
+Rat_Model16D,md4_best_single_strain,ATP1,1.0,high,0.875,0.3229166666666667,0.3645833333333333,0.875,68.1292,high,15169564.91927384,no_band_shift_or_single_target
+Rat_Model16D,md4_best_without_kminus2_strain,ATP0.1,0.1,high,0.8375,0.21875,0.5,0.8375,14.678,high,4469958.8122890815,no_band_shift_or_single_target
+Rat_Model16D,md4_best_without_kminus2_strain,ATP1,1.0,high,0.875,0.1875,0.5,0.875,46.4159,high,31864.39591108229,no_band_shift_or_single_target
+Rat_Model16D,md4_second_best_alternative,ATP0.1,0.1,high,0.8375,0.3541666666666667,0.3645833333333333,0.8375,21.5443,high,80986093.5462088,decreasing
+Rat_Model16D,md4_second_best_alternative,ATP1,1.0,low,0.8020833333333334,0.8020833333333334,0.23958333333333334,0.45,0.464159,low,213690.04037393827,decreasing
+Rat_Model16D,published_Model16D,ATP0.1,0.1,high,0.7875,0.2708333333333333,0.4895833333333333,0.7875,14.678,high,1575265955.8387742,no_band_shift_or_single_target
+Rat_Model16D,published_Model16D,ATP1,1.0,high,0.8,0.19791666666666666,0.5520833333333334,0.8,14.678,high,532965026.44279397,no_band_shift_or_single_target

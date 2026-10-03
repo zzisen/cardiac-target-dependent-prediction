@@ -1,0 +1,97 @@
+{
+  "classification": "HUMAN_PILOT_STAGE2_BOUNDED_NONLINEAR",
+  "trust_radii_log": [
+    0.25,
+    0.5
+  ],
+  "nominal_deltaS_cutoff": 3.841458820694124,
+  "summary": {
+    "0.25": {
+      "ATP1": {
+        "trust_radius_log": 0.25,
+        "target": "ATP1",
+        "baseline_mle_objective": 8.95316712650716,
+        "augmented_mle_objective": 8.953787495585829,
+        "baseline_low_pp": -1.5349688034336673,
+        "baseline_high_pp": 11.113578234617627,
+        "baseline_width_pp": 12.648547038051294,
+        "augmented_low_pp": -1.4539806238457742,
+        "augmented_high_pp": 8.633931130501725,
+        "augmented_width_pp": 10.0879117543475,
+        "width_reduction_percent": 20.244501411905247,
+        "baseline_min_deltaS": 3.8414592193362456,
+        "baseline_max_deltaS": 3.841458822185812,
+        "augmented_min_deltaS": 3.841459365140194,
+        "augmented_max_deltaS": 3.8414588281187463,
+        "all_endpoints_feasible": true
+      },
+      "Pi10": {
+        "trust_radius_log": 0.25,
+        "target": "Pi10",
+        "baseline_mle_objective": 8.95316712650716,
+        "augmented_mle_objective": 8.953787495585829,
+        "baseline_low_pp": -29.045189042519446,
+        "baseline_high_pp": -12.626180633304108,
+        "baseline_width_pp": 16.419008409215337,
+        "augmented_low_pp": -28.979489521434722,
+        "augmented_high_pp": -12.705529920270475,
+        "augmented_width_pp": 16.273959601164247,
+        "width_reduction_percent": 0.8834200241330081,
+        "baseline_min_deltaS": 3.841458837924346,
+        "baseline_max_deltaS": 3.841458824988866,
+        "augmented_min_deltaS": 3.841462973967694,
+        "augmented_max_deltaS": 3.8414588208321874,
+        "all_endpoints_feasible": true
+      }
+    },
+    "0.5": {
+      "ATP1": {
+        "trust_radius_log": 0.5,
+        "target": "ATP1",
+        "baseline_mle_objective": 8.812481186884867,
+        "augmented_mle_objective": 8.819042524019657,
+        "baseline_low_pp": -12.534670039047235,
+        "baseline_high_pp": 16.262890534508024,
+        "baseline_width_pp": 28.79756057355526,
+        "augmented_low_pp": -5.422584680179366,
+        "augmented_high_pp": 9.921471420680405,
+        "augmented_width_pp": 15.34405610085977,
+        "width_reduction_percent": 46.71751427810109,
+        "baseline_min_deltaS": 3.841458827553211,
+        "baseline_max_deltaS": 3.841458822677799,
+        "augmented_min_deltaS": 3.8414588254501076,
+        "augmented_max_deltaS": 3.841460598516086,
+        "all_endpoints_feasible": true
+      },
+      "Pi10": {
+        "trust_radius_log": 0.5,
+        "target": "Pi10",
+        "baseline_mle_objective": 8.812481186884867,
+        "augmented_mle_objective": 8.819042524019657,
+        "baseline_low_pp": -38.45151877983981,
+        "baseline_high_pp": -8.343463600302503,
+        "baseline_width_pp": 30.108055179537306,
+        "augmented_low_pp": -37.64830588631449,
+        "augmented_high_pp": -8.356852737074993,
+        "augmented_width_pp": 29.291453149239494,
+        "width_reduction_percent": 2.712237723188471,
+        "baseline_min_deltaS": 3.841459794071703,
+        "baseline_max_deltaS": 3.8414588207873486,
+        "augmented_min_deltaS": 3.841458880278651,
+        "augmented_max_deltaS": 3.841458820793223,
+        "all_endpoints_feasible": true
+      }
+    }
+  },
+  "interpretation_boundary": [
+    "Working group-mean objective, not patient-level calibrated inference.",
+    "Human reference/model historically used the same dataset.",
+    "Bounded local domains centered on published ND x_p.",
+    "No individual fitted-parameter mechanistic interpretation."
+  ],
+  "decision_rule": {
+    "HUMAN_GENERALIZATION_POSITIVE": "ATP1 width reduction materially exceeds Pi10 in both 0.25 and 0.50 domains with feasible endpoints.",
+    "HUMAN_GENERALIZATION_WEAK_OR_DOMAIN_DEPENDENT": "Ranking is clear in only one domain or becomes modest/ambiguous.",
+    "HUMAN_GENERALIZATION_NEGATIVE": "Target ranking disappears or reverses robustly."
+  }
+}

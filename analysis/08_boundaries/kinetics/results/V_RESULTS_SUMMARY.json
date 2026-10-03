@@ -1,0 +1,155 @@
+{
+  "status": "COMPLETED",
+  "kinetic_units": "b and c are Hz; 2pi*b and 2pi*c are angular rates in s^-1",
+  "n_fibres_per_target": 62,
+  "n_mice": 10,
+  "n_mouse_genotype_drug_cells": 19,
+  "n_selected_frequency_rows": 60,
+  "V1_concentration_to_kinetics": {
+    "per_mouse_spearman_c_median": 0.942857142857143,
+    "per_mouse_spearman_b_median": 0.4000000000000001,
+    "descriptive": "mouse-aware correlations across six concentrations; c is measured from the same frequency-domain fits"
+  },
+  "V2_selected_frequency_kinetic_tracking": {
+    "median_mouse_rho_c": 0.8413918469226533,
+    "median_mouse_rho_b": 0.41200600859666914,
+    "mean_paired_rho_difference_c_minus_b": 0.2684082215311726,
+    "mouse_bootstrap_95pct_ci_difference": [
+      -0.017742467564583215,
+      0.5387476746471658
+    ]
+  },
+  "V3_selected_normalized_frequency": {
+    "median_xi_c": 2.6850889029391407,
+    "q25_xi_c": 0.3460199715734087,
+    "q75_xi_c": 3.41020907684715,
+    "iqr_factor_q75_over_q25": 9.855526723906653,
+    "by_target": [
+      {
+        "target_ATP_mM": 0.05,
+        "n_mice": 10,
+        "median_xi_c": 0.3498342439614277,
+        "q25_xi_c": 0.30582804413106696,
+        "q75_xi_c": 0.39620838696893224,
+        "median_d_c": 1.1102541172620337,
+        "median_xi_b": 0.2572959750831706,
+        "median_d_b": 1.4106877968017462,
+        "median_selected_Hz": 2.0083,
+        "median_c_Hz": 6.09545625
+      },
+      {
+        "target_ATP_mM": 0.1,
+        "n_mice": 10,
+        "median_xi_c": 0.34353491852601786,
+        "q25_xi_c": 0.30159853196753983,
+        "q75_xi_c": 0.4092852043378526,
+        "median_d_c": 1.1341583447592902,
+        "median_xi_b": 0.5345732290040612,
+        "median_d_b": 0.8440189721680762,
+        "median_selected_Hz": 2.0083,
+        "median_c_Hz": 6.641497916666667
+      },
+      {
+        "target_ATP_mM": 0.25,
+        "n_mice": 10,
+        "median_xi_c": 1.9680081176191928,
+        "q25_xi_c": 0.24815501967991388,
+        "q75_xi_c": 3.325277085799839,
+        "median_d_c": 1.2437207609341046,
+        "median_xi_b": 4.184798712625678,
+        "median_d_b": 1.429039123610069,
+        "median_selected_Hz": 20.50835,
+        "median_c_Hz": 9.627522916666667
+      },
+      {
+        "target_ATP_mM": 0.5,
+        "n_mice": 10,
+        "median_xi_c": 2.7145687406401056,
+        "q25_xi_c": 2.1296428507297587,
+        "q75_xi_c": 3.044143144886691,
+        "median_d_c": 0.9986032093657765,
+        "median_xi_b": 4.4147466356575285,
+        "median_d_b": 1.4838699260664612,
+        "median_selected_Hz": 24.0084,
+        "median_c_Hz": 10.437829166666667
+      },
+      {
+        "target_ATP_mM": 1.0,
+        "n_mice": 10,
+        "median_xi_c": 3.0083746295591194,
+        "q25_xi_c": 2.6410330725852766,
+        "q75_xi_c": 3.408380866797042,
+        "median_d_c": 1.1013719808377194,
+        "median_xi_b": 4.94662900783514,
+        "median_d_b": 1.595241049326958,
+        "median_selected_Hz": 34.0084,
+        "median_c_Hz": 11.305208333333333
+      },
+      {
+        "target_ATP_mM": 2.5,
+        "n_mice": 10,
+        "median_xi_c": 3.4102422245145805,
+        "q25_xi_c": 3.1680118065444587,
+        "q75_xi_c": 4.076124355499475,
+        "median_d_c": 1.2267833221656903,
+        "median_xi_b": 5.469306821042395,
+        "median_d_b": 1.6987781752573936,
+        "median_selected_Hz": 38.0084,
+        "median_c_Hz": 11.2552625
+      }
+    ]
+  },
+  "V4_all_candidate_utility_distance": {
+    "mean_cluster_rho_c": -0.16225427144296525,
+    "median_cluster_rho_c": -0.3031545437005596,
+    "mean_cluster_rho_b": -0.26756597423199785,
+    "median_cluster_rho_b": -0.40367547752267036,
+    "clock_mouse_permutation_replicates": 50000,
+    "seed": 20261002,
+    "permutation_p_c": 0.7539649207015859,
+    "permutation_p_b": 0.2688346233075338,
+    "cv_models": [
+      {
+        "model": "H1_target_only",
+        "LOMO_RMSE_pp": 4.948781443577751,
+        "LOMO_MAE_pp": 3.9891117003768857,
+        "LOMO_R2": 0.05414875213583947,
+        "predicted_rows": 4320
+      },
+      {
+        "model": "H0_absolute_frequency",
+        "LOMO_RMSE_pp": 4.694859359724218,
+        "LOMO_MAE_pp": 3.6117380953348137,
+        "LOMO_R2": 0.14872188854264667,
+        "predicted_rows": 4320
+      },
+      {
+        "model": "H3_detachment_normalized",
+        "LOMO_RMSE_pp": 4.663796691879933,
+        "LOMO_MAE_pp": 3.592478311090231,
+        "LOMO_R2": 0.15994927138611925,
+        "predicted_rows": 4320
+      },
+      {
+        "model": "H3_recruitment_normalized",
+        "LOMO_RMSE_pp": 4.678151522398915,
+        "LOMO_MAE_pp": 3.6246385424611285,
+        "LOMO_R2": 0.15477008169500972,
+        "predicted_rows": 4320
+      }
+    ],
+    "quadratic_shape": {
+      "quadratic_curvature": -0.2784826845052806,
+      "linear_term": 1.543075635319084,
+      "log_frequency_ratio_vertex": 2.7705055308202193,
+      "observed_log_ratio_range": [
+        -3.315876489221903,
+        3.961817004990201
+      ],
+      "vertex_within_observed_range": true,
+      "concave_down": true,
+      "interpretation": "Explanatory only: target c is fitted from that same held-out future spectrum."
+    }
+  },
+  "qualification": "All c/b values are fitted from each future target spectrum; V explains outcomes retrospectively and is not a deployable design test."
+}

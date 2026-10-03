@@ -1,0 +1,17 @@
+{
+  "budget": 1,
+  "candidate_condition": "ATP1",
+  "design_method": "source_only_leave_one_preparation_out_dynamic_prediction",
+  "destination_evaluation_started": false,
+  "frozen_at_utc": "2026-10-02T03:13:09.934316+00:00",
+  "nominal_frequency_hz": [
+    3.1622776601683795
+  ],
+  "panel_id": "ATP1_3.16228Hz",
+  "rule": "choose minimum source-only LO-preparation whole-spectrum NRMSE among all common-vocabulary panels of this budget",
+  "shared_vocabulary_rule": "rat/human exact nominal and Awinda nearest within 5%; no interpolation",
+  "source": "human_non_diabetic_public_preparations",
+  "source_cv_mean_nrmse_pct": 41.84977870675633,
+  "source_cv_n_preparations": 10,
+  "target": "ATP0.1"
+}

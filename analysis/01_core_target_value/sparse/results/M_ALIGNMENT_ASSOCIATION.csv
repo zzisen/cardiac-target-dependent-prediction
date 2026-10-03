@@ -1,0 +1,5 @@
+﻿domain,measurement_kind,n_target_action_rows,spearman_rho,descriptive_p_value_not_inferential
+P1_pair_plus_0.5,CM_spectrum,12,0.006993006993006993,0.9827917689028476
+P1_pair_plus_0.5,stress,12,0.2447552447552448,0.4432619364501832
+P1_pair_plus_1.0,CM_spectrum,12,0.5804195804195805,0.04785597684206058
+P1_pair_plus_1.0,stress,12,0.6503496503496504,0.022034190932365288

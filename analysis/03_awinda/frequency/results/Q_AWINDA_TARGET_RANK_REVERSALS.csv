@@ -1,0 +1,2 @@
+﻿comparison,candidate_class,n_pairwise_frequency_comparisons,rank_reversals,reversal_fraction,spearman_rank_correlation_of_heldout_utility,kendall_tau_b,interpretation
+ATP0.1_vs_ATP1,baseline_CM_frequency_pairs,2556,157,0.06142410015649452,0.9374236285291659,0.8771517996870108,descriptive outer-fold rank reversal fraction; not an inferential test

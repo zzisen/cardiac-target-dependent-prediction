@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "Future targets shape the predictive value of cardiac mechanical measurements"
+type: software
+version: 1.0.0
+date-released: 2026-10-03
+authors:
+  - family-names: Zhou
+    given-names: Zisen
+  - family-names: Zhang
+    given-names: Yaopu
+  - family-names: Pang
+    given-names: Haoran
+license: MIT
+message: "Please cite this software and the upstream sources listed in DATA_SOURCES.md."
+repository-code: "https://github.com/zzisen/cardiac-target-dependent-prediction"

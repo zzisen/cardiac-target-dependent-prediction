@@ -1,0 +1,15 @@
+{
+  "budget": 1,
+  "candidate_condition": "ATP1",
+  "design_method": "fixed_conventional",
+  "destination_evaluation_started": false,
+  "frozen_at_utc": "2026-10-02T03:13:09.930314+00:00",
+  "nominal_frequency_hz": [
+    1.0
+  ],
+  "panel_id": "ATP1_1Hz",
+  "rule": "first budget frequencies in frozen conventional order 1, 10, 31.6228 Hz",
+  "shared_vocabulary_rule": "rat/human exact nominal and Awinda nearest within 5%; no interpolation",
+  "source": "prespecified_shared_vocabulary",
+  "target": "ATP0.1"
+}

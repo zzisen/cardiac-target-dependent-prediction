@@ -1,0 +1,20 @@
+[source path omitted]
+  fx = wrapped_fun(x)
+[source path omitted]
+  g = append(wrapped_grad(x), 0.0)
+[source path omitted]
+  a_ieq = vstack([con['jac'](x, *con['args'])
+{
+  "status": "PASS",
+  "ATP1_width_reduction_percent": 79.98611186578279,
+  "Pi10_width_reduction_percent": 1.2079838439306823,
+  "temperature_summary": {
+    "max_abs_stress_shift_SE_units": 0.0,
+    "max_CM_shift_SE_units": 8.360058972430306e-08,
+    "ATP1_q_shift_pp": 0.0,
+    "Pi10_q_shift_pp": 0.0
+  },
+  "results_dir": "[source path omitted]"
+}
+
+Stage 1 completed. Review the results folder before any further analysis.

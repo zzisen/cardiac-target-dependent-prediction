@@ -1,0 +1,14 @@
+﻿Mutation,Treatment,Nucleotide_Fit,rows,fibres,animals
+N47K,0.3 uM mavacamten,0.0,32,14,4
+N47K,0.3 uM mavacamten,1.0,107,14,4
+N47K,0.3 uM mavacamten,2.0,1,1,1
+N47K,Control,0.0,33,16,5
+N47K,Control,1.0,123,16,5
+N47K,Control,2.0,4,4,3
+WT-RLC,0.3 uM mavacamten,0.0,27,14,5
+WT-RLC,0.3 uM mavacamten,1.0,112,14,5
+WT-RLC,0.3 uM mavacamten,2.0,1,1,1
+WT-RLC,Control,0.0,33,18,5
+WT-RLC,Control,1.0,133,18,5
+WT-RLC,Control,2.0,10,8,4
+,,,61,0,0

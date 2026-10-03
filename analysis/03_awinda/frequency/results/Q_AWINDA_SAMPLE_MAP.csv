@@ -1,0 +1,63 @@
+﻿Filename,Mutation_x,Cond,Concentration,AnimalID,Fiber,Mutation_y,Treatment,drug_state,group,n_active_MgATP_conditions,n_runs,active_frequency_count
+19325R11,WT-RLC,Control,0.0,Mouse_469,19325R11,WT-RLC,Control,Control,WT-RLC|Control,8,8,72
+19325R15,WT-RLC,Control,0.0,Mouse_469,19325R15,WT-RLC,Control,Control,WT-RLC|Control,8,8,72
+19325R110,WT-RLC,0.3 uM mavacamten,0.3,Mouse_469,19325R110,WT-RLC,0.3 μM Mavacamten,0.3_uM_mavacamten,WT-RLC|0.3_uM_mavacamten,9,9,72
+19325R113,WT-RLC,Control,0.0,Mouse_469,19325R113,WT-RLC,Control,Control,WT-RLC|Control,9,9,72
+19325R114,WT-RLC,0.3 uM mavacamten,0.3,Mouse_469,19325R114,WT-RLC,0.3 μM Mavacamten,0.3_uM_mavacamten,WT-RLC|0.3_uM_mavacamten,9,9,72
+19408R15,N47K,Control,0.0,Mouse_328,19408R15,N47K,Control,Control,N47K|Control,9,9,72
+19408R17,N47K,Control,0.0,Mouse_328,19408R17,N47K,Control,Control,N47K|Control,9,9,72
+19412R12,WT-RLC,Control,0.0,Mouse_460,19412R12,WT-RLC,Control,Control,WT-RLC|Control,9,9,72
+19412R14,WT-RLC,Control,0.0,Mouse_460,19412R14,WT-RLC,Control,Control,WT-RLC|Control,9,9,72
+19412R16,WT-RLC,Control,0.0,Mouse_460,19412R16,WT-RLC,Control,Control,WT-RLC|Control,9,9,72
+19412R17,WT-RLC,Control,0.0,Mouse_460,19412R17,WT-RLC,Control,Control,WT-RLC|Control,9,9,72
+19412R18,WT-RLC,0.3 uM mavacamten,0.3,Mouse_460,19412R18,WT-RLC,0.3 μM Mavacamten,0.3_uM_mavacamten,WT-RLC|0.3_uM_mavacamten,9,9,72
+19412R110,WT-RLC,0.3 uM mavacamten,0.3,Mouse_460,19412R110,WT-RLC,0.3 μM Mavacamten,0.3_uM_mavacamten,WT-RLC|0.3_uM_mavacamten,9,9,72
+19412R111,WT-RLC,0.3 uM mavacamten,0.3,Mouse_460,19412R111,WT-RLC,0.3 μM Mavacamten,0.3_uM_mavacamten,WT-RLC|0.3_uM_mavacamten,9,9,72
+19412R113,WT-RLC,0.3 uM mavacamten,0.3,Mouse_460,19412R113,WT-RLC,0.3 μM Mavacamten,0.3_uM_mavacamten,WT-RLC|0.3_uM_mavacamten,9,9,72
+19501R14,N47K,0.3 uM mavacamten,0.3,Mouse_331,19501R14,N47K,0.3 μM Mavacamten,0.3_uM_mavacamten,N47K|0.3_uM_mavacamten,9,9,72
+19501R15,N47K,Control,0.0,Mouse_331,19501R15,N47K,Control,Control,N47K|Control,9,9,72
+19501R19,N47K,0.3 uM mavacamten,0.3,Mouse_331,19501R19,N47K,0.3 μM Mavacamten,0.3_uM_mavacamten,N47K|0.3_uM_mavacamten,9,9,72
+19501R110,N47K,Control,0.0,Mouse_331,19501R110,N47K,Control,Control,N47K|Control,9,9,72
+19501R112,N47K,Control,0.0,Mouse_331,19501R112,N47K,Control,Control,N47K|Control,9,9,72
+19501R114,N47K,Control,0.0,Mouse_331,19501R114,N47K,Control,Control,N47K|Control,9,9,72
+19501R115,N47K,0.3 uM mavacamten,0.3,Mouse_331,19501R115,N47K,0.3 μM Mavacamten,0.3_uM_mavacamten,N47K|0.3_uM_mavacamten,9,9,72
+19501R116,N47K,0.3 uM mavacamten,0.3,Mouse_331,19501R116,N47K,0.3 μM Mavacamten,0.3_uM_mavacamten,N47K|0.3_uM_mavacamten,9,9,72
+19514R11,WT-RLC,Control,0.0,Mouse_464,19514R11,WT-RLC,Control,Control,WT-RLC|Control,9,9,72
+19514R12,WT-RLC,0.3 uM mavacamten,0.3,Mouse_464,19514R12,WT-RLC,0.3 μM Mavacamten,0.3_uM_mavacamten,WT-RLC|0.3_uM_mavacamten,9,9,72
+19514R13,WT-RLC,Control,0.0,Mouse_464,19514R13,WT-RLC,Control,Control,WT-RLC|Control,9,9,72
+19514R14,WT-RLC,0.3 uM mavacamten,0.3,Mouse_464,19514R14,WT-RLC,0.3 μM Mavacamten,0.3_uM_mavacamten,WT-RLC|0.3_uM_mavacamten,9,9,72
+19514R15,WT-RLC,Control,0.0,Mouse_464,19514R15,WT-RLC,Control,Control,WT-RLC|Control,9,9,72
+19514R16,WT-RLC,0.3 uM mavacamten,0.3,Mouse_464,19514R16,WT-RLC,0.3 μM Mavacamten,0.3_uM_mavacamten,WT-RLC|0.3_uM_mavacamten,9,9,72
+19516R11,N47K,Control,0.0,Mouse_333,19516R11,N47K,Control,Control,N47K|Control,9,9,72
+19516R13,N47K,Control,0.0,Mouse_333,19516R13,N47K,Control,Control,N47K|Control,9,9,72
+19516R15,N47K,Control,0.0,Mouse_333,19516R15,N47K,Control,Control,N47K|Control,9,9,72
+19516R16,N47K,0.3 uM mavacamten,0.3,Mouse_333,19516R16,N47K,0.3 μM Mavacamten,0.3_uM_mavacamten,N47K|0.3_uM_mavacamten,9,9,72
+19516R17,N47K,0.3 uM mavacamten,0.3,Mouse_333,19516R17,N47K,0.3 μM Mavacamten,0.3_uM_mavacamten,N47K|0.3_uM_mavacamten,9,9,72
+19516R18,N47K,0.3 uM mavacamten,0.3,Mouse_333,19516R18,N47K,0.3 μM Mavacamten,0.3_uM_mavacamten,N47K|0.3_uM_mavacamten,9,9,72
+19516R19,N47K,0.3 uM mavacamten,0.3,Mouse_333,19516R19,N47K,0.3 μM Mavacamten,0.3_uM_mavacamten,N47K|0.3_uM_mavacamten,9,9,72
+19523R12,WT-RLC,Control,0.0,Mouse_467,19523R12,WT-RLC,Control,Control,WT-RLC|Control,9,9,72
+19523R13,WT-RLC,0.3 uM mavacamten,0.3,Mouse_467,19523R13,WT-RLC,0.3 μM Mavacamten,0.3_uM_mavacamten,WT-RLC|0.3_uM_mavacamten,9,9,72
+19523R14,WT-RLC,Control,0.0,Mouse_467,19523R14,WT-RLC,Control,Control,WT-RLC|Control,9,9,72
+19523R15,WT-RLC,0.3 uM mavacamten,0.3,Mouse_467,19523R15,WT-RLC,0.3 μM Mavacamten,0.3_uM_mavacamten,WT-RLC|0.3_uM_mavacamten,9,9,72
+19523R16,WT-RLC,Control,0.0,Mouse_467,19523R16,WT-RLC,Control,Control,WT-RLC|Control,9,9,72
+19523R17,WT-RLC,0.3 uM mavacamten,0.3,Mouse_467,19523R17,WT-RLC,0.3 μM Mavacamten,0.3_uM_mavacamten,WT-RLC|0.3_uM_mavacamten,9,9,72
+19531R11,WT-RLC,Control,0.0,Mouse_470,19531R11,WT-RLC,Control,Control,WT-RLC|Control,8,8,72
+19531R13,WT-RLC,Control,0.0,Mouse_470,19531R13,WT-RLC,Control,Control,WT-RLC|Control,8,8,72
+19531R15,WT-RLC,Control,0.0,Mouse_470,19531R15,WT-RLC,Control,Control,WT-RLC|Control,9,9,72
+19531R110,WT-RLC,0.3 uM mavacamten,0.3,Mouse_470,19531R110,WT-RLC,0.3 μM Mavacamten,0.3_uM_mavacamten,WT-RLC|0.3_uM_mavacamten,9,9,72
+19531R111,WT-RLC,0.3 uM mavacamten,0.3,Mouse_470,19531R111,WT-RLC,0.3 μM Mavacamten,0.3_uM_mavacamten,WT-RLC|0.3_uM_mavacamten,9,9,72
+19531R112,WT-RLC,Control,0.0,Mouse_470,19531R112,WT-RLC,Control,Control,WT-RLC|Control,9,9,72
+19531R113,WT-RLC,Control,0.0,Mouse_470,19531R113,WT-RLC,Control,Control,WT-RLC|Control,9,9,72
+19605R11,N47K,Control,0.0,Mouse_394,19605R11,N47K,Control,Control,N47K|Control,9,9,72
+19605R13,N47K,Control,0.0,Mouse_394,19605R13,N47K,Control,Control,N47K|Control,9,9,72
+19605R14,N47K,0.3 uM mavacamten,0.3,Mouse_394,19605R14,N47K,0.3 μM Mavacamten,0.3_uM_mavacamten,N47K|0.3_uM_mavacamten,9,9,72
+19605R15,N47K,Control,0.0,Mouse_394,19605R15,N47K,Control,Control,N47K|Control,9,9,72
+19605R16,N47K,0.3 uM mavacamten,0.3,Mouse_394,19605R16,N47K,0.3 μM Mavacamten,0.3_uM_mavacamten,N47K|0.3_uM_mavacamten,9,9,72
+19605R17,N47K,Control,0.0,Mouse_394,19605R17,N47K,Control,Control,N47K|Control,9,9,72
+19605R18,N47K,0.3 uM mavacamten,0.3,Mouse_394,19605R18,N47K,0.3 μM Mavacamten,0.3_uM_mavacamten,N47K|0.3_uM_mavacamten,9,9,72
+19610R11,N47K,Control,0.0,Mouse_401,19610R11,N47K,Control,Control,N47K|Control,9,9,72
+19610R13,N47K,0.3 uM mavacamten,0.3,Mouse_401,19610R13,N47K,0.3 μM Mavacamten,0.3_uM_mavacamten,N47K|0.3_uM_mavacamten,9,9,72
+19610R14,N47K,Control,0.0,Mouse_401,19610R14,N47K,Control,Control,N47K|Control,9,9,72
+19610R16,N47K,0.3 uM mavacamten,0.3,Mouse_401,19610R16,N47K,0.3 μM Mavacamten,0.3_uM_mavacamten,N47K|0.3_uM_mavacamten,9,9,72
+19610R17,N47K,Control,0.0,Mouse_401,19610R17,N47K,Control,Control,N47K|Control,9,9,72
+19610R18,N47K,0.3 uM mavacamten,0.3,Mouse_401,19610R18,N47K,0.3 μM Mavacamten,0.3_uM_mavacamten,N47K|0.3_uM_mavacamten,9,9,72

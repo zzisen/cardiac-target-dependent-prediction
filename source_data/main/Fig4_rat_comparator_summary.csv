@@ -1,0 +1,22 @@
+summary,future_target,comparator,prediction_cells,standardized_mae
+Overall,All six future targets,No added measurement,42,1.04824276585
+Future target,3 uM PeakTension,No added measurement,7,1.0301694620999999
+Future target,3 uM TTP,No added measurement,7,1.13449356694
+Future target,3 uM RT50,No added measurement,7,1.0334212223899999
+Future target,10 uM PeakTension,No added measurement,7,0.98963487637100001
+Future target,10 uM TTP,No added measurement,7,1.0696380868699999
+Future target,10 uM RT50,No added measurement,7,1.03209938042
+Overall,All six future targets,Global/shared,42,0.99856156343900004
+Future target,3 uM PeakTension,Global/shared,7,1.0743214780699999
+Future target,3 uM TTP,Global/shared,7,1.11857044766
+Future target,3 uM RT50,Global/shared,7,0.90831624714899994
+Future target,10 uM PeakTension,Global/shared,7,1.05464367869
+Future target,10 uM TTP,Global/shared,7,1.05116498494
+Future target,10 uM RT50,Global/shared,7,0.78435254412699995
+Overall,All six future targets,Target-specific,42,0.85372790449400004
+Future target,3 uM PeakTension,Target-specific,7,0.93420349349099996
+Future target,3 uM TTP,Target-specific,7,0.65383053162600002
+Future target,3 uM RT50,Target-specific,7,0.90831624714899994
+Future target,10 uM PeakTension,Target-specific,7,1.19386063451
+Future target,10 uM TTP,Target-specific,7,1.0204829849599999
+Future target,10 uM RT50,Target-specific,7,0.41167353521900002

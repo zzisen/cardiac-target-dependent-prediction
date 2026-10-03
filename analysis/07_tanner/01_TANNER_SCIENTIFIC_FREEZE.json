@@ -1,0 +1,92 @@
+{
+  "candidate_measurement_definition": "For each trabecula, source peak stress response at 10 ms and one candidate strain rate (100 or 250 s^-1).",
+  "comparators": {
+    "C0": "Training-set mean of the target, no candidate measurement.",
+    "C1": "Nested-selected single global candidate rate across four targets within each outer fold.",
+    "C2": "Nested-selected candidate rate separately for each target within each outer fold.",
+    "C3": "Exact uniform random policy over all 2^4=16 candidate-rate assignments across the four targets, without outcome-informed selection; report full distribution and mean.",
+    "C4": "Nearest strain-rate heuristic by absolute log10 rate distance between target rate and candidate rate; ties choose lower candidate rate; times are held at the frozen candidate/target times.",
+    "C5": "Optimistic oracle: choose best candidate separately for each target using all seven subjects’ outer-LOTO errors, then summarize those same errors. Leakage by selection is intentional; descriptive upper bound only, never headline validation."
+  },
+  "eligibility_rule": "Include a trabecula only if all candidate and target conditions are observed for the outcome under analysis; primary-grid peak outcome has all 7 complete. No imputation.",
+  "eligible_perturbation_conditions": {
+    "candidate_strain_rates_s_inv": [
+      100,
+      250
+    ],
+    "candidate_time_to_stretch_ms": 10,
+    "future_target_strain_rates_s_inv": [
+      25,
+      100,
+      250,
+      1000
+    ],
+    "future_target_time_to_stretch_ms": 100,
+    "selection_rule": "Coverage-only deterministic rule: 10 ms is the earliest time with at least two strain rates complete in all 7; 100 ms is the earliest later time with all four rates complete in all 7. No outcome metric informed condition choice."
+  },
+  "eligible_subjects": [
+    20181130,
+    20190103,
+    20190104,
+    20190111,
+    20190115,
+    20190122,
+    20190124
+  ],
+  "exclusions": [],
+  "failure_interpretation": "No held-out C2 gain over C1 means no evidence that target-aware measurement selection improves this experiment even if descriptive candidate rankings vary. Improvement over baseline without improvement over C1 supports predictive value but not target-aware uplift. Unstable results are partial/boundary evidence. No claim of universal mechanism, causality, clinical or prospective prediction, or structural model adequacy.",
+  "falsifications": {
+    "F1_target_label_permutation": "Exhaust all 24 permutations of target-to-selector labels. In each outer fold, for actual target t apply the target-specific candidate chosen on the permuted label π(t), fit/predict the actual target t, and score against its held-out value; identity is the unpermuted procedure.",
+    "F2_random_candidate": "Exact 16-policy C3 enumeration.",
+    "F3_global_fixed_candidate": "Nested global C1.",
+    "F4_subject_leakage": "Assert each outer test ID is excluded from all inner folds, candidate selection and model fitting; retain train/test IDs in prediction audit output.",
+    "F5_exclusion_sensitivity": "Repeat complete nested outer LOTO procedure after omitting each one of the seven subjects; report all six-subject results.",
+    "F6_one_condition_dominance": "Check if the same candidate rate wins the four target-specific outer-LOTO matrix cells and report winners by target; do not infer mechanism from it."
+  },
+  "frozen_at_utc": "2026-10-02T11:23:27.248054+00:00",
+  "future_target_definition": "For each trabecula, source peak stress response at 100 ms for each target strain rate (25, 100, 250, 1000 s^-1), evaluated separately.",
+  "gate": "TANNER_P2_GATE = GO",
+  "independent_unit": "one explicitly labeled trabecula; n=7",
+  "missing_data_policy": "Primary endpoint uses complete six-condition grid; zero excluded subjects. No imputation. Secondary endpoint is analyzed only if all 7 subjects have its candidate and target values; otherwise use the prespecified complete-subject subset and disclose N; no imputation.",
+  "model_family": "Ordinary affine univariate least-squares regression with intercept. If candidate variance is zero in a training fold, slope=0 and intercept=training target mean. No scaling or feature engineering.",
+  "nested_selection": {
+    "global_C1": "Choose one candidate rate minimizing the equally weighted mean of the four target-specific inner MAEs; exact ties choose lower strain rate; use same rate for all four targets in this outer fold; refit each target model on all six outer-training subjects.",
+    "inner_resampling": "Leave-one-trabecula-out among the six outer-training subjects.",
+    "inner_score": "Mean absolute error per candidate × target, equally weighted across held-out inner subjects.",
+    "target_specific_C2": "For each target, choose candidate rate with lower inner MAE; exact ties choose lower strain rate; refit affine OLS on all six outer-training subjects."
+  },
+  "outer_holdout_unit": "Leave-one-trabecula-out (LOTO); all rows from held-out trabecula excluded from fitting and every selection decision.",
+  "planned_runtime": {
+    "matplotlib": "3.10.0",
+    "numpy": "2.2.5",
+    "pandas": "2.3.1",
+    "python": "3.10.18",
+    "scipy": "1.15.3"
+  },
+  "primary_endpoint": "Aggregate outer-LOTO MAE across seven subjects × four targets. Compare C2 with C0 and C1. Report MAE, RMSE, median absolute error, paired absolute-error differences, fraction of subject-target cells improved, and target-wise results.",
+  "primary_outcome_family": {
+    "definition": "Same scalar peak stress response at candidate and future target condition; figure panel Fig. 3A identifies mN/mm^2, but the workbook column header omits the unit.",
+    "name": "peak_stress_response",
+    "source_field": "Peak Stress Response",
+    "source_sheet": "Data Fig 3 and 5",
+    "why_primary": "Complete across all source subject-condition records and all six frozen conditions; consistent biological definition; direct mechanical magnitude; no exclusions; outcome choice made by availability and interpretability before predictive results."
+  },
+  "protocol_id": "TANNER_P2_DUAL_Q1_UPLIFT_PREOUTCOME_V1",
+  "random_seed": 20261003,
+  "randomness_policy": "C3 is exact enumeration, not Monte Carlo. Bootstrap uses NumPy Generator(PCG64), seed 20261003, 10,000 subject-cluster resamples. F1 uses exact 24 permutations.",
+  "scientific_scope": "Independent retrospective subject-held-out empirical replication/generalization in an intact-cardiac-trabecula stretch perturbation dataset.",
+  "secondary_metrics": [
+    "subject-clustered bootstrap percentile interval for paired C2−C1 and C2−C0 MAE differences (10,000 resamples; descriptive only)",
+    "per-target and per-subject results",
+    "NRMSE only if denominator is defensible; do not make it primary"
+  ],
+  "secondary_outcome_families": [
+    "minimum_stress_response",
+    "t12_s",
+    "t2_s",
+    "t23_s"
+  ],
+  "source_doi": "10.6084/m9.figshare.24796689.v1",
+  "success_interpretation": "Evidence of target-aware predictive value requires C2 outer-LOTO MAE below C1 and C0, with subject-level gains not driven by a single trabecula, and target-specific ranking variation. Interpret strength using effect sizes, every subject, exact selection audit and leave-one-subject-out aggregate sensitivity; n=7 precludes claims based on asymptotic significance.",
+  "target_candidate_eligibility_thresholds": "A primary condition must be observed for all seven independent trabeculae; minimum target/candidate grid is two candidates and two future targets. The frozen primary grid has two candidates and four targets."
+}

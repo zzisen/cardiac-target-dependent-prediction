@@ -1,0 +1,445 @@
+[
+  {
+    "name": "Fig1 Budget summary",
+    "file": "source_data/main/Fig1_equal_budget_summary.csv",
+    "sha256": "8d89b175ffb076a9bf97fe19affc53e984e04b9852fc2c479b62b99c6e83048b",
+    "headers": [
+      "budget type",
+      "budget",
+      "median width reduction percent",
+      "target domain evaluations"
+    ],
+    "normalization": false,
+    "rows": 8,
+    "start_row": 5
+  },
+  {
+    "name": "Fig1 Budget values",
+    "file": "source_data/main/Fig1_equal_budget_values.csv",
+    "sha256": "6b8f8806d3837bae38bff6fdddbaa74c3c1ed91e773957989d5d4f556605feda",
+    "headers": [
+      "target",
+      "domain",
+      "budget type",
+      "budget",
+      "scalar observations",
+      "baseline bounded width pp",
+      "panel bounded width pp",
+      "width reduction percent"
+    ],
+    "normalization": false,
+    "rows": 64,
+    "start_row": 5
+  },
+  {
+    "name": "Fig1 Value map",
+    "file": "source_data/main/Fig1_measurement_target_map.csv",
+    "sha256": "8655025bbf25528a3cd4009ca1e060ad0c7db7d0e434e4b23e0320d25dc3686a",
+    "headers": [
+      "domain",
+      "measurement",
+      "target",
+      "evaluation",
+      "baseline support width pp",
+      "augmented support width pp",
+      "relative narrowing percent"
+    ],
+    "normalization": false,
+    "rows": 64,
+    "start_row": 5
+  },
+  {
+    "name": "Fig1 Same stress",
+    "file": "source_data/main/Fig1_same_measurement_support.csv",
+    "sha256": "48a76b2d201b917f40579471c176bd5ec59796b1943d48faf77ecd18459c4529",
+    "headers": [
+      "domain",
+      "target",
+      "added measurement",
+      "baseline support width pp",
+      "augmented support width pp",
+      "relative narrowing percent"
+    ],
+    "normalization": false,
+    "rows": 4,
+    "start_row": 5
+  },
+  {
+    "name": "Fig2 Rank correlations",
+    "file": "source_data/main/Fig2_model_rank_correlations.csv",
+    "sha256": "bc3497fbb4ff145040d4bc09ed9625bcfbb97b57506c28873a88687bbdfeb5cf",
+    "headers": [
+      "target",
+      "model",
+      "spearman rank correlation"
+    ],
+    "normalization": false,
+    "rows": 20,
+    "start_row": 5
+  },
+  {
+    "name": "Fig2 Robust panels",
+    "file": "source_data/main/Fig2_robust_target_panels.csv",
+    "sha256": "0a251e10110592cb104945f3e53bf083c21f9c129cd2d447396a7feeeee68d40",
+    "headers": [
+      "target",
+      "budget",
+      "selected frequencies Hz",
+      "selected conditions",
+      "stress scalars",
+      "frequency pairs",
+      "worst case fraction oracle retained",
+      "minimax regret fraction of scenario oracle",
+      "scenarios",
+      "worst case oracle retained percent"
+    ],
+    "normalization": false,
+    "rows": 12,
+    "start_row": 5
+  },
+  {
+    "name": "Fig3 Prediction summary",
+    "file": "source_data/main/Fig3_animal_held_out_summary.csv",
+    "sha256": "cadecde630668bb7f199efc500b39cbe076240f4e85e6dc076c095d76bdd5b67",
+    "headers": [
+      "future MgATP mM",
+      "group only nrmse percent",
+      "selected pair nrmse percent",
+      "nrmse gain pp",
+      "animal condition cells",
+      "mice"
+    ],
+    "normalization": false,
+    "rows": 2,
+    "start_row": 5
+  },
+  {
+    "name": "Fig3 Prediction cells",
+    "file": "source_data/main/Fig3_animal_held_out_values.csv",
+    "sha256": "9ae978aa3dac7098720daeda77944bb3eae780f05c706fd17a5de431970784f9",
+    "headers": [
+      "future MgATP mM",
+      "mouse",
+      "group",
+      "selected frequency Hz",
+      "selected pair nrmse percent",
+      "group only nrmse percent",
+      "nrmse gain pp"
+    ],
+    "normalization": false,
+    "rows": 38,
+    "start_row": 5
+  },
+  {
+    "name": "Fig3 Frequency summary",
+    "file": "source_data/main/Fig3_frequency_selection_summary.csv",
+    "sha256": "6c0a374b5c73b18ee18aa1724cff1862cd581649e963af8ecf9b52adea3c4da3",
+    "headers": [
+      "future MgATP mM",
+      "median frequency Hz",
+      "lower quartile Hz",
+      "upper quartile Hz",
+      "mice"
+    ],
+    "normalization": false,
+    "rows": 6,
+    "start_row": 5
+  },
+  {
+    "name": "Fig3 Frequency values",
+    "file": "source_data/main/Fig3_frequency_selection_values.csv",
+    "sha256": "9a53c6611136b6a0756cc3345f17b15480f656d1895c5da4572ffa6c45fe3ac9",
+    "headers": [
+      "mouse",
+      "future MgATP mM",
+      "selected frequency Hz"
+    ],
+    "normalization": false,
+    "rows": 60,
+    "start_row": 5
+  },
+  {
+    "name": "Fig3 Landscape models",
+    "file": "source_data/main/Fig3_held_out_target_models.csv",
+    "sha256": "995824b51dbeb99943a010194717bb32c19b817aa787b216903f43cd131258f7",
+    "headers": [
+      "model",
+      "n outer targets",
+      "mean rmse pp",
+      "median rmse pp",
+      "mean mae pp",
+      "mean spearman",
+      "mean kendall",
+      "best band hit fraction",
+      "mean best frequency error log10",
+      "mean regret pp",
+      "mean oracle retention"
+    ],
+    "normalization": false,
+    "rows": 4,
+    "start_row": 5
+  },
+  {
+    "name": "Fig3 Mouse errors",
+    "file": "source_data/main/Fig3_mouse_unit_errors.csv",
+    "sha256": "2b36826ece9e5dd469f018f212d7ed81970000f9a3340576cd25fe83b76e0948",
+    "headers": [
+      "future MgATP mM",
+      "mouse",
+      "group only nrmse percent",
+      "selected pair nrmse percent"
+    ],
+    "normalization": false,
+    "rows": 20,
+    "start_row": 5
+  },
+  {
+    "name": "Fig3 Utility landscape",
+    "file": "source_data/main/Fig3_target_conditioned_landscape.csv",
+    "sha256": "bb8af015791be36f55066cfd4a6d2443cd289b298d9dcdd12af709933e5b73e8",
+    "headers": [
+      "future MgATP mM",
+      "frequency Hz",
+      "mean nrmse gain pp",
+      "median nrmse gain pp",
+      "bootstrap 95 lower pp",
+      "bootstrap 95 upper pp",
+      "mean baseline only nrmse pct",
+      "mean augmented nrmse pct",
+      "improved mice",
+      "mice"
+    ],
+    "normalization": false,
+    "rows": 432,
+    "start_row": 5
+  },
+  {
+    "name": "Fig4 Atrial support",
+    "file": "source_data/main/Fig4_human_atrial_support.csv",
+    "sha256": "00877e3b2a44406230e467eaa151734845046d24084b35e04d4dd3b807331fe3",
+    "headers": [
+      "log radius",
+      "target",
+      "support lower pp",
+      "support upper pp",
+      "support width pp",
+      "relative narrowing percent",
+      "measurement context"
+    ],
+    "normalization": false,
+    "rows": 8,
+    "start_row": 5
+  },
+  {
+    "name": "Fig4 Pacing summary",
+    "file": "source_data/main/Fig4_pacing_comparator_summary.csv",
+    "sha256": "e376be0156ddbe870557b330403d2290729175795ff437f2cf0c3747df0a1534",
+    "headers": [
+      "comparator",
+      "prediction cells",
+      "standardized mae",
+      "improvement vs no measurement percent",
+      "contributing participants",
+      "source cohort participants"
+    ],
+    "normalization": false,
+    "rows": 5,
+    "start_row": 5
+  },
+  {
+    "name": "Fig4 Pacing predictions",
+    "file": "source_data/main/Fig4_participant_held_out_predictions.csv",
+    "sha256": "fd306cc5cb05231d02b49498d0469fef0b22edca15e33f663445fa010204c8a4",
+    "headers": [
+      "participant",
+      "cohort",
+      "future target",
+      "target family",
+      "comparator",
+      "selected measurement",
+      "observed response",
+      "predicted response",
+      "standardized absolute error"
+    ],
+    "normalization": false,
+    "rows": 660,
+    "start_row": 5
+  },
+  {
+    "name": "Fig4 Participant errors",
+    "file": "source_data/main/Fig4_participant_unit_errors.csv",
+    "sha256": "fc1eb0c07b6667149c2b5d69850b13df603609b7992ee613f4cfda4c09413d27",
+    "headers": [
+      "participant",
+      "comparator",
+      "mean standardized absolute error",
+      "future targets"
+    ],
+    "normalization": false,
+    "rows": 90,
+    "start_row": 5
+  },
+  {
+    "name": "Fig4 Rat summary",
+    "file": "source_data/main/Fig4_rat_comparator_summary.csv",
+    "sha256": "088ead48a91c7b38de491e5ea6ca9bad2060a58fddf41052f0133cf7bf16d5d0",
+    "headers": [
+      "summary",
+      "future target",
+      "comparator",
+      "prediction cells",
+      "standardized mae"
+    ],
+    "normalization": false,
+    "rows": 21,
+    "start_row": 5
+  },
+  {
+    "name": "Fig4 Rat predictions",
+    "file": "source_data/main/Fig4_rat_held_out_predictions.csv",
+    "sha256": "984ebf955fa3159a3434bf6967ee7f6d5a779fe0790e70ae240758e63cd5f15f",
+    "headers": [
+      "aligned rat summary row",
+      "future target",
+      "comparator",
+      "selected measurement",
+      "selected candidate value at 1uM",
+      "observed response",
+      "predicted response",
+      "standardized absolute error"
+    ],
+    "normalization": false,
+    "rows": 126,
+    "start_row": 5
+  },
+  {
+    "name": "Fig4 Rat errors",
+    "file": "source_data/main/Fig4_rat_unit_errors.csv",
+    "sha256": "0f75b326fd52265738dad6bfab306ba2cf7c6d6b43fdfa3dbe3449dbb4457920",
+    "headers": [
+      "aligned rat summary row",
+      "comparator",
+      "mean standardized absolute error",
+      "future targets"
+    ],
+    "normalization": false,
+    "rows": 21,
+    "start_row": 5
+  },
+  {
+    "name": "Fig5 Rat mouse transfer",
+    "file": "source_data/main/Fig5_rat_mouse_transfer.csv",
+    "sha256": "5eba0c37ee172daaf91ee67a2f428a778153b3fabaf4c726b4064cbcf976aedf",
+    "headers": [
+      "future target",
+      "frequency pair budget",
+      "mice",
+      "normalized minus absolute nrmse pp",
+      "bootstrap 95 lower pp",
+      "bootstrap 95 upper pp"
+    ],
+    "normalization": false,
+    "rows": 7,
+    "start_row": 5
+  },
+  {
+    "name": "Fig5 Support correlations",
+    "file": "source_data/main/Fig5_support_accuracy_correlations.csv",
+    "sha256": "5fcee465b4c216c2882080beb40c7aa5748e9a3c3ae88519e478dd38dfbb495a",
+    "headers": [
+      "target",
+      "preparations",
+      "spearman rho",
+      "pearson r"
+    ],
+    "normalization": false,
+    "rows": 2,
+    "start_row": 5
+  },
+  {
+    "name": "Fig5 Information error pairs",
+    "file": "source_data/main/Fig5_support_and_accuracy_pairs.csv",
+    "sha256": "e248f2d1e70063911d86c41c52f41f67dae36efa8969db61d1dd29e7f1596fc6",
+    "headers": [
+      "preparation",
+      "group",
+      "target",
+      "baseline support width pp",
+      "augmented support width pp",
+      "support width reduction pp",
+      "baseline absolute stress error pp",
+      "augmented absolute stress error pp",
+      "stress error improvement pp"
+    ],
+    "normalization": false,
+    "rows": 40,
+    "start_row": 5
+  },
+  {
+    "name": "Fig5 Normalized errors",
+    "file": "source_data/main/Fig5_within_dataset_normalization.csv",
+    "sha256": "9ab4f71f36df002eda3a1b8a73da2c1f96aa93c384627c3e41cc602afa2e9ce4",
+    "headers": [
+      "dataset",
+      "comparator",
+      "source error",
+      "source metric",
+      "no measurement error",
+      "normalized error",
+      "normalization",
+      "biological units",
+      "source cohort units",
+      "unit",
+      "prediction cells"
+    ],
+    "normalization": true,
+    "rows": 11,
+    "start_row": 5
+  },
+  {
+    "name": "Table1 Evidence systems",
+    "file": "source_data/main/Table1_evidence_systems.csv",
+    "sha256": "1a614eb82ddc4921663d096b72cfd20739a773f98a9a6842c32d000c0ae354c1",
+    "headers": [
+      "Dataset/system",
+      "Species",
+      "Perturbation",
+      "Biological unit",
+      "Current measurement context",
+      "Future target context",
+      "Validation mode",
+      "Role in evidence"
+    ],
+    "normalization": false,
+    "rows": 6,
+    "start_row": 5
+  },
+  {
+    "name": "FigS2 Label mapping",
+    "file": "source_data/supplement/FigS2_within_family_mapping.csv",
+    "sha256": "bad286deeb97e841d2c3588607d555ed4d0e66153722fb5ca5b154bbdf89e295",
+    "headers": [
+      "identity MAE",
+      "n permutations",
+      "n no worse",
+      "p fraction",
+      "best MAE"
+    ],
+    "normalization": false,
+    "rows": 1,
+    "start_row": 5
+  },
+  {
+    "name": "FigS3 Mechanical comparators",
+    "file": "source_data/supplement/FigS3_mechanical_comparator_summary.csv",
+    "sha256": "7f1ad57abe22ddd208b272f8bd1b15e1a94ffcb7cf5102e46f89f46f06a6d88f",
+    "headers": [
+      "comparator",
+      "prediction cells",
+      "mae"
+    ],
+    "normalization": false,
+    "rows": 6,
+    "start_row": 5
+  }
+]

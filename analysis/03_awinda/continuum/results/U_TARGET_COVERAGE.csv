@@ -1,0 +1,7 @@
+﻿target_ATP_mM,baseline_fibres,target_complete_fibres,shared_complete_fibres,animals,baseline_cells,target_cells,baseline_frequencies,target_frequency_grid_matches,meets_frozen_rule
+0.05,62,62,62,10,19,19,72,True,True
+0.1,62,62,62,10,19,19,72,True,True
+0.25,62,62,62,10,19,19,72,True,True
+0.5,62,62,62,10,19,19,72,True,True
+1.0,62,62,62,10,19,19,72,True,True
+2.5,62,62,62,10,19,19,72,True,True

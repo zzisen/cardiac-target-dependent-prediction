@@ -1,0 +1,21 @@
+{
+  "budget": 1,
+  "candidate_condition": "ATP1",
+  "design_method": "target_utility",
+  "destination_evaluation_started": false,
+  "frozen_at_utc": "2026-10-02T03:13:09.939318+00:00",
+  "mean_domain_fraction_oracle": 1.0,
+  "nominal_frequency_hz": [
+    1.0
+  ],
+  "panel_id": "ATP1_1Hz",
+  "rule": "maximin normalized source utility across the two frozen K support domains",
+  "shared_vocabulary_rule": "rat/human exact nominal and Awinda nearest within 5%; no interpolation",
+  "source": "rat_Model16D_two_K_domains",
+  "source_domain_fraction_oracle": {
+    "P1_pair_plus_0.5": 1.0,
+    "P1_pair_plus_1.0": 1.0
+  },
+  "target": "ATP0.1",
+  "worst_domain_fraction_oracle": 1.0
+}

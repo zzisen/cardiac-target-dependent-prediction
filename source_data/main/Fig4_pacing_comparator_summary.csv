@@ -1,0 +1,6 @@
+comparator,prediction_cells,standardized_mae,improvement_vs_no_measurement_percent,contributing_participants,source_cohort_participants
+No added measurement,132,0.819522046100299,0,18,19
+Family-aware global,132,0.56343522093536447,31.248314353899985,18,19
+Fixed family-matched,132,0.4881891170468286,40.430020233149335,18,19
+Single global measurement,132,0.80892308831684701,1.2933096594395721,18,19
+Target-specific,132,0.52030306666971315,36.51140086522642,18,19

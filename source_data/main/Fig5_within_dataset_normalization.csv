@@ -1,0 +1,12 @@
+dataset,comparator,source_error,source_metric,no_measurement_error,normalized_error,normalization,biological_units,source_cohort_units,unit,prediction_cells
+RLC-1,No added measurement,1.04824276585,Standardized MAE,1.04824276585,1,Source error / no-added-measurement error within the same dataset,7,7,Aligned rat summary rows,42
+RLC-1,Global/shared,0.99856156343900004,Standardized MAE,1.04824276585,0.95260525135061214,Source error / no-added-measurement error within the same dataset,7,7,Aligned rat summary rows,42
+RLC-1,Target-specific,0.85372790449400004,Standardized MAE,1.04824276585,0.81443720129251584,Source error / no-added-measurement error within the same dataset,7,7,Aligned rat summary rows,42
+Radbill,No added measurement,0.819522046100299,Standardized MAE,0.819522046100299,1,Source error / no-added-measurement error within the same dataset,18,19,Participants,132
+Radbill,Family-aware global,0.56343522093536447,Standardized MAE,0.819522046100299,0.68751685646100025,Source error / no-added-measurement error within the same dataset,18,19,Participants,132
+Radbill,Target-specific,0.52030306666971315,Standardized MAE,0.819522046100299,0.63488599134773582,Source error / no-added-measurement error within the same dataset,18,19,Participants,132
+Radbill,Fixed family-matched,0.4881891170468286,Standardized MAE,0.819522046100299,0.59569979766850656,Source error / no-added-measurement error within the same dataset,18,19,Participants,132
+Tanner,No added measurement,2.2108611431187701,MAE,2.2108611431187701,1,Source error / no-added-measurement error within the same dataset,7,7,Trabeculae,28
+Tanner,Global/shared,0.64406196848238295,MAE,2.2108611431187701,0.29131724101579326,Source error / no-added-measurement error within the same dataset,7,7,Trabeculae,28
+Tanner,Target-specific,0.625692945034513,MAE,2.2108611431187701,0.28300870318425964,Source error / no-added-measurement error within the same dataset,7,7,Trabeculae,28
+Tanner,Nearest-rate conventional,0.61712867818818895,MAE,2.2108611431187701,0.27913497874300286,Source error / no-added-measurement error within the same dataset,7,7,Trabeculae,28

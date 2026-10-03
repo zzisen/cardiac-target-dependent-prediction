@@ -1,0 +1,86 @@
+{
+  "freeze_id": "P2_AJ_public_rat_A_E_F_J_v1_2026-10-01",
+  "frozen_before_new_A_E_F_J_result_inspection": true,
+  "primary_input": {
+    "path": "02_Public_Data_Intake/Rat_Public_GitHub/rat_data.mat",
+    "sha256": "022a3b80cda25cb08517278056145f1abc1e623f5d9426414badf1b0a48f6682",
+    "repository": "JuliaMusgrave/XBModel_2024_Rat",
+    "commit": "b7c261976b1383d1d1a5d2a78b7c58b476f04e1c"
+  },
+  "model": {
+    "name": "P2 frozen Model16D",
+    "source": "01_Baseline_Reproduction/code/p2/",
+    "metabolite_dependence": "md=4 rapid-equilibrium ATP/Pi",
+    "strain_dependence": [0, 0, 0, 1, 1],
+    "parameter_order": ["k1", "k_minus_1", "k2", "k_minus_2", "k3", "phi_x", "phi_v", "phi_l", "K", "Ks", "phi_s_minus_2", "phi_s3", "kd_ATP", "kd_Pi"]
+  },
+  "deterministic_mle_starts": {
+    "path": "03_Analysis/configs/A_E_F_J_start_vectors.json",
+    "sha256": "f4bfeeb612650cd391e91db1fca6346dc2597dd682dcd561acabf5d2fe7cd100",
+    "count": 8,
+    "runtime_random_starts": 0
+  },
+  "baseline_observations": [
+    {"type": "complex_modulus_spectrum", "condition": "baseline", "n_frequencies": 17, "parts": ["real", "imaginary"]},
+    {"type": "steady_stress", "condition": "baseline"}
+  ],
+  "candidate_added_measurements": [
+    {"id": "stress_ATP0.1", "type": "steady_stress", "condition": "ATP0.1", "n_scalar_observations": 1},
+    {"id": "stress_ATP1", "type": "steady_stress", "condition": "ATP1", "n_scalar_observations": 1},
+    {"id": "stress_Pi0", "type": "steady_stress", "condition": "Pi0", "n_scalar_observations": 1},
+    {"id": "stress_Pi5", "type": "steady_stress", "condition": "Pi5", "n_scalar_observations": 1},
+    {"id": "CM_spectrum_ATP0.1", "type": "complex_modulus_spectrum", "condition": "ATP0.1", "n_scalar_observations": 34},
+    {"id": "CM_spectrum_ATP1", "type": "complex_modulus_spectrum", "condition": "ATP1", "n_scalar_observations": 34},
+    {"id": "CM_spectrum_Pi0", "type": "complex_modulus_spectrum", "condition": "Pi0", "n_scalar_observations": 34},
+    {"id": "CM_spectrum_Pi5", "type": "complex_modulus_spectrum", "condition": "Pi5", "n_scalar_observations": 34}
+  ],
+  "future_targets": ["ATP0.1", "ATP1", "Pi0", "Pi5"],
+  "target_estimand": "100 * (Model16D steady active stress at target ATP/Pi divided by steady active stress at baseline ATP/Pi - 1), in percent",
+  "exclusions": [
+    "Exclude every added protocol measured at condition X when predicting the future response at that same condition X; this conservative condition-level rule prevents target leakage and non-future co-measurement.",
+    "Do not use any held-out target observation in the corresponding profile likelihood, fit selection, scaling, or endpoint search.",
+    "Use only the baseline observations plus the single listed added-measurement protocol for each A cell."
+  ],
+  "likelihood": {
+    "loss": "sum of squared residuals standardized by the published group SEMs",
+    "complex_modulus_units": "MPa",
+    "steady_stress_units": "kPa",
+    "covariance": "diagonal working covariance: independent real/imaginary parts, frequencies, conditions, and stress blocks",
+    "correlations": {"rho_frequency": 0.0, "rho_real_imaginary": 0.0, "rho_stress": 0.0},
+    "interpretation": "Conditional working likelihood; group SEMs are not individual measurement-noise estimates and cross-condition covariance is unavailable.",
+    "nominal_delta_lr_cutoff": 3.841458820694124
+  },
+  "domains": {
+    "coordinate_definition": "log transform for every parameter except Ks (index 9), which is scaled linearly by 45; intersect with frozen Model16D global parameter bounds.",
+    "pair_anchor": "P1 Reference/Alternative parameter pair from r3b0_alternative_parameter_differences.csv",
+    "margins": [0.5, 1.0],
+    "interpretation": "Formal bounded-domain sensitivity boxes, not biological priors."
+  },
+  "support_outputs": ["baseline_width", "augmented_width", "absolute_width_change", "relative_width_reduction_pct", "endpoint_feasibility", "bound_activity", "optimizer_status", "independently_recomputed_objective", "rankings", "rank_reversals"],
+  "E_parameter_information": {
+    "base_point": "baseline-only constrained MLE within each frozen domain",
+    "jacobian": "central finite differences in unit-scaled domain coordinates; one-sided at boundaries",
+    "design_criteria": ["D-optimal logdet(I + ridge I14)", "A-optimal trace((I + ridge I14)^-1)"],
+    "ridge_relative_trace_fractions": [1e-10, 1e-8, 1e-6],
+    "candidate_sem_multipliers": [0.75, 1.0, 1.5],
+    "prediction_objective": "delta-method variance of each q_delta_stress target under inverse regularized Fisher information"
+  },
+  "F_multi_target": {
+    "primary_utility": "relative support-width reduction percentage from A",
+    "primary_decision_targets": ["ATP1", "Pi5"],
+    "primary_common_action_set": "The four candidate protocols at ATP0.1 or Pi0; each is admissible for both ATP1 and Pi5.",
+    "default_target_weights": "equal for the prespecified ATP1 and Pi5 targets in the primary robust decision; full four-target summaries are secondary and report each action's eligible-target count",
+    "outputs": ["target_specific_best", "equal_weight_mean", "worst_case_utility", "target_specific_regret", "maximum_regret", "Pareto_frontier_on_common_admissible_target_contexts"],
+    "sensitivity_utility": "absolute support-width reduction in q percentage points",
+    "measurement_cost": "Report 1-scalar stress assays separately from 34-scalar CM spectra; no acquisition-time or monetary cost is available, so do not call the utility-only winner cost-optimal."
+  },
+  "J_controls": {
+    "comparison": ["target-optimal", "A-optimal Fisher candidate", "F equal-weight robust candidate", "repeat-baseline stress assay", "uniform-random candidate"],
+    "random_seed": 20261001,
+    "random_trials": 10000,
+    "utility_evaluation": "prospective model-generated expected response at the baseline-only fitted point; no random measurement noise in the primary deterministic scenario; same target admissibility and likelihood cutoffs across choices",
+    "repeat_baseline": "one additional independent baseline-stress assay with group SEM equal to the published baseline stress SEM; expected value set to the fitted baseline stress, treated as a prospective model-generated control",
+    "interpretation": "Design scenario only; not an observed replication, external validation, held-out prediction, or calibrated interval result."
+  },
+  "independent_validation": ["separate-source reread and data loader", "separate objective and q calculation from the forward model", "domain/bound/cutoff/witness verification", "analytic sign and inclusion sanity checks", "rank/utility recomputation from raw branch rows"]
+}

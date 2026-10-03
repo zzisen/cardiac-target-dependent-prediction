@@ -1,0 +1,45 @@
+{
+  "status": "COMPLETED",
+  "n_mice": 10,
+  "n_animal_condition_cells": 19,
+  "n_frequencies": 72,
+  "targets_mM": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0,
+    2.5
+  ],
+  "nested_rows": 114,
+  "all_frequency_rows": 8208,
+  "trend": {
+    "mean_mouse_spearman_rho": 0.7991361748751254,
+    "median_mouse_spearman_rho": 0.9258200997725515,
+    "mean_mouse_kendall_tau": 0.7490187744418471,
+    "total_downward_adjacent_transitions": 3,
+    "mouse_trend_rhos_positive": 9,
+    "mouse_trend_rhos_negative": 1,
+    "exact_sign_test_one_sided_p": 0.0107421875,
+    "within_mouse_label_permutation_monte_carlo_replicates": 100000,
+    "seed": 20261002,
+    "permutation_p_upper_tail": 9.99990000099999e-06,
+    "interpretation": "Selection uses overlapping nested folds; p-values are sensitivity analyses, not independent confirmation."
+  },
+  "gain_low_vs_high": {
+    "n_mice": 10,
+    "mean_low_gain_pp": 0.7453030796465171,
+    "mean_high_gain_pp": 8.447504765731836,
+    "paired_low_minus_high_gain_pp": -7.70220168608532,
+    "mouse_bootstrap_95pct_ci_pp": [
+      -9.936900481746836,
+      -5.484767653797986
+    ]
+  },
+  "stratum_selection_sensitivity": "available in U_STRATUM_SELECTIONS.csv; exploratory because each stratum has 4-5 mice",
+  "source_sha256": {
+    "Noise_analysis_ABC_GWN_WithFits_DQ1_ReFits_2020_08_04_Ver_2024.xlsx": "49096e8d1aaeb1fe962f05f78f90cfd0761bff6529c6e71fcefeeea8b1b05682",
+    "Transgenic_mice_Fiber_Tensions_with_Fits_DQ1_2019_09_06.xlsx": "23fb20607469434a6a8215bcdc8a306368dd4433d3b25baf7a7a8fd6bb199bb9",
+    "WT_RLC_N47K_Control_Mavacamten_XLD_GWN_DQ1_2019_09_09.xlsx": "4a6b50d11829e0920cd46df09885c0eeaa1e4ba43ef4f2127780e51f62ff2c91"
+  }
+}

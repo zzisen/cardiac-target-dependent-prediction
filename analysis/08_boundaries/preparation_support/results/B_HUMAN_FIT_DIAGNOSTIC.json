@@ -1,0 +1,44 @@
+{
+  "classification": "RETROSPECTIVE_PREPARATION_LEVEL_CONDITION_HOLDOUT",
+  "input_sha256": "9b90c682ddda3a98d34a031702e4972cf484176b75d34d4724be26aa9206e4a9",
+  "model_fit_sha256": "6404f7fe4203747ed50cdd862fa78a7dc02a257b5f06dc6b546da4090eebb33b",
+  "model_code_source": "JuliaMusgrave/AtrialModel_2025_Human; pinned source snapshot b22e5bef970adb95b7dc413979d8cd1c2ca482b3",
+  "n_preparations": 20,
+  "patient_ids_available": false,
+  "patient_cluster_bootstrap": "not performed; donor linkage is unavailable",
+  "n_starts_per_prep_design": 32,
+  "frequency_count_used": 11,
+  "frequencies_used_hz": [
+    0.1778,
+    0.3162,
+    0.5623,
+    1.0,
+    1.778,
+    3.162,
+    5.623,
+    10.0,
+    17.78,
+    31.62,
+    56.23
+  ],
+  "frequency_omitted_by_public_model_convention_hz": 100.0,
+  "fit_temperature_K": 295.0,
+  "fitting_scales": "group- and condition-specific sample SD across 10 preparations; diagonal descriptive weights, not measurement-level SEs",
+  "support_definition": "first-order local predictive support from the weighted residual Jacobian within published human parameter bounds and \u0394S cutoff 3.841458820694124; no coverage claim",
+  "added_measurement": "one steady-stress scalar at ATP0.1 mM ATP and 1 mM Pi",
+  "held_out_targets": {
+    "ATP1": [
+      1.0,
+      1.0
+    ],
+    "Pi10": [
+      5.0,
+      10.0
+    ]
+  },
+  "scale_floors_used": [],
+  "fit_summaries": 40,
+  "heldout_rows": 80,
+  "heldout_results_sha256": "6b9687a7c53838bf85bb3cd537af151c473ec602e8a5b1d76d94a20c17ce32a7",
+  "fit_audit_sha256": "221a66f8da3a928b97497006b74c6cba0c9b7c25527e2d7ff31ff2236fbc4e8c"
+}

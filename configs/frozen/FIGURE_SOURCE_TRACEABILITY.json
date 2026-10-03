@@ -1,0 +1,186 @@
+[
+  {
+    "figure_source": "source_data/main/Fig1_same_measurement_support.csv",
+    "frozen_upstream_sha256": [
+      "b6270525f000a6e5145ba83f97b4ecd771e43f691bcc3b6ec5f88a4effba4720"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig1_measurement_target_map.csv",
+    "frozen_upstream_sha256": [
+      "b6270525f000a6e5145ba83f97b4ecd771e43f691bcc3b6ec5f88a4effba4720"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig1_equal_budget_values.csv",
+    "frozen_upstream_sha256": [
+      "610e04406c6bb2ce451db6529db4d702bb534a6d92951756e7dd41c9cc950129"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig1_equal_budget_summary.csv",
+    "frozen_upstream_sha256": [
+      "610e04406c6bb2ce451db6529db4d702bb534a6d92951756e7dd41c9cc950129"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig2_robust_target_panels.csv",
+    "frozen_upstream_sha256": [
+      "4779fd200ba65fb19f61befe2017b0a57eae650d81997ab51947094b5bd19f20"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig2_model_rank_correlations.csv",
+    "frozen_upstream_sha256": [
+      "f13ff394293ff27ef7dfa1370e67c4c902164655e8f4ae368465e47da3ae201d"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig3_animal_held_out_values.csv",
+    "frozen_upstream_sha256": [
+      "f34d53edbda5d75780524f2c59e33f82e6e7715c9078ed39a8ef5cfbbeeb97d5"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig3_animal_held_out_summary.csv",
+    "frozen_upstream_sha256": [
+      "f34d53edbda5d75780524f2c59e33f82e6e7715c9078ed39a8ef5cfbbeeb97d5"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig3_mouse_unit_errors.csv",
+    "frozen_upstream_sha256": [
+      "f34d53edbda5d75780524f2c59e33f82e6e7715c9078ed39a8ef5cfbbeeb97d5"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig3_frequency_selection_values.csv",
+    "frozen_upstream_sha256": [
+      "f868ee1895564ccbaf1b71b32008fa9bf6954d95e08c5918dd4eda54e8062e8f"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig3_frequency_selection_summary.csv",
+    "frozen_upstream_sha256": [
+      "f868ee1895564ccbaf1b71b32008fa9bf6954d95e08c5918dd4eda54e8062e8f"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig3_target_conditioned_landscape.csv",
+    "frozen_upstream_sha256": [
+      "95a064c5ec743c02b0e71b099852aab7c495f6fb79bb898d422e52fe65ae6ff4"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig3_held_out_target_models.csv",
+    "frozen_upstream_sha256": [
+      "93a4b4195b051a12d3ac2000f48851ed446f5f32a4cb3d3644bb9441a27418e8"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig4_rat_held_out_predictions.csv",
+    "frozen_upstream_sha256": [
+      "fb86c6411732c93c4c6f6504c9cad3d6964f60630f9eca835cd19f544e268ec7"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig4_rat_unit_errors.csv",
+    "frozen_upstream_sha256": [
+      "fb86c6411732c93c4c6f6504c9cad3d6964f60630f9eca835cd19f544e268ec7"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig4_rat_comparator_summary.csv",
+    "frozen_upstream_sha256": [
+      "2a13b8947c11ffebc68f6697af56fb25399a31f3e1a67f013fd55151ebad8bc8"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig4_human_atrial_support.csv",
+    "frozen_upstream_sha256": [
+      "20ff31daa9e237ca9b11e302e1d0f86a2de4af7e68697546428a0a151c9eb23f"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig4_participant_held_out_predictions.csv",
+    "frozen_upstream_sha256": [
+      "4899b9d2a63825cf4d877eb5451ab9d31b37f7a782e07838a6fa3159ad24d88e"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig4_participant_unit_errors.csv",
+    "frozen_upstream_sha256": [
+      "4899b9d2a63825cf4d877eb5451ab9d31b37f7a782e07838a6fa3159ad24d88e"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig4_pacing_comparator_summary.csv",
+    "frozen_upstream_sha256": [
+      "c87f0ef6ef9f8b9f78a56b2330428d18bea6e59ebf4d3134cecb9e1832515891"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/supplement/FigS3_mechanical_comparator_summary.csv",
+    "frozen_upstream_sha256": [
+      "00bd706b937f4952a4f58efce5cf99eb551b74b7c67a0a5e45538467e14e76f3"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig5_within_dataset_normalization.csv",
+    "frozen_upstream_sha256": [
+      "2a13b8947c11ffebc68f6697af56fb25399a31f3e1a67f013fd55151ebad8bc8",
+      "c87f0ef6ef9f8b9f78a56b2330428d18bea6e59ebf4d3134cecb9e1832515891",
+      "00bd706b937f4952a4f58efce5cf99eb551b74b7c67a0a5e45538467e14e76f3"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig5_rat_mouse_transfer.csv",
+    "frozen_upstream_sha256": [
+      "e1959bc7c35d02122a6cd7262685ea4b65cdfdc564aa39025ecaee7295f7c76f"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig5_support_and_accuracy_pairs.csv",
+    "frozen_upstream_sha256": [
+      "5b11969f53696aba6bc95652a26f51d56123511cf6e9df30c2aae7c69b73ee34"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig5_support_accuracy_correlations.csv",
+    "frozen_upstream_sha256": [
+      "50808e6d3678c35ed503950b5b676443133590421376d09ace6b9760c9a8ae87"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/supplement/FigS2_within_family_mapping.csv",
+    "frozen_upstream_sha256": [
+      "572d745508f2c8eb4944d6725956fd4fe6635fa2d0d008b55b30531e0330aa35"
+    ],
+    "note": "Frozen verified values, with reader-facing labels only."
+  }
+]

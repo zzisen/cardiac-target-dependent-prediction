@@ -1,0 +1,56 @@
+{
+  "ATP0.1": {
+    "characteristic_frequency_Hz": 15.398299849943184,
+    "dominant_pole_s_inv": "(-96.75037137270864+0j)",
+    "dominant_output_residue_abs": 130.171912431339,
+    "all_modes": [
+      {
+        "pole_s_inv": "(-96.75037137270864+0j)",
+        "pole_frequency_Hz": 15.398299849943184,
+        "output_residue_abs": 130.171912431339
+      },
+      {
+        "pole_s_inv": "(-2.0591235738408766+0j)",
+        "pole_frequency_Hz": 0.3277196952138249,
+        "output_residue_abs": 0.15604547375100075
+      },
+      {
+        "pole_s_inv": "(-143.9730392285931+0j)",
+        "pole_frequency_Hz": 22.91402086519395,
+        "output_residue_abs": 15.818727303411167
+      },
+      {
+        "pole_s_inv": "(-32.533396663192406+0j)",
+        "pole_frequency_Hz": 5.177850894516445,
+        "output_residue_abs": 27.914704902886694
+      }
+    ]
+  },
+  "ATP1": {
+    "characteristic_frequency_Hz": 14.906442441091427,
+    "dominant_pole_s_inv": "(-93.65994012818386+0j)",
+    "dominant_output_residue_abs": 84.40735378527143,
+    "all_modes": [
+      {
+        "pole_s_inv": "(-93.65994012818386+0j)",
+        "pole_frequency_Hz": 14.906442441091427,
+        "output_residue_abs": 84.40735378527143
+      },
+      {
+        "pole_s_inv": "(-2.560055104637426+0j)",
+        "pole_frequency_Hz": 0.4074454244906857,
+        "output_residue_abs": 0.12957513565338719
+      },
+      {
+        "pole_s_inv": "(-143.97303922859317+0j)",
+        "pole_frequency_Hz": 22.91402086519396,
+        "output_residue_abs": 11.236344303149096
+      },
+      {
+        "pole_s_inv": "(-27.813200702908542+0j)",
+        "pole_frequency_Hz": 4.426608375074872,
+        "output_residue_abs": 14.145510585521263
+      }
+    ]
+  }
+}

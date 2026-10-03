@@ -1,0 +1,29 @@
+{
+  "preparation_id": "Muscle-20",
+  "design": "baseline_only",
+  "restarted_start_index": 13,
+  "effective_max_nfev": 30000,
+  "previous_best_objective": 6.518894705769916,
+  "restart_initial_objective": 32.99867160661115,
+  "restart_final_objective": 6.518894620140061,
+  "restart_success": true,
+  "restart_status": 2,
+  "restart_nfev": 8103,
+  "restart_message": "`ftol` termination condition is satisfied.",
+  "objective_improvement": 8.56298552065482e-08,
+  "relative_objective_improvement": 1.313564017696998e-08,
+  "restart_log_free_parameters": [
+    -0.8169478845912931,
+    -2.592370474193204,
+    0.03461861454046839,
+    -7.022888389291482,
+    -3.5558995312145627,
+    0.5331565728938767,
+    -0.2518133085137916,
+    -1.5073960096467738,
+    1.357297595451836,
+    2.1379187504607264,
+    -2.602031091502796
+  ],
+  "disposition": "continued optimizer audit; saved B table unchanged"
+}

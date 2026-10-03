@@ -1,0 +1,7 @@
+comparator,prediction_cells,mae
+No added measurement,28,2.2108611431187701
+Global/shared,28,0.64406196848238295
+Target-specific,28,0.625692945034513
+Nearest-rate conventional,28,0.61712867818818895
+Retrospective oracle,28,0.60381855201656198
+Random-policy mean,448,0.61586147371392197

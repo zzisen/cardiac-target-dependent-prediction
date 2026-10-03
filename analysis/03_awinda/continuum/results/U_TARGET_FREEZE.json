@@ -1,0 +1,33 @@
+{
+  "status": "FROZEN_BEFORE_OUTCOME_ANALYSIS",
+  "date": "2026-10-02",
+  "baseline_ATP_mM": 5.0,
+  "source_public_conditions_checked": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0,
+    2.5
+  ],
+  "frozen_targets": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0,
+    2.5
+  ],
+  "selection_rule": "Include each pre-listed target only if its full active pCa 4.8, Quality==1 spectrum is complete on the identical 72-frequency grid for every fibre present at baseline ATP 5 mM; retain all linked mice and every baseline mouse x genotype x drug cell; at least 10 mice and 19 cells; no outcome/trend-based exclusion.",
+  "expected_minimum_animals": 10,
+  "expected_minimum_mouse_genotype_drug_cells": 19,
+  "frequency_count": 72,
+  "animals_at_baseline": 10,
+  "mouse_genotype_drug_cells_at_baseline": 19,
+  "source_sha256": {
+    "Noise_analysis_ABC_GWN_WithFits_DQ1_ReFits_2020_08_04_Ver_2024.xlsx": "49096e8d1aaeb1fe962f05f78f90cfd0761bff6529c6e71fcefeeea8b1b05682",
+    "Transgenic_mice_Fiber_Tensions_with_Fits_DQ1_2019_09_06.xlsx": "23fb20607469434a6a8215bcdc8a306368dd4433d3b25baf7a7a8fd6bb199bb9",
+    "WT_RLC_N47K_Control_Mavacamten_XLD_GWN_DQ1_2019_09_09.xlsx": "4a6b50d11829e0920cd46df09885c0eeaa1e4ba43ef4f2127780e51f62ff2c91"
+  },
+  "coverage_table": "results/U_TARGET_COVERAGE.csv"
+}

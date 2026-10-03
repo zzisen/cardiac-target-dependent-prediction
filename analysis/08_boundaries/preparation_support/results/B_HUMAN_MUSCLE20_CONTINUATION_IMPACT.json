@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scope": "Extended-start sensitivity for one fit only; the 8,000-evaluation saved outputs remain unchanged.",
+  "preparation_id": "Muscle-20",
+  "saved_best_solver_success": false,
+  "continuation_success": true,
+  "saved_objective": 6.518894705769916,
+  "continuation_objective": 6.518894620140061,
+  "objective_improvement": 8.56298552065482e-08,
+  "max_absolute_change_across_heldout_prediction_support_and_CM_NRMSE": 0.0011586914363972411,
+  "per_target_deltas": [
+    {
+      "target": "ATP1",
+      "prediction_delta_pp": -0.00012125853989797264,
+      "support_low_delta_pp": 0.00019692815615665604,
+      "support_high_delta_pp": -0.0009617632802405573,
+      "support_width_delta_pp": -0.0011586914363972411,
+      "CM_target_NRMSE_delta_pp": 5.68653204524594e-05,
+      "support_endpoints_feasible": true
+    },
+    {
+      "target": "Pi10",
+      "prediction_delta_pp": 1.3464294235099317e-06,
+      "support_low_delta_pp": 1.130688584538575e-06,
+      "support_high_delta_pp": -4.414433639965409e-06,
+      "support_width_delta_pp": -5.545122224503984e-06,
+      "CM_target_NRMSE_delta_pp": 4.902559702202325e-05,
+      "support_endpoints_feasible": true
+    }
+  ],
+  "threshold": "all held-out metric changes below 0.005 percentage points; both support endpoints feasible"
+}

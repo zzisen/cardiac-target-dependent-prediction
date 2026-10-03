@@ -1,0 +1,129 @@
+﻿accounting_view,budget,comparison,target,jaccard,shared_scalar_count,domain
+frequency_assay_unit,1,same_target_across_domains,ATP0.1,0.0,0,
+frequency_assay_unit,1,same_target_across_domains,ATP1,0.0,0,
+frequency_assay_unit,1,same_target_across_domains,Pi0,0.0,0,
+frequency_assay_unit,1,same_target_across_domains,Pi5,0.0,0,
+frequency_assay_unit,1,cross_target_within_domain,ATP0.1 vs ATP1,0.0,0,P1_pair_plus_0.5
+frequency_assay_unit,1,cross_target_within_domain,ATP0.1 vs Pi0,0.0,0,P1_pair_plus_0.5
+frequency_assay_unit,1,cross_target_within_domain,ATP0.1 vs Pi5,0.0,0,P1_pair_plus_0.5
+frequency_assay_unit,1,cross_target_within_domain,ATP1 vs Pi0,1.0,2,P1_pair_plus_0.5
+frequency_assay_unit,1,cross_target_within_domain,ATP1 vs Pi5,1.0,2,P1_pair_plus_0.5
+frequency_assay_unit,1,cross_target_within_domain,Pi0 vs Pi5,1.0,2,P1_pair_plus_0.5
+frequency_assay_unit,1,cross_target_within_domain,ATP0.1 vs ATP1,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,1,cross_target_within_domain,ATP0.1 vs Pi0,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,1,cross_target_within_domain,ATP0.1 vs Pi5,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,1,cross_target_within_domain,ATP1 vs Pi0,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,1,cross_target_within_domain,ATP1 vs Pi5,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,1,cross_target_within_domain,Pi0 vs Pi5,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,2,same_target_across_domains,ATP0.1,0.0,0,
+frequency_assay_unit,2,same_target_across_domains,ATP1,0.2,1,
+frequency_assay_unit,2,same_target_across_domains,Pi0,0.0,0,
+frequency_assay_unit,2,same_target_across_domains,Pi5,0.0,0,
+frequency_assay_unit,2,cross_target_within_domain,ATP0.1 vs ATP1,0.0,0,P1_pair_plus_0.5
+frequency_assay_unit,2,cross_target_within_domain,ATP0.1 vs Pi0,0.0,0,P1_pair_plus_0.5
+frequency_assay_unit,2,cross_target_within_domain,ATP0.1 vs Pi5,0.0,0,P1_pair_plus_0.5
+frequency_assay_unit,2,cross_target_within_domain,ATP1 vs Pi0,0.4,2,P1_pair_plus_0.5
+frequency_assay_unit,2,cross_target_within_domain,ATP1 vs Pi5,0.4,2,P1_pair_plus_0.5
+frequency_assay_unit,2,cross_target_within_domain,Pi0 vs Pi5,0.3333333333333333,2,P1_pair_plus_0.5
+frequency_assay_unit,2,cross_target_within_domain,ATP0.1 vs ATP1,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,2,cross_target_within_domain,ATP0.1 vs Pi0,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,2,cross_target_within_domain,ATP0.1 vs Pi5,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,2,cross_target_within_domain,ATP1 vs Pi0,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,2,cross_target_within_domain,ATP1 vs Pi5,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,2,cross_target_within_domain,Pi0 vs Pi5,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,3,same_target_across_domains,ATP0.1,0.0,0,
+frequency_assay_unit,3,same_target_across_domains,ATP1,0.1111111111111111,1,
+frequency_assay_unit,3,same_target_across_domains,Pi0,0.2,2,
+frequency_assay_unit,3,same_target_across_domains,Pi5,0.0,0,
+frequency_assay_unit,3,cross_target_within_domain,ATP0.1 vs ATP1,0.0,0,P1_pair_plus_0.5
+frequency_assay_unit,3,cross_target_within_domain,ATP0.1 vs Pi0,0.0,0,P1_pair_plus_0.5
+frequency_assay_unit,3,cross_target_within_domain,ATP0.1 vs Pi5,0.0,0,P1_pair_plus_0.5
+frequency_assay_unit,3,cross_target_within_domain,ATP1 vs Pi0,0.2222222222222222,2,P1_pair_plus_0.5
+frequency_assay_unit,3,cross_target_within_domain,ATP1 vs Pi5,0.25,2,P1_pair_plus_0.5
+frequency_assay_unit,3,cross_target_within_domain,Pi0 vs Pi5,0.5714285714285714,4,P1_pair_plus_0.5
+frequency_assay_unit,3,cross_target_within_domain,ATP0.1 vs ATP1,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,3,cross_target_within_domain,ATP0.1 vs Pi0,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,3,cross_target_within_domain,ATP0.1 vs Pi5,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,3,cross_target_within_domain,ATP1 vs Pi0,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,3,cross_target_within_domain,ATP1 vs Pi5,0.0,0,P1_pair_plus_1.0
+frequency_assay_unit,3,cross_target_within_domain,Pi0 vs Pi5,0.0,0,P1_pair_plus_1.0
+scalar_count,1,same_target_across_domains,ATP0.1,0.0,0,
+scalar_count,1,same_target_across_domains,ATP1,0.0,0,
+scalar_count,1,same_target_across_domains,Pi0,0.0,0,
+scalar_count,1,same_target_across_domains,Pi5,0.0,0,
+scalar_count,1,cross_target_within_domain,ATP0.1 vs ATP1,0.0,0,P1_pair_plus_0.5
+scalar_count,1,cross_target_within_domain,ATP0.1 vs Pi0,0.0,0,P1_pair_plus_0.5
+scalar_count,1,cross_target_within_domain,ATP0.1 vs Pi5,0.0,0,P1_pair_plus_0.5
+scalar_count,1,cross_target_within_domain,ATP1 vs Pi0,0.0,0,P1_pair_plus_0.5
+scalar_count,1,cross_target_within_domain,ATP1 vs Pi5,0.0,0,P1_pair_plus_0.5
+scalar_count,1,cross_target_within_domain,Pi0 vs Pi5,0.0,0,P1_pair_plus_0.5
+scalar_count,1,cross_target_within_domain,ATP0.1 vs ATP1,0.0,0,P1_pair_plus_1.0
+scalar_count,1,cross_target_within_domain,ATP0.1 vs Pi0,0.0,0,P1_pair_plus_1.0
+scalar_count,1,cross_target_within_domain,ATP0.1 vs Pi5,0.0,0,P1_pair_plus_1.0
+scalar_count,1,cross_target_within_domain,ATP1 vs Pi0,0.0,0,P1_pair_plus_1.0
+scalar_count,1,cross_target_within_domain,ATP1 vs Pi5,0.0,0,P1_pair_plus_1.0
+scalar_count,1,cross_target_within_domain,Pi0 vs Pi5,0.0,0,P1_pair_plus_1.0
+scalar_count,2,same_target_across_domains,ATP0.1,0.3333333333333333,1,
+scalar_count,2,same_target_across_domains,ATP1,0.0,0,
+scalar_count,2,same_target_across_domains,Pi0,0.0,0,
+scalar_count,2,same_target_across_domains,Pi5,0.0,0,
+scalar_count,2,cross_target_within_domain,ATP0.1 vs ATP1,0.0,0,P1_pair_plus_0.5
+scalar_count,2,cross_target_within_domain,ATP0.1 vs Pi0,0.0,0,P1_pair_plus_0.5
+scalar_count,2,cross_target_within_domain,ATP0.1 vs Pi5,0.3333333333333333,1,P1_pair_plus_0.5
+scalar_count,2,cross_target_within_domain,ATP1 vs Pi0,0.0,0,P1_pair_plus_0.5
+scalar_count,2,cross_target_within_domain,ATP1 vs Pi5,0.0,0,P1_pair_plus_0.5
+scalar_count,2,cross_target_within_domain,Pi0 vs Pi5,0.0,0,P1_pair_plus_0.5
+scalar_count,2,cross_target_within_domain,ATP0.1 vs ATP1,0.0,0,P1_pair_plus_1.0
+scalar_count,2,cross_target_within_domain,ATP0.1 vs Pi0,0.0,0,P1_pair_plus_1.0
+scalar_count,2,cross_target_within_domain,ATP0.1 vs Pi5,0.0,0,P1_pair_plus_1.0
+scalar_count,2,cross_target_within_domain,ATP1 vs Pi0,0.0,0,P1_pair_plus_1.0
+scalar_count,2,cross_target_within_domain,ATP1 vs Pi5,0.0,0,P1_pair_plus_1.0
+scalar_count,2,cross_target_within_domain,Pi0 vs Pi5,0.0,0,P1_pair_plus_1.0
+scalar_count,4,same_target_across_domains,ATP0.1,0.14285714285714285,1,
+scalar_count,4,same_target_across_domains,ATP1,0.14285714285714285,1,
+scalar_count,4,same_target_across_domains,Pi0,0.0,0,
+scalar_count,4,same_target_across_domains,Pi5,0.0,0,
+scalar_count,4,cross_target_within_domain,ATP0.1 vs ATP1,0.0,0,P1_pair_plus_0.5
+scalar_count,4,cross_target_within_domain,ATP0.1 vs Pi0,0.14285714285714285,1,P1_pair_plus_0.5
+scalar_count,4,cross_target_within_domain,ATP0.1 vs Pi5,0.14285714285714285,1,P1_pair_plus_0.5
+scalar_count,4,cross_target_within_domain,ATP1 vs Pi0,0.0,0,P1_pair_plus_0.5
+scalar_count,4,cross_target_within_domain,ATP1 vs Pi5,0.0,0,P1_pair_plus_0.5
+scalar_count,4,cross_target_within_domain,Pi0 vs Pi5,0.0,0,P1_pair_plus_0.5
+scalar_count,4,cross_target_within_domain,ATP0.1 vs ATP1,0.0,0,P1_pair_plus_1.0
+scalar_count,4,cross_target_within_domain,ATP0.1 vs Pi0,0.0,0,P1_pair_plus_1.0
+scalar_count,4,cross_target_within_domain,ATP0.1 vs Pi5,0.0,0,P1_pair_plus_1.0
+scalar_count,4,cross_target_within_domain,ATP1 vs Pi0,0.0,0,P1_pair_plus_1.0
+scalar_count,4,cross_target_within_domain,ATP1 vs Pi5,0.0,0,P1_pair_plus_1.0
+scalar_count,4,cross_target_within_domain,Pi0 vs Pi5,0.14285714285714285,1,P1_pair_plus_1.0
+scalar_count,6,same_target_across_domains,ATP0.1,0.09090909090909091,1,
+scalar_count,6,same_target_across_domains,ATP1,0.09090909090909091,1,
+scalar_count,6,same_target_across_domains,Pi0,0.0,0,
+scalar_count,6,same_target_across_domains,Pi5,0.0,0,
+scalar_count,6,cross_target_within_domain,ATP0.1 vs ATP1,0.09090909090909091,1,P1_pair_plus_0.5
+scalar_count,6,cross_target_within_domain,ATP0.1 vs Pi0,0.09090909090909091,1,P1_pair_plus_0.5
+scalar_count,6,cross_target_within_domain,ATP0.1 vs Pi5,0.09090909090909091,1,P1_pair_plus_0.5
+scalar_count,6,cross_target_within_domain,ATP1 vs Pi0,0.0,0,P1_pair_plus_0.5
+scalar_count,6,cross_target_within_domain,ATP1 vs Pi5,0.09090909090909091,1,P1_pair_plus_0.5
+scalar_count,6,cross_target_within_domain,Pi0 vs Pi5,0.09090909090909091,1,P1_pair_plus_0.5
+scalar_count,6,cross_target_within_domain,ATP0.1 vs ATP1,0.0,0,P1_pair_plus_1.0
+scalar_count,6,cross_target_within_domain,ATP0.1 vs Pi0,0.0,0,P1_pair_plus_1.0
+scalar_count,6,cross_target_within_domain,ATP0.1 vs Pi5,0.0,0,P1_pair_plus_1.0
+scalar_count,6,cross_target_within_domain,ATP1 vs Pi0,0.0,0,P1_pair_plus_1.0
+scalar_count,6,cross_target_within_domain,ATP1 vs Pi5,0.0,0,P1_pair_plus_1.0
+scalar_count,6,cross_target_within_domain,Pi0 vs Pi5,0.09090909090909091,1,P1_pair_plus_1.0
+scalar_count,8,same_target_across_domains,ATP0.1,0.06666666666666667,1,
+scalar_count,8,same_target_across_domains,ATP1,0.06666666666666667,1,
+scalar_count,8,same_target_across_domains,Pi0,0.06666666666666667,1,
+scalar_count,8,same_target_across_domains,Pi5,0.0,0,
+scalar_count,8,cross_target_within_domain,ATP0.1 vs ATP1,0.06666666666666667,1,P1_pair_plus_0.5
+scalar_count,8,cross_target_within_domain,ATP0.1 vs Pi0,0.06666666666666667,1,P1_pair_plus_0.5
+scalar_count,8,cross_target_within_domain,ATP0.1 vs Pi5,0.06666666666666667,1,P1_pair_plus_0.5
+scalar_count,8,cross_target_within_domain,ATP1 vs Pi0,0.14285714285714285,2,P1_pair_plus_0.5
+scalar_count,8,cross_target_within_domain,ATP1 vs Pi5,0.06666666666666667,1,P1_pair_plus_0.5
+scalar_count,8,cross_target_within_domain,Pi0 vs Pi5,0.06666666666666667,1,P1_pair_plus_0.5
+scalar_count,8,cross_target_within_domain,ATP0.1 vs ATP1,0.0,0,P1_pair_plus_1.0
+scalar_count,8,cross_target_within_domain,ATP0.1 vs Pi0,0.0,0,P1_pair_plus_1.0
+scalar_count,8,cross_target_within_domain,ATP0.1 vs Pi5,0.0,0,P1_pair_plus_1.0
+scalar_count,8,cross_target_within_domain,ATP1 vs Pi0,0.0,0,P1_pair_plus_1.0
+scalar_count,8,cross_target_within_domain,ATP1 vs Pi5,0.06666666666666667,1,P1_pair_plus_1.0
+scalar_count,8,cross_target_within_domain,Pi0 vs Pi5,0.06666666666666667,1,P1_pair_plus_1.0

@@ -1,0 +1,5 @@
+﻿trust_radius_log,design,best_objective,success,nfev,active_bounds
+0.25,baseline,8.95316712650716,True,18,7
+0.25,augmented,8.953787495585829,True,16,6
+0.5,baseline,8.812481186884867,True,32,7
+0.5,augmented,8.819042524019657,True,31,6

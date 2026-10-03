@@ -1,0 +1,15 @@
+{
+  "preparation_id": "Muscle-20",
+  "design": "baseline_only",
+  "restarted_start_index": 24,
+  "previous_best_objective": 6.518894705769916,
+  "restart_initial_objective": 110.57431467743854,
+  "restart_final_objective": 6.518896437995128,
+  "restart_success": true,
+  "restart_status": 2,
+  "restart_nfev": 2243,
+  "restart_message": "`ftol` termination condition is satisfied.",
+  "objective_improvement": -1.7322252121587667e-06,
+  "relative_objective_improvement": -2.657237599842751e-07,
+  "disposition": "continued optimizer audit; saved B table unchanged"
+}

@@ -1,0 +1,85 @@
+﻿source_archive,source_workbook,source_sheet,source_excel_row,rat_id_row_order_inferred,outcome_family,family_key,dose,value,unit_note,pairing_basis
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,2,Rat_01,Peak twitch tension,PeakTension,ND,100,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,2,Rat_01,Peak twitch tension,PeakTension,1uM,71.52747,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,2,Rat_01,Peak twitch tension,PeakTension,3uM,40.76417,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,2,Rat_01,Peak twitch tension,PeakTension,10uM,19.374,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,3,Rat_02,Peak twitch tension,PeakTension,ND,100,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,3,Rat_02,Peak twitch tension,PeakTension,1uM,62.75225,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,3,Rat_02,Peak twitch tension,PeakTension,3uM,27.9205,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,3,Rat_02,Peak twitch tension,PeakTension,10uM,16.7223,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,4,Rat_03,Peak twitch tension,PeakTension,ND,100,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,4,Rat_03,Peak twitch tension,PeakTension,1uM,72.44775,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,4,Rat_03,Peak twitch tension,PeakTension,3uM,38.3913,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,4,Rat_03,Peak twitch tension,PeakTension,10uM,22.6758,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,5,Rat_04,Peak twitch tension,PeakTension,ND,100,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,5,Rat_04,Peak twitch tension,PeakTension,1uM,75.6013,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,5,Rat_04,Peak twitch tension,PeakTension,3uM,46.32305,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,5,Rat_04,Peak twitch tension,PeakTension,10uM,26.34955,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,6,Rat_05,Peak twitch tension,PeakTension,ND,100,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,6,Rat_05,Peak twitch tension,PeakTension,1uM,57.92458,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,6,Rat_05,Peak twitch tension,PeakTension,3uM,42.43757,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,6,Rat_05,Peak twitch tension,PeakTension,10uM,18.48466,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,7,Rat_06,Peak twitch tension,PeakTension,ND,100,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,7,Rat_06,Peak twitch tension,PeakTension,1uM,54.95429,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,7,Rat_06,Peak twitch tension,PeakTension,3uM,32.70388,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,7,Rat_06,Peak twitch tension,PeakTension,10uM,15.51075,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,8,Rat_07,Peak twitch tension,PeakTension,ND,100,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,8,Rat_07,Peak twitch tension,PeakTension,1uM,84.07307,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,8,Rat_07,Peak twitch tension,PeakTension,3uM,64.8874,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6B_TPeak,8,Rat_07,Peak twitch tension,PeakTension,10uM,19.65438,relative source units (ND=100),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,2,Rat_01,Time to peak tension,TTP,ND,139.1222,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,2,Rat_01,Time to peak tension,TTP,1uM,123.3281,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,2,Rat_01,Time to peak tension,TTP,3uM,105.8254,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,2,Rat_01,Time to peak tension,TTP,10uM,88.8254,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,3,Rat_02,Time to peak tension,TTP,ND,140.8215,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,3,Rat_02,Time to peak tension,TTP,1uM,149,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,3,Rat_02,Time to peak tension,TTP,3uM,128.7,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,3,Rat_02,Time to peak tension,TTP,10uM,112.8333,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,4,Rat_03,Time to peak tension,TTP,ND,127.625,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,4,Rat_03,Time to peak tension,TTP,1uM,114.0477,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,4,Rat_03,Time to peak tension,TTP,3uM,101.8056,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,4,Rat_03,Time to peak tension,TTP,10uM,90.52857,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,5,Rat_04,Time to peak tension,TTP,ND,166.2,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,5,Rat_04,Time to peak tension,TTP,1uM,165.7917,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,5,Rat_04,Time to peak tension,TTP,3uM,159.5714,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,5,Rat_04,Time to peak tension,TTP,10uM,139.7858,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,6,Rat_05,Time to peak tension,TTP,ND,141.6836,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,6,Rat_05,Time to peak tension,TTP,1uM,107.1763,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,6,Rat_05,Time to peak tension,TTP,3uM,101.3954,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,6,Rat_05,Time to peak tension,TTP,10uM,85.2625,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,7,Rat_06,Time to peak tension,TTP,ND,121.8,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,7,Rat_06,Time to peak tension,TTP,1uM,110.7692,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,7,Rat_06,Time to peak tension,TTP,3uM,118.25,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,7,Rat_06,Time to peak tension,TTP,10uM,109.1818,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,8,Rat_07,Time to peak tension,TTP,ND,139.1799,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,8,Rat_07,Time to peak tension,TTP,1uM,115.5545,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,8,Rat_07,Time to peak tension,TTP,3uM,110.8039,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6D_TTP,8,Rat_07,Time to peak tension,TTP,10uM,75.46792,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,2,Rat_01,Time to 50% relaxation,RT50,ND,109.4556,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,2,Rat_01,Time to 50% relaxation,RT50,1uM,81.34392,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,2,Rat_01,Time to 50% relaxation,RT50,3uM,66.56349,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,2,Rat_01,Time to 50% relaxation,RT50,10uM,68.02381,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,3,Rat_02,Time to 50% relaxation,RT50,ND,122.4643,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,3,Rat_02,Time to 50% relaxation,RT50,1uM,112.7857,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,3,Rat_02,Time to 50% relaxation,RT50,3uM,101.2,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,3,Rat_02,Time to 50% relaxation,RT50,10uM,93,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,4,Rat_03,Time to 50% relaxation,RT50,ND,91.3,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,4,Rat_03,Time to 50% relaxation,RT50,1uM,79.69841,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,4,Rat_03,Time to 50% relaxation,RT50,3uM,66.69445,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,4,Rat_03,Time to 50% relaxation,RT50,10uM,62.41429,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,5,Rat_04,Time to 50% relaxation,RT50,ND,112.0375,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,5,Rat_04,Time to 50% relaxation,RT50,1uM,118.1667,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,5,Rat_04,Time to 50% relaxation,RT50,3uM,114.5,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,5,Rat_04,Time to 50% relaxation,RT50,10uM,93.85715,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,6,Rat_05,Time to 50% relaxation,RT50,ND,88.76399,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,6,Rat_05,Time to 50% relaxation,RT50,1uM,71.75,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,6,Rat_05,Time to 50% relaxation,RT50,3uM,72.61765,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,6,Rat_05,Time to 50% relaxation,RT50,10uM,62.7125,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,7,Rat_06,Time to 50% relaxation,RT50,ND,121.4667,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,7,Rat_06,Time to 50% relaxation,RT50,1uM,76.69231,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,7,Rat_06,Time to 50% relaxation,RT50,3uM,83.58333,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,7,Rat_06,Time to 50% relaxation,RT50,10uM,82,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,8,Rat_07,Time to 50% relaxation,RT50,ND,78.82214,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,8,Rat_07,Time to 50% relaxation,RT50,1uM,68.83013,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,8,Rat_07,Time to 50% relaxation,RT50,3uM,64.98077,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column
+24354289.zip,RLC-1_Fig6.xlsx,Fig6E_RT50,8,Rat_07,Time to 50% relaxation,RT50,10uM,51.44118,ms (interpreted from Fig6A time axis),matching 7-row order across the three 7x4 tables; no explicit ID column

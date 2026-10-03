@@ -1,0 +1,93 @@
+{
+  "classification": "HUMAN_PILOT_STAGE1_LOCAL_INFORMATION",
+  "primary_temperature_K": 295.0,
+  "sensitivity_temperature_K": 310.0,
+  "observed_group_responses_pp": {
+    "ATP0.1": 22.457474147331922,
+    "ATP1": 5.589497946868294,
+    "Pi10": -16.24841937792213
+  },
+  "reference_model_responses_295K_pp": {
+    "ATP0.1": 23.49700569496125,
+    "ATP1": 4.846874389730438,
+    "Pi10": -18.773147983826867
+  },
+  "reference_model_responses_310K_pp": {
+    "ATP0.1": 23.49700569496125,
+    "ATP1": 4.846874389730438,
+    "Pi10": -18.773147983826867
+  },
+  "local_information": {
+    "ATP1": {
+      "target": "ATP1",
+      "q_reference_pp": 4.846874389730438,
+      "baseline_low_pp": -41.93811196823889,
+      "baseline_high_pp": 84.28292005021257,
+      "baseline_width_pp": 126.22103201845147,
+      "augmented_low_pp": -7.767557160169563,
+      "augmented_high_pp": 17.49417898985779,
+      "augmented_width_pp": 25.261736150027353,
+      "width_reduction_percent": 79.98611186578279,
+      "baseline_min_active_bounds": 6,
+      "baseline_max_active_bounds": 7,
+      "augmented_min_active_bounds": 2,
+      "augmented_max_active_bounds": 4
+    },
+    "Pi10": {
+      "target": "Pi10",
+      "q_reference_pp": -18.773147983826867,
+      "baseline_low_pp": -95.44675223069333,
+      "baseline_high_pp": 44.67555600912247,
+      "baseline_width_pp": 140.1223082398158,
+      "augmented_low_pp": -95.0982572228443,
+      "augmented_high_pp": 43.33139617169177,
+      "augmented_width_pp": 138.42965339453607,
+      "width_reduction_percent": 1.2079838439306823,
+      "baseline_min_active_bounds": 7,
+      "baseline_max_active_bounds": 5,
+      "augmented_min_active_bounds": 6,
+      "augmented_max_active_bounds": 5
+    }
+  },
+  "svd": {
+    "baseline": [
+      54.40464612386158,
+      25.319935291065132,
+      17.132981737256948,
+      8.531273271078271,
+      5.292879877563328,
+      0.681202080589378,
+      0.13191639659627497,
+      0.0055547409943550756,
+      0.0001853373492180584,
+      1.914149078061837e-09,
+      1.710805819912645e-10
+    ],
+    "augmented_ATP0.1_stress": [
+      54.40481391835539,
+      27.222630730328326,
+      17.16602017442247,
+      10.022884724695649,
+      5.575531307729401,
+      3.461847498243203,
+      0.6261096372214302,
+      0.12963332327372615,
+      0.0050296768514860105,
+      0.00015745017561736882,
+      1.8120580746374623e-09
+    ]
+  },
+  "temperature_summary": {
+    "max_abs_stress_shift_SE_units": 0.0,
+    "max_CM_shift_SE_units": 8.360058972430306e-08,
+    "ATP1_q_shift_pp": 0.0,
+    "Pi10_q_shift_pp": 0.0
+  },
+  "cautions": [
+    "Local nominal support proxy, not calibrated patient-level inference.",
+    "Human reference/model historically used the same five-condition dataset.",
+    "No preparation-to-patient map is used.",
+    "310 K is a no-refit sensitivity, not a corrected fit."
+  ],
+  "next_decision": "Review Stage-1 target contrast, bound activity and temperature sensitivity before any Stage-2 profile pilot."
+}

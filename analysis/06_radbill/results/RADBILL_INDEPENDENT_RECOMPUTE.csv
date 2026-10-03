@@ -1,0 +1,13 @@
+﻿metric,value
+paired_prediction_cells,132
+C0_mean_standardized_MAE,0.8195220461
+C1_mean_standardized_MAE,0.808923088317
+C2_mean_standardized_MAE,0.52030306667
+C0_median_standardized_AE,0.620984562565
+C1_median_standardized_AE,0.624047116062
+C2_median_standardized_AE,0.355678667063
+C1_improvement_vs_C0_percent,1.29330965942
+C2_improvement_vs_C0_percent,36.5114008652
+C2_improvement_vs_C1_percent,35.6795381187
+C2_beats_C1_cells,64/132
+C2_beats_C1_fraction,0.484848484848
