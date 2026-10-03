@@ -71,9 +71,24 @@ are CC BY 4.0. Upstream inputs retain their original terms. See LICENSE,
 DATA_LICENSE.md and THIRD_PARTY_LICENSES.md. The Zenodo software record uses MIT
 at record level with this mixed-license policy described explicitly.
 
-Repository: [zzisen/cardiac-target-dependent-prediction](https://github.com/zzisen/cardiac-target-dependent-prediction). Release version: v1.0.1.
+Repository: [zzisen/cardiac-target-dependent-prediction](https://github.com/zzisen/cardiac-target-dependent-prediction). Release version: v1.0.2.
 
 Frozen input bytes are preserved by .gitattributes so recorded hashes agree across operating systems and release archives.
 
-Archived release: [v1.0.1](https://github.com/zzisen/cardiac-target-dependent-prediction/releases/tag/v1.0.1). Zenodo DOI: [10.5281/zenodo.23113844](https://doi.org/10.5281/zenodo.23113844).
-The archive records the exact v1.0.1 tagged tree; this citation update is documentation only.
+Archived release: [v1.0.2](https://github.com/zzisen/cardiac-target-dependent-prediction/releases/tag/v1.0.2). Zenodo DOI: [10.5281/zenodo.23114693](https://doi.org/10.5281/zenodo.23114693).
+The archive records the exact v1.0.2 tagged tree, including the version DOI reserved before publication.
+
+## Reporting patch v1.0.2
+
+Alternative-model rank medians exclude the reference-model self-comparison.
+They are 0.609, 0.679, 0.107 and 0.175 for ATP0.1, ATP1, Pi0 and Pi5, respectively.
+All 20 individual rank correlations remain unchanged. Run
+`python scripts/report_rank_summary.py` to reproduce the summaries from the
+original mechanistic results. The four corresponding workbook medians are
+explicit Excel formulae that exclude the reference rows.
+
+Methods definitions, the seven model/domain scenarios and source-code locations
+are documented in `docs/METHOD_DEFINITIONS.md`. Figure annotations and legends
+have been refined; the AI-assisted-tools disclosure is finalized in
+`docs/AI_ASSISTED_TOOLS.md`. Underlying model fits, held-out predictions, primary
+analyses and scientific conclusions are unchanged.

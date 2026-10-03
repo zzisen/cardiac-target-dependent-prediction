@@ -69,7 +69,7 @@ def check():
             s=p.read_text(encoding='utf-8-sig',errors='replace')
             if secret.search(s):issues.append((rel,'credential-like content'))
             if absolute.search(s):issues.append((rel,'local absolute path'))
-        if p.suffix.lower()=='.xlsx' and p.name!='P2_V2_NCR_SOURCE_DATA_FINAL.xlsx':issues.append((rel,'unlisted raw workbook'))
+        if p.suffix.lower()=='.xlsx' and p.name!='P2_V2_NCR_SOURCE_DATA_FINAL_v1_0_2.xlsx':issues.append((rel,'unlisted raw workbook'))
         if p.suffix.lower() in {'.docx','.zip','.log','.pem','.key'}:issues.append((rel,'unlisted binary or correspondence'))
     assert not issues,issues
     report={'status':'PASS','analysis_modules_imported':len(imports),'missing_static_csv_inputs':missing,'snapshot_hashes_verified':len(snapshots),'vector_figures_verified':len(figures),'public_files_scanned':scanned,'privacy_or_path_issues':issues}

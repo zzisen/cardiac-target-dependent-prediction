@@ -1,0 +1,54 @@
+{
+  "main": [
+    {
+      "number": 1,
+      "title": "The same cardiac measurement has different value for different future targets.",
+      "stem": "Figure1_Target_specific_measurement_value",
+      "text": "a, Predictive support widths for ATP1 and Pi5 before and after adding the same ATP0.1 stress measurement. The two parameter domains enclose the two reference/alternative parameter vectors in transformed coordinates, expand this coordinate box by ±0.5 or ±1.0 and intersect it with the published global bounds. Coordinates are natural logs of parameters except the linear coordinate Ks/45. Joined points compare widths; connecting segments are not support intervals. Annotations give relative narrowing. b, Measurement-by-target map of relative support-width reduction in the same domains. Negative values indicate widening; grey NA cells are prespecified target-matched exclusions. CM, complex modulus. c, Median bounded support-width reduction across four targets and two domains at each matched acquisition budget. A frequency pair comprises real and imaginary components at one frequency; scalar budgets count individual observations. The eight target-domain evaluations per bar are computational comparisons. ATP labels denote MgATP concentrations and Pi labels inorganic phosphate concentrations, in mM."
+    },
+    {
+      "number": 2,
+      "title": "Target-conditioned design persists across mechanistic and domain uncertainty.",
+      "stem": "Figure2_Robust_target_aware_design",
+      "text": "a, Selected robust one-pair frequencies for each future target. b, Worst-case fraction of the scenario-specific local oracle retained by robust panels with acquisition budgets of one, two or three units, across seven model-domain scenarios. Each unit is a stress scalar or a complex-modulus frequency pair. Colours progress from light to dark with budget. c, Spearman correlations between single-measurement utility rankings from the reference Model16D and four mechanistic alternatives. The grey Reference model row is the self-comparison (correlation 1); it is excluded from the alternative-model median summaries. Reference strain dependence acts on k−2 and k3 (s16). Alternative strain dependence acts on k2 and k−2 (s14), k1 and k−2 (s9), k−2 alone (s5) or k2 alone (s4); all use the same rapid-equilibrium ATP/Pi formulation. Across these four alternatives, median correlations are 0.609 for ATP0.1, 0.679 for ATP1, 0.107 for Pi0 and 0.175 for Pi5. The diverging scale is centred at zero. Comparisons are between computational models and scenarios."
+    },
+    {
+      "number": 3,
+      "title": "Independent mouse experiments reveal a target-conditioned frequency landscape.",
+      "stem": "Figure3_Target_conditioned_landscape",
+      "text": "a, Animal-held-out prediction of future complex-modulus spectra from group means alone or a nested selected baseline frequency pair. Bars preserve the mean across 19 animal-condition cells per target; small paired points show the mean over available treatment cells for each of 10 mice. Annotations show the cell-weighted mean NRMSE gains of 0.22 and 7.45 percentage points for ATP0.1 and ATP1, respectively. Every cell from the held-out mouse was excluded from selection and fitting. b, Median selected frequency across six future MgATP targets; whiskers show the interquartile range of the 10 mouse-level selections. c, Mean held-out NRMSE gain for each target and current frequency in the same cohort. Positive values indicate lower error after measurement augmentation; the colour scale is centred at zero. Leave-one-target-out utility-curve RMSE was 1.44 percentage points for the additive model and 1.19 for the interaction model; both matched the observed best frequency band in 0 of 6 held-out targets. NRMSE, normalized root-mean-square error."
+    },
+    {
+      "number": 4,
+      "title": "Pharmacological and human perturbations extend target-conditioned measurement value.",
+      "stem": "Figure4_Pharmacological_and_human_evidence",
+      "text": "a, Nested leave-one-rat-out prediction of six future RLC-1 outcomes at 3 or 10 µM from candidate measurements at 1 µM. Small joined circles show the mean standardized absolute error for each of seven aligned rat-level repeated-measures summary rows. Diamonds show the mean over 42 rat-by-target prediction cells. b, Relative support-width narrowing after adding ATP0.1 stress in bounded human atrial reference domains with log radii 0.25 and 0.50, for ATP1 and Pi10. These bars are model-based support summaries. c, Leave-one-participant-out prediction of higher-rate QT interval (QT) and pulse pressure (PP) responses in 18 contributing participants from the 19-person source cohort. Circles show participant means over available common-support targets; diamonds show the mean over 132 participant-by-target cells. The fixed family-matched comparator measures QT or PP at the penultimate beat of the pacing drive train (DTend) in the matching target family. Neutral, blue, gold and teal denote no measurement, shared selection, conventional selection and target-specific selection, respectively."
+    },
+    {
+      "number": 5,
+      "title": "Target dependence has quantitative boundaries in protocol choice, transfer and accuracy.",
+      "stem": "Figure5_Quantitative_boundaries",
+      "text": "a, Held-out error normalized separately to each dataset's no-added-measurement baseline. Points show global/shared, target-specific and available conventional comparisons for Tanner (7 trabeculae, 28 target cells), RLC-1 (7 aligned rat summary rows, 42 target cells) and Radbill (18 contributing participants from a 19-person cohort, 132 target cells). The conventional rules are nearest strain rate for Tanner and fixed family-matched QT/PP for Radbill. Metrics and effects are not pooled across datasets. b, Rat-to-mouse transfer contrasts: kinetic-normalized minus absolute-frequency whole-spectrum NRMSE for two targets and three matched pair budgets. Points are equal-mouse means and whiskers are 95% mouse-cluster bootstrap intervals (10 mice). The final diamond averages the six contrasts within each mouse before averaging mice. Positive values favour absolute-frequency transfer. c, Paired support narrowing and held-out stress-error improvement after adding ATP0.1 stress, for two targets in the same 20 public human preparations (40 target-level points). Support widths were recomputed after refitting in each measurement condition; negative narrowing denotes widening of this local support approximation. Zero lines mark no change. Descriptive Spearman correlations were −0.22 for ATP1 and −0.52 for Pi10. Donor linkage is unavailable."
+    }
+  ],
+  "supplement": [
+    {
+      "number": 1,
+      "title": "Rat repeated-dose prediction gains vary across future outcomes.",
+      "stem": "SupplementaryFigure1_Rat_outcome_heterogeneity",
+      "text": "Leave-one-rat-out standardized mean absolute errors for peak tension, time to peak and half-relaxation time at 3 and 10 µM RLC-1. Each point averages seven aligned rat-level repeated-measures summary rows for one target and comparator. The 42 rat-by-target cells are repeated predictions from seven rats. Neutral, blue and teal denote no added measurement, global/shared and target-specific selection, respectively. No uncertainty interval is shown."
+    },
+    {
+      "number": 2,
+      "title": "Fair pacing comparators bound fine target-specific selection.",
+      "stem": "SupplementaryFigure2_Pacing_fair_comparators",
+      "text": "a, All prespecified Radbill comparator definitions on 132 common-support participant-by-target cells from 18 contributing participants in the 19-person source cohort. Small joined circles are participant mean standardized absolute errors; diamonds are cell-weighted overall means. Single global selection shares one scalar across QT and PP, whereas family-aware selection chooses a shared measurement within each modality. The fixed rule uses family-matched DTend QT/PP. b, Exact enumeration of the 4! × 4! within-family target mappings on the prespecified all-four-candidate common support. Of 576 mappings, 112 had mean absolute error no greater than the identity mapping (descriptive fraction 0.194444); the remaining 464 had higher error. This fraction is a mapping summary, not a participant-level significance test."
+    },
+    {
+      "number": 3,
+      "title": "Mechanical-response data limit the extra gain from target-specific selection.",
+      "stem": "SupplementaryFigure3_Mechanical_comparator_boundary",
+      "text": "Tanner leave-one-trabecula-out mean absolute errors (mN/mm²) for peak stress responses to 100-ms perturbations at 25, 100, 250 or 1000 s⁻¹ in seven trabeculae (28 trabecula-by-target cells). Candidate measurements were 10-ms perturbations at 100 or 250 s⁻¹. Points compare the target-mean baseline, global/shared rule, target-specific rule, the mean over 16 random policies and the nearest-log-strain-rate conventional rule. The retrospective oracle uses held-out outcomes for selection and is shown only as an optimistic reference, not as a deployable prediction rule. No uncertainty interval or pooled cross-dataset estimate is shown."
+    }
+  ]
+}

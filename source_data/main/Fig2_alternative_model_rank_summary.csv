@@ -1,0 +1,5 @@
+target,alternative_models,reference_self_comparison_included,median_rank_correlation,median_rounded_3dp,excluded_self_comparison
+ATP0.1,4,False,0.60899561654278633,0.609,Reference model (s16)
+ATP1,4,False,0.67928340003811694,0.679,Reference model (s16)
+Pi0,4,False,0.1074899942824471,0.107,Reference model (s16)
+Pi5,4,False,0.1749190013340956,0.175,Reference model (s16)

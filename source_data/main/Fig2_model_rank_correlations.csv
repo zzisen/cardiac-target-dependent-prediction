@@ -1,21 +1,21 @@
-target,model,spearman_rank_correlation
-ATP0.1,Model16D,1
-ATP0.1,Alternative 1,0.52445206784829423
-ATP0.1,Alternative 2,0.29742710120068611
-ATP0.1,Single strain,0.77343243758338098
-ATP0.1,No reverse-step strain,0.69353916523727832
-ATP1,Model16D,1
-ATP1,Alternative 1,0.60007623403849808
-ATP1,Alternative 2,0.51865828092243171
-ATP1,Single strain,0.77068801219744609
-ATP1,No reverse-step strain,0.75849056603773579
-Pi0,Model16D,1
-Pi0,Alternative 1,0.37251762912140263
-Pi0,Alternative 2,-0.18322851153039829
-Pi0,Single strain,-0.0502763483895559
-Pi0,No reverse-step strain,0.26525633695445011
-Pi5,Model16D,1
-Pi5,Alternative 1,0.60891938250428801
-Pi5,Alternative 2,-0.57773966075852867
-Pi5,Single strain,-0.2590813798360968
-Pi5,No reverse-step strain,0.71305507909281485
+target,model,model_id,spearman_rank_correlation
+ATP0.1,Reference model,s16,1
+ATP0.1,k2 + k−2 strain,s14,0.52445206784829423
+ATP0.1,k1 + k−2 strain,s9,0.29742710120068611
+ATP0.1,k−2 strain only,s5,0.77343243758338098
+ATP0.1,k2 strain only,s4,0.69353916523727832
+ATP1,Reference model,s16,1
+ATP1,k2 + k−2 strain,s14,0.60007623403849808
+ATP1,k1 + k−2 strain,s9,0.51865828092243171
+ATP1,k−2 strain only,s5,0.77068801219744609
+ATP1,k2 strain only,s4,0.75849056603773579
+Pi0,Reference model,s16,1
+Pi0,k2 + k−2 strain,s14,0.37251762912140263
+Pi0,k1 + k−2 strain,s9,-0.18322851153039829
+Pi0,k−2 strain only,s5,-0.0502763483895559
+Pi0,k2 strain only,s4,0.26525633695445011
+Pi5,Reference model,s16,1
+Pi5,k2 + k−2 strain,s14,0.60891938250428801
+Pi5,k1 + k−2 strain,s9,-0.57773966075852867
+Pi5,k−2 strain only,s5,-0.2590813798360968
+Pi5,k2 strain only,s4,0.71305507909281485

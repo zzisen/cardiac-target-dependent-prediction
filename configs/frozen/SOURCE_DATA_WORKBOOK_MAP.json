@@ -16,7 +16,7 @@
   {
     "name": "Fig1 Budget values",
     "file": "source_data/main/Fig1_equal_budget_values.csv",
-    "sha256": "6b8f8806d3837bae38bff6fdddbaa74c3c1ed91e773957989d5d4f556605feda",
+    "sha256": "b55d6d41883129d14d077c50de566c0f8efc5135146af238981ad7f84d814923",
     "headers": [
       "target",
       "domain",
@@ -34,7 +34,7 @@
   {
     "name": "Fig1 Value map",
     "file": "source_data/main/Fig1_measurement_target_map.csv",
-    "sha256": "8655025bbf25528a3cd4009ca1e060ad0c7db7d0e434e4b23e0320d25dc3686a",
+    "sha256": "473d66c800939a607c44a3a65fb539d8dc3700d6e412bfd9be5b37c1e11ff505",
     "headers": [
       "domain",
       "measurement",
@@ -51,7 +51,7 @@
   {
     "name": "Fig1 Same stress",
     "file": "source_data/main/Fig1_same_measurement_support.csv",
-    "sha256": "48a76b2d201b917f40579471c176bd5ec59796b1943d48faf77ecd18459c4529",
+    "sha256": "1db1e36dedc9f9628b34993e251699b520ea159d5c24ecec12ef593ebf44a9ab",
     "headers": [
       "domain",
       "target",
@@ -67,14 +67,31 @@
   {
     "name": "Fig2 Rank correlations",
     "file": "source_data/main/Fig2_model_rank_correlations.csv",
-    "sha256": "bc3497fbb4ff145040d4bc09ed9625bcfbb97b57506c28873a88687bbdfeb5cf",
+    "sha256": "e9cd6d271bf2f7362f087616c83e56bf6406ef2d195f496a7b501892cae5a636",
     "headers": [
       "target",
       "model",
+      "model id",
       "spearman rank correlation"
     ],
     "normalization": false,
     "rows": 20,
+    "start_row": 5
+  },
+  {
+    "name": "Fig2 Alternative medians",
+    "file": "source_data/main/Fig2_alternative_model_rank_summary.csv",
+    "sha256": "7e4efdeb4d7bf7949489479c609873bc9d537ef5f81c1205e2499033f3e70635",
+    "headers": [
+      "target",
+      "alternative models",
+      "reference self comparison included",
+      "median rank correlation",
+      "median rounded 3dp",
+      "excluded self comparison"
+    ],
+    "normalization": false,
+    "rows": 4,
     "start_row": 5
   },
   {

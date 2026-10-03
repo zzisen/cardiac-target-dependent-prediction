@@ -29,3 +29,5 @@ by the smoke test. `scripts/reproduce_quick.py` recomputes nested scalar results
 and exact mappings, replays verified endpoint/intermediate tables, rebuilds all
 figures and verifies the workbook/source hashes. The smoke report states this
 scope explicitly; included code is not a claim that every optimizer was rerun.
+
+Alternative-only model-rank reporting: `scripts/report_rank_summary.py` derives the four corrected medians from `analysis/02_robustness/variants/results/N_MODEL_RANK_STABILITY.csv`; `tests/smoke/check_reporting_patch.py` verifies exclusion of self-reference, all individual cells and the mouse aggregation contract.

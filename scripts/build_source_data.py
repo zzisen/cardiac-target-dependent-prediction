@@ -23,7 +23,7 @@ def verify():
     cfg=json.loads((ROOT/'configs/frozen/WORKBOOK_HASH.json').read_text(encoding='utf-8'))
     file=ROOT/cfg['file']
     assert hashlib.sha256(file.read_bytes()).hexdigest()==cfg['sha256'],'Workbook hash mismatch'
-    checked=0;formulas=0
+    checked=0;formulas=0;normalization_formulas=0;median_formulas=0
     with zipfile.ZipFile(file) as z:
         shared=[]
         if 'xl/sharedStrings.xml' in z.namelist():
@@ -41,7 +41,13 @@ def verify():
                 value=c.find('s:v',N);text=value.text if value is not None else None
                 if c.attrib.get('t')=='s':text=shared[int(text)]
                 elif c.attrib.get('t')=='inlineStr':text=''.join(c.find('s:is',N).itertext())
-                if c.find('s:f',N) is not None:formulas+=1
+                formula=c.find('s:f',N)
+                if formula is not None:
+                    formulas+=1
+                    if table['normalization']:normalization_formulas+=1
+                    elif table['file'].endswith('Fig2_alternative_model_rank_summary.csv'):
+                        assert formula.text.startswith('MEDIAN('),formula.text
+                        median_formulas+=1
                 cells[c.attrib['r']]=text
             for r,row in enumerate(expected,start=table['start_row']):
                 for j,value in enumerate(row):
@@ -55,8 +61,8 @@ def verify():
                         except ValueError:assert actual==value,(table['name'],col,r,value,actual)
                         else:assert math.isclose(float(actual),v,rel_tol=2e-12,abs_tol=2e-12),(table['name'],col,r,value,actual)
                     checked+=1
-    assert formulas>=10,'Within-dataset normalization formulae absent'
-    print(f'PASS: source workbook verified; {len(mapping)} tables, {checked} source cells, {formulas} normalization formulae.')
+    assert normalization_formulas==11 and median_formulas==4 and formulas==15
+    print(f'PASS: source workbook verified; {len(mapping)} tables, {checked} source cells, {normalization_formulas} normalization and {median_formulas} alternative-only median formulae.')
     return checked
 
 if __name__=='__main__':

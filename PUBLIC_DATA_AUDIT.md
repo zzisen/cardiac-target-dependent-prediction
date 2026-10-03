@@ -1,7 +1,7 @@
-# Public-data audit
+# Public-data audit — v1.0.2
 
 Result: **PASS**, 3 October 2026. The fresh-directory checker inspected
-360 public files and verified all licensed model binaries
+370 public files and verified all licensed model binaries
 against the source manifest. No private data, correspondence or credentials
 were included. Original third-party workbooks and archives are absent. Only the
 project-authored source-data workbook is redistributed as XLSX.

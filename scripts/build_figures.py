@@ -32,6 +32,10 @@ GOLD = ['#F3E3BF', '#E8C77B', '#D7A647', '#B9822E', '#8F6122']
 CORAL = '#B7655B'
 PLUM = '#8A6A8F'
 INK = '#26333E'
+HUMAN_TARGET_COLORS = {'ATP1': '#2F7F73', 'Pi10': '#C49A32'}
+DOMAINS = ['Log-coordinate margin ±0.5', 'Log-coordinate margin ±1.0']
+MODEL_ORDER = ['Reference model', 'k2 + k−2 strain', 'k1 + k−2 strain',
+    'k−2 strain only', 'k2 strain only']
 WIDTH = 180 / 25.4
 COMPARATOR_COLORS = {'No added measurement': NEUTRAL[1], 'Global/shared': BLUE[3],
     'Family-aware global': BLUE[3], 'Single global measurement': BLUE[2],
@@ -95,7 +99,7 @@ def fig1():
     outer = fig.add_gridspec(2, 1, height_ratios=[.65, 1.35], hspace=.20)
     top = outer[0].subgridspec(1, 2, wspace=.15)
     bottom = outer[1].subgridspec(1, 2, width_ratios=[1.46, 1], wspace=.16)
-    domains = ['Pair + 0.5', 'Pair + 1.0']
+    domains = DOMAINS
     for j, dom in enumerate(domains):
         ax = fig.add_subplot(top[0, j])
         sub = anchor[anchor.domain.eq(dom)].set_index('target').reindex(['ATP1', 'Pi5'])
@@ -111,7 +115,7 @@ def fig1():
         ax.invert_yaxis(); ax.set_ylim(1.43, -.45)
         ax.set_xlim(0, 85)
         ax.set_xlabel('Predictive support width (percentage points)')
-        heading(ax, f'Same added ATP0.1 stress: {dom}')
+        heading(ax, f'Same added ATP0.1 stress: {dom.rsplit(" ", 1)[-1]} margin')
         clean(ax, 'x')
         if j == 0:
             panel(ax, 'A')
@@ -134,18 +138,21 @@ def fig1():
     ax.set_xticks(np.arange(8), targets * 2, rotation=55, ha='right', rotation_mode='anchor')
     ax.tick_params(axis='both', length=0, pad=3, labelsize=5.7)
     ax.axvline(3.5, color='white', lw=.9)
+    for iy, ix in np.argwhere(~np.isfinite(z)):
+        ax.text(ix, iy, 'NA', ha='center', va='center', fontsize=5.2, color=NEUTRAL[2])
     for x, d in [(.25, domains[0]), (.75, domains[1])]:
-        ax.text(x, 1.015, d, transform=ax.transAxes, ha='center', va='bottom', fontsize=5.8)
+        ax.text(x, 1.035, d.replace(' margin ', '\nmargin '), transform=ax.transAxes,
+            ha='center', va='bottom', fontsize=5.8, linespacing=1.1)
     ax.set_xlabel('Future target')
-    heading(ax, 'Measurement value')
-    ax.title.set_position((0, 1.09))
     for sp in ax.spines.values(): sp.set_visible(False)
     cb = fig.colorbar(im, ax=ax, fraction=.035, pad=.025, ticks=[-3, 0, 30, 60, 90])
     cb.set_label('Support-width reduction (%)', fontsize=6)
     cb.solids.set_rasterized(False)
     cb.solids.set_edgecolor('face')
     cb.outline.set_visible(False); cb.ax.tick_params(labelsize=5.5, length=2)
-    panel(ax, 'B')
+    # Domain labels own this header region; there is no competing floating title.
+    ax.text(-.13, 1.115, 'b', transform=ax.transAxes, fontsize=8,
+        fontweight='bold', color=INK, ha='left', va='bottom', clip_on=False)
 
     ax = fig.add_subplot(bottom[0, 1])
     subsets = [budgets[budgets.budget_type.eq(t)].sort_values('budget') for t in ['Frequency pairs', 'Scalars']]
@@ -198,20 +205,29 @@ def fig2():
     clean(ax, 'x'); panel(ax, 'B')
 
     ax = fig.add_subplot(gs[0, 2])
-    variants = ['Model16D', 'Alternative 1', 'Alternative 2', 'Single strain', 'No reverse-step strain']
+    variants = MODEL_ORDER
     z = ranks.pivot(index='model', columns='target', values='spearman_rank_correlation').reindex(
         index=variants, columns=targets).to_numpy(float)
-    im = ax.pcolormesh(np.arange(5)-.5, np.arange(6)-.5, z, cmap=DIVERGE,
+    alternative_summary = csv('Fig2_alternative_model_rank_summary.csv').set_index('target').reindex(targets)
+    alternatives = ranks[ranks.model.ne('Reference model')]
+    calculated = alternatives.groupby('target').spearman_rank_correlation.median().reindex(targets)
+    if not np.allclose(calculated, alternative_summary.median_rank_correlation, rtol=0, atol=1e-15):
+        raise AssertionError('Alternative-model medians must exclude the reference self-comparison.')
+    # Preserve every cell value, while displaying self-comparisons in a neutral row.
+    reference_mask = np.zeros_like(z, dtype=bool); reference_mask[0, :] = True
+    cmap = DIVERGE.copy(); cmap.set_bad('#E8EBEE')
+    im = ax.pcolormesh(np.arange(5)-.5, np.arange(6)-.5, np.ma.masked_array(z, mask=reference_mask), cmap=cmap,
         norm=TwoSlopeNorm(vmin=-1, vcenter=0, vmax=1), shading='flat', rasterized=False,
         edgecolors='face', linewidth=.1)
     ax.set_xlim(-.5, 3.5); ax.set_ylim(4.5, -.5)
     ax.set_xticks(range(4), targets, rotation=45, ha='right', rotation_mode='anchor')
-    ax.set_yticks(range(5), ['Model16D', 'Alternative 1', 'Alternative 2', 'Single strain', 'No reverse-step\nstrain'])
+    ax.set_yticks(range(5), variants)
+    ax.get_yticklabels()[0].set_color(NEUTRAL[2])
     ax.tick_params(length=0, labelsize=5.5)
     for i in range(5):
         for j in range(4):
             ax.text(j, i, f'{z[i,j]:.2f}', ha='center', va='center', fontsize=5.7,
-                color='white' if abs(z[i,j]) > .74 else INK)
+                color=NEUTRAL[2] if i == 0 else ('white' if abs(z[i,j]) > .74 else INK))
     heading(ax, 'Measurement-rank stability')
     for sp in ax.spines.values(): sp.set_visible(False)
     cb = fig.colorbar(im, ax=ax, fraction=.04, pad=.035, ticks=[-1, 0, 1])
@@ -243,10 +259,14 @@ def fig3():
                 color=NEUTRAL[0], lw=.5, zorder=3)
             ax.scatter([i-w/2+dx, i+w/2+dx], [row.group_only_nrmse_percent, row.selected_pair_nrmse_percent],
                 s=7, facecolor='white', edgecolor=[NEUTRAL[2], TEAL[4]], lw=.45, zorder=4)
+        gain = float(summary[summary.future_MgATP_mM.eq(target)].nrmse_gain_pp.iloc[0])
+        point_top = float(s[['group_only_nrmse_percent', 'selected_pair_nrmse_percent']].to_numpy().max())
+        ax.text(i, point_top + 1.3, f'{gain:.2f} pp gain', ha='center', va='bottom',
+            fontsize=6, color=TEAL[4])
     ax.set_xticks(x, [f'{v:g}' for v in summary.future_MgATP_mM])
     ax.set_xlabel('Future MgATP (mM)'); ax.set_ylabel('Held-out NRMSE (%)')
     ax.set_ylim(0, max(individual.group_only_nrmse_percent.max(), individual.selected_pair_nrmse_percent.max()) * 1.12)
-    ax.legend(frameon=False, loc='upper right', ncol=2, fontsize=5.6, columnspacing=.6)
+    ax.legend(frameon=False, loc='upper right', ncol=1, fontsize=5.6)
     heading(ax, 'Animal-held-out prediction')
     clean(ax, 'y'); panel(ax, 'A')
 
@@ -324,11 +344,10 @@ def fig4():
     unit_comparison(ax, rlcunits, rlc, ['No added measurement', 'Global/shared', 'Target-specific'],
         'aligned_rat_summary_row', 'standardized_mae')
     heading(ax, 'Rat repeated-dose prediction')
-    ax.text(.97, .97, '7 rats', transform=ax.transAxes, ha='right', va='top', fontsize=5.8)
     panel(ax, 'A')
 
     ax = axes[1]
-    for i, (target, color) in enumerate([('ATP1', TEAL[3]), ('Pi10', GOLD[2])]):
+    for i, (target, color) in enumerate(HUMAN_TARGET_COLORS.items()):
         sub = human[human.target.eq(target)].set_index('log_radius').reindex([.25, .5])
         ax.bar(np.arange(2)+(i-.5)*.32, sub.relative_narrowing_percent, width=.32,
             color=color, edgecolor='none', label=target)
@@ -343,7 +362,6 @@ def fig4():
         ['No added measurement', 'Family-aware global', 'Fixed family-matched', 'Target-specific'],
         'participant', 'standardized_mae')
     heading(ax, 'Participant-held-out pacing')
-    ax.text(.97, .97, f'{pacingunits.participant.nunique()} participants', transform=ax.transAxes, ha='right', va='top', fontsize=5.8)
     panel(ax, 'C')
     save(fig, 'Figure4_Pharmacological_and_human_evidence', MAIN)
 
@@ -351,7 +369,6 @@ def fig5():
     ladder = csv('Fig5_within_dataset_normalization.csv')
     transfer = csv('Fig5_rat_mouse_transfer.csv')
     paired = csv('Fig5_support_and_accuracy_pairs.csv')
-    corr = csv('Fig5_support_accuracy_correlations.csv')
     fig = plt.figure(figsize=(WIDTH, 4.78), layout='constrained')
     gs = fig.add_gridspec(2, 2, height_ratios=[1.04, 1.1], width_ratios=[1.13, 1], hspace=.14, wspace=.18)
     ax = fig.add_subplot(gs[0, 0])
@@ -401,7 +418,8 @@ def fig5():
     clean(ax, 'x'); panel(ax, 'B')
 
     ax = fig.add_subplot(gs[1, :])
-    for target, color, marker in [('ATP1', TEAL[3], 'o'), ('Pi10', GOLD[2], 's')]:
+    for target, color, marker in [('ATP1', HUMAN_TARGET_COLORS['ATP1'], 'o'),
+        ('Pi10', HUMAN_TARGET_COLORS['Pi10'], 's')]:
         s = paired[paired.target.eq(target)]
         ax.scatter(s.support_width_reduction_pp, s.stress_error_improvement_pp, s=19,
             marker=marker, color=color, edgecolor='white', lw=.3, label=target, zorder=3)
@@ -411,9 +429,6 @@ def fig5():
     ax.set_ylabel('Stress-error improvement\n(percentage points)')
     heading(ax, 'Information and realized accuracy')
     ax.legend(frameon=False, loc='upper left', ncol=2, fontsize=5.8, handletextpad=.3, columnspacing=.8)
-    rhos = corr.set_index('target').spearman_rho
-    ax.text(.995, .98, f'Descriptive Spearman correlation: ATP1 {rhos["ATP1"]:.2f}; Pi10 {rhos["Pi10"]:.2f}',
-        transform=ax.transAxes, ha='right', va='top', fontsize=5.6)
     clean(ax); panel(ax, 'C')
     save(fig, 'Figure5_Quantitative_boundaries', MAIN)
 
@@ -467,7 +482,7 @@ def supplementary_figures():
         ax.annotate(f'{row.mae:.3f}', (row.mae, iy), xytext=(5, 0), textcoords='offset points', fontsize=5.8, va='center')
         labels.append(row.comparator)
     ax.set_yticks(range(len(tan)), labels); ax.invert_yaxis()
-    ax.set_xlim(0, tan.mae.max()*1.11); ax.set_xlabel('Mean absolute error')
+    ax.set_xlim(0, tan.mae.max()*1.11); ax.set_xlabel('Mean absolute error (mN/mm²)')
     heading(ax, 'Mechanical-response comparator boundary')
     clean(ax, 'x'); panel(ax, 'A')
     save(fig, 'SupplementaryFigure3_Mechanical_comparator_boundary', SUPP)

@@ -182,5 +182,12 @@
       "572d745508f2c8eb4944d6725956fd4fe6635fa2d0d008b55b30531e0330aa35"
     ],
     "note": "Frozen verified values, with reader-facing labels only."
+  },
+  {
+    "figure_source": "source_data/main/Fig2_alternative_model_rank_summary.csv",
+    "frozen_upstream_sha256": [
+      "f13ff394293ff27ef7dfa1370e67c4c902164655e8f4ae368465e47da3ae201d"
+    ],
+    "note": "Median across four mechanistic alternatives; reference self-comparison excluded."
   }
 ]

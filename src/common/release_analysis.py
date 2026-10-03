@@ -50,6 +50,32 @@ def run_full(stage):
         subprocess.run(cmd, check=True, cwd=REPO)
 
 
+RANK_COLUMN = 'spearman_rank_correlation_of_single_action_utilities_vs_published_Model16D'
+ALTERNATIVE_VARIANTS = (
+    'md4_best_alternative', 'md4_second_best_alternative',
+    'md4_best_single_strain', 'md4_best_without_kminus2_strain',
+)
+
+
+def alternative_model_rank_summary(ranks=None):
+    """Summarize only the four mechanistic alternatives, excluding self-reference.
+
+    The reference row remains in the frozen table and Figure 2c. Its correlation
+    with itself is not evidence of agreement across different model mechanisms.
+    """
+    if ranks is None:
+        ranks = pd.read_csv(REPO/'analysis/02_robustness/variants/results/N_MODEL_RANK_STABILITY.csv')
+    alternatives = ranks[ranks.variant.isin(ALTERNATIVE_VARIANTS)]
+    rows = []
+    for target in ('ATP0.1', 'ATP1', 'Pi0', 'Pi5'):
+        part = alternatives[alternatives.target == target]
+        assert len(part) == 4 and set(part.variant) == set(ALTERNATIVE_VARIANTS), target
+        rows.append({'target': target, 'alternative_models': 4,
+                     'reference_self_comparison_included': False,
+                     'median_rank_correlation': float(part[RANK_COLUMN].median())})
+    return pd.DataFrame(rows)
+
+
 def quick():
     """Recalculate headline summaries from permitted canonical/frozen upstream inputs.
 
@@ -70,6 +96,12 @@ def quick():
     for r in a.itertuples():
         if np.isfinite(r.new_relative_reduction_pct):
             record('Rat model support', str(r.target), str(r.measurement_id)+' '+str(r.domain), r.new_relative_reduction_pct)
+    rank_summary = alternative_model_rank_summary()
+    expected_rounded = {'ATP0.1': .609, 'ATP1': .679, 'Pi0': .107, 'Pi5': .175}
+    for row in rank_summary.itertuples():
+        assert round(row.median_rank_correlation, 3) == expected_rounded[row.target]
+        record('Mechanistic alternatives', row.target,
+               'median rank correlation excluding reference self-comparison', row.median_rank_correlation)
     k = read('01_core_target_value/sparse/results/K_BOUNDED_LOCAL_SUPPORT.csv')
     for (view, budget), d in k.groupby(['accounting_view', 'budget']):
         record('Matched measurement budget', str(view), 'median width reduction budget '+str(budget), d.bounded_width_reduction_pct.median())
@@ -80,6 +112,10 @@ def quick():
     for target, d in q.groupby('target_ATP_mM'):
         record('Awinda', str(target), 'group-only NRMSE', d.baseline_group_only_nrmse_pct.mean())
         record('Awinda', str(target), 'selected pair NRMSE', d.outer_nrmse_pct.mean())
+        assert len(d) == 19 and d.heldout_animal.nunique() == 10
+        gain = float((d.baseline_group_only_nrmse_pct - d.outer_nrmse_pct).mean())
+        assert round(gain, 2) == {.1: .22, 1.: 7.45}[float(target)]
+        record('Awinda', str(target), 'condition-cell mean NRMSE gain percentage points', gain)
     u = read('03_awinda/continuum/results/U_MGATP_CONTINUUM_SELECTIONS.csv')
     # Frozen target-level selected frequency records preserve biological-unit grouping.
     for target, d in u.groupby('target_ATP_mM'):
