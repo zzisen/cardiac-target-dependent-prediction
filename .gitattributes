@@ -1,0 +1,2 @@
+# Preserve frozen file bytes on every platform, including checksum inputs.
+* -text

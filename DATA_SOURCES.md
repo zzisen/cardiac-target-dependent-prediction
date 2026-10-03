@@ -16,6 +16,8 @@ archives are not distributed; the small published model inputs retain Apache
 | Human atrial experiments | Figshare v1 | `Human atrial data.zip` | [Download/source](https://ndownloader.figshare.com/files/51622616) | CC BY 4.0 |
 | Radbill pacing | Dryad v3 | `HCM_pacing_study_data_Dryad.xlsx` | [Download/source](https://datadryad.org/api/v2/files/676231/download) | CC0 1.0 |
 | Radbill pacing | Dryad v3 | `HCMpacingstudydatadryadreadme.txt` | [Download/source](https://datadryad.org/api/v2/files/676230/download) | CC0 1.0 |
+| Published rat model | b7c261976b1383d1d1a5d2a78b7c58b476f04e1c | `LICENSE` | [Download/source](https://github.com/JuliaMusgrave/XBModel_2024_Rat/tree/b7c261976b1383d1d1a5d2a78b7c58b476f04e1c) | Apache 2.0 |
+| Published rat model | b7c261976b1383d1d1a5d2a78b7c58b476f04e1c | `rat_data.mat` | [Download/source](https://github.com/JuliaMusgrave/XBModel_2024_Rat/tree/b7c261976b1383d1d1a5d2a78b7c58b476f04e1c) | Apache 2.0 |
 | Published human model | b22e5bef970adb95b7dc413979d8cd1c2ca482b3 | `ave_human_fitting_data.mat` | [Download/source](https://github.com/JuliaMusgrave/AtrialModel_2025_Human/tree/b22e5bef970adb95b7dc413979d8cd1c2ca482b3) | Apache 2.0 |
 | Published human model | b22e5bef970adb95b7dc413979d8cd1c2ca482b3 | `LICENSE` | [Download/source](https://github.com/JuliaMusgrave/AtrialModel_2025_Human/tree/b22e5bef970adb95b7dc413979d8cd1c2ca482b3) | Apache 2.0 |
 | Published human model | b22e5bef970adb95b7dc413979d8cd1c2ca482b3 | `ND_xb_fit.mat` | [Download/source](https://github.com/JuliaMusgrave/AtrialModel_2025_Human/tree/b22e5bef970adb95b7dc413979d8cd1c2ca482b3) | Apache 2.0 |

@@ -71,4 +71,6 @@ are CC BY 4.0. Upstream inputs retain their original terms. See LICENSE,
 DATA_LICENSE.md and THIRD_PARTY_LICENSES.md. The Zenodo software record uses MIT
 at record level with this mixed-license policy described explicitly.
 
-Repository: [zzisen/cardiac-target-dependent-prediction](https://github.com/zzisen/cardiac-target-dependent-prediction). Release version: v1.0.0.
+Repository: [zzisen/cardiac-target-dependent-prediction](https://github.com/zzisen/cardiac-target-dependent-prediction). Release version: v1.0.1.
+
+Frozen input bytes are preserved by .gitattributes so recorded hashes agree across operating systems and release archives.

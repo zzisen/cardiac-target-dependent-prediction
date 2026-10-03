@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: "Future targets shape the predictive value of cardiac mechanical measurements"
 type: software
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-10-03
 authors:
   - family-names: Zhou
