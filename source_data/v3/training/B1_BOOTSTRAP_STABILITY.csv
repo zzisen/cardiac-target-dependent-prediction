@@ -1,0 +1,4 @@
+contrast,estimate,percentile_95_low,percentile_95_high,replicates,seed,rng,resampling_unit,interval_interpretation
+C0_minus_SHARED,3.5250604006980377,0.016765246816804205,10.520187612009655,50000,20261006,numpy.default_rng / PCG64,patient; full seven-target vector retained,descriptive stability interval for realized held-out patients
+C0_minus_EXACT,-6.191102469015633,-28.229696102084596,9.609471427282855,50000,20261006,numpy.default_rng / PCG64,patient; full seven-target vector retained,descriptive stability interval for realized held-out patients
+SHARED_minus_EXACT,-9.71616286971367,-28.848768632945706,0.0010516143836697567,50000,20261006,numpy.default_rng / PCG64,patient; full seven-target vector retained,descriptive stability interval for realized held-out patients

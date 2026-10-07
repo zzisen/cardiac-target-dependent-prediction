@@ -1,17 +1,26 @@
 cff-version: 1.2.0
-title: "Future targets shape the predictive value of cardiac mechanical measurements"
+message: "Please cite the specific v2.0.0 Zenodo version for exact reproducibility."
+title: "P2 target-resolution analysis — major V3 manuscript release"
+version: "2.0.0"
+date-released: "2026-10-07"
 type: software
-version: 1.0.2
-date-released: 2026-10-03
 authors:
   - family-names: Zhou
     given-names: Zisen
-  - family-names: Zhang
-    given-names: Yaopu
-  - family-names: Pang
-    given-names: Haoran
-license: MIT
-message: "Please cite this software and the upstream sources listed in DATA_SOURCES.md."
+    affiliation: "Auckland Bioengineering Institute, University of Auckland"
 repository-code: "https://github.com/zzisen/cardiac-target-dependent-prediction"
-doi: "10.5281/zenodo.23114693"
-url: "https://doi.org/10.5281/zenodo.23114693"
+url: "https://github.com/zzisen/cardiac-target-dependent-prediction/releases/tag/v2.0.0"
+license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23113843"
+    description: "Shared concept DOI; select version 2.0.0 for exact reproduction"
+preferred-citation:
+  type: software
+  title: "P2 target-resolution analysis — major V3 manuscript release"
+  authors:
+    - family-names: Zhou
+      given-names: Zisen
+  version: "2.0.0"
+  date-released: "2026-10-07"
+  url: "https://github.com/zzisen/cardiac-target-dependent-prediction/releases/tag/v2.0.0"

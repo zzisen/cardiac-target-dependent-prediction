@@ -1,0 +1,19 @@
+panel,resolution,illustrative_target,illustrative_block,semantic
+A,Shared,T1,1,generic partition token; not a dataset target
+A,Shared,T2,1,generic partition token; not a dataset target
+A,Shared,T3,1,generic partition token; not a dataset target
+A,Shared,T4,1,generic partition token; not a dataset target
+A,Shared,T5,1,generic partition token; not a dataset target
+A,Shared,T6,1,generic partition token; not a dataset target
+A,Family,T1,1,generic partition token; not a dataset target
+A,Family,T2,1,generic partition token; not a dataset target
+A,Family,T3,2,generic partition token; not a dataset target
+A,Family,T4,2,generic partition token; not a dataset target
+A,Family,T5,3,generic partition token; not a dataset target
+A,Family,T6,3,generic partition token; not a dataset target
+A,Exact,T1,1,generic partition token; not a dataset target
+A,Exact,T2,2,generic partition token; not a dataset target
+A,Exact,T3,3,generic partition token; not a dataset target
+A,Exact,T4,4,generic partition token; not a dataset target
+A,Exact,T5,5,generic partition token; not a dataset target
+A,Exact,T6,6,generic partition token; not a dataset target

@@ -1,0 +1,26 @@
+benchmark,statistic,independent_value,reference_value,absolute_difference,tolerance,status,notes
+B1,weight_sum,1,1.0,0,1e-15,PASS,Supplied weights.
+B1,Sigma_determinant,0.09,0.09,2.7755576e-17,1e-14,PASS,Sylvester criterion.
+B1,oracle_refinement_gain,0.05,0.05,1.3877788e-17,1e-14,PASS,
+B1,shared_variance_numerator,0.072,0.072,1.3877788e-17,1e-14,PASS,
+B1,continuous_crossover_n,0.992284957545887,0.9922849575458896,2.6645353e-15,1e-9,PASS,D=shared risk minus exact risk; negative favors shared.
+B1,D_at_n_0.1,-0.00479263971745536,-0.00479263971745536,0,1e-10,PASS,Small n favors shared; later n favors exact.
+B1,D_at_n_2,0.0118384954803831,0.0118384954803831,2.9490299e-17,1e-10,PASS,Small n favors shared; later n favors exact.
+B2_raw,weight_sum_as_printed,1.00000001,1.00000001,0,1e-14,PASS,Input decimals have a 1e-8 rounding excess.
+B2_raw,Sigma_leading_minor_1,40.84734174,,,,PASS,Positive leading principal minor.
+B2_raw,Sigma_leading_minor_2,4.56017550291068,,,,PASS,Positive leading principal minor.
+B2_raw,Sigma_determinant,0.133645458481296,,,,PASS,Positive; symmetric Sylvester criterion establishes positive definiteness.
+B2_raw,oracle_refinement_gain,0.135216405178471,0.13521640517847144,0,1e-10,PASS,Weights used exactly as printed.
+B2_raw,crossing_1,0.653938496863635,0.6539384968639277,2.9309888e-13,1e-6,PASS,
+B2_raw,crossing_2,4.44794445620172,4.447944456201809,8.970602e-14,1e-6,PASS,
+B2_raw,D_at_n_0.1,0.707122024090015,0.7071220240900151,4.4408921e-16,1e-9,PASS,Sign sequence verifies two crossings and non-monotonicity.
+B2_raw,D_at_n_1,-0.0911353851400007,-0.09113538514000064,1.110223e-16,1e-9,PASS,Sign sequence verifies two crossings and non-monotonicity.
+B2_raw,D_at_n_2,-0.105355450018057,-0.1053554500180569,2.7755576e-17,1e-9,PASS,Sign sequence verifies two crossings and non-monotonicity.
+B2_raw,D_at_n_5,0.016808068006132,0.01680806800613195,0,1e-9,PASS,Sign sequence verifies two crossings and non-monotonicity.
+B2_raw,D_at_n_10,0.0965901999866946,0.0965901999866946,0,1e-9,PASS,Sign sequence verifies two crossings and non-monotonicity.
+B2_normalized,weight_sum,1,1.0,0,1e-15,PASS,
+B2_normalized,oracle_refinement_gain,0.135216403826307,,,,PASS,Uniform q normalization scales risks and gain; roots are invariant.
+B2_normalized,crossing_1,0.653938496863634,,,,PASS,
+B2_normalized,crossing_2,4.44794445620172,,,,PASS,
+B2_normalized,root_change_1,-6.66133814775094e-16,0.0,6.6613381e-16,1e-10,PASS,
+B2_normalized,root_change_2,1.77635683940025e-15,0.0,1.7763568e-15,1e-10,PASS,

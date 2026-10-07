@@ -1,0 +1,11 @@
+﻿context_class,comparator,n_cells,n_contributors,mean_standardized_absolute_error,median_standardized_absolute_error,support_definition
+ORIGINAL_A23_132_POLICY_DEPENDENT_FAIR_SUPPORT_CONTEXT_ONLY,C0,132,18,0.819522046100299,0.62098456256493328,frozen A23 shared_all5 policy-dependent fair-comparator mask
+A24_STRICT_SUPPORT_CONTEXT_RECOMPUTE,C0,126,17,0.83624416093112341,0.62537940734463104,strict canonical target-valid and all-four-candidate-valid mask
+ORIGINAL_A23_132_POLICY_DEPENDENT_FAIR_SUPPORT_CONTEXT_ONLY,C1_original_global,132,18,0.80892308831684701,0.62404711606293484,frozen A23 shared_all5 policy-dependent fair-comparator mask
+A24_STRICT_SUPPORT_CONTEXT_RECOMPUTE,C1_original_global,126,17,0.83576966368708372,0.6368532227891226,strict canonical target-valid and all-four-candidate-valid mask
+ORIGINAL_A23_132_POLICY_DEPENDENT_FAIR_SUPPORT_CONTEXT_ONLY,C1_family_global,132,18,0.56343522093536447,0.36509694156258882,frozen A23 shared_all5 policy-dependent fair-comparator mask
+A24_STRICT_SUPPORT_CONTEXT_RECOMPUTE,C1_family_global,126,17,0.57371442344950974,0.36608748414206854,strict canonical target-valid and all-four-candidate-valid mask
+ORIGINAL_A23_132_POLICY_DEPENDENT_FAIR_SUPPORT_CONTEXT_ONLY,C1_fixed_family,132,18,0.48818911704682866,0.31625784776477478,frozen A23 shared_all5 policy-dependent fair-comparator mask
+A24_STRICT_SUPPORT_CONTEXT_RECOMPUTE,C1_fixed_family,126,17,0.49488517175675778,0.32340662464860004,strict canonical target-valid and all-four-candidate-valid mask
+ORIGINAL_A23_132_POLICY_DEPENDENT_FAIR_SUPPORT_CONTEXT_ONLY,C2_target_specific,132,18,0.52030306666971315,0.35567866706243223,frozen A23 shared_all5 policy-dependent fair-comparator mask
+A24_STRICT_SUPPORT_CONTEXT_RECOMPUTE,C2_target_specific,126,17,0.53043245993545463,0.36302734822100191,strict canonical target-valid and all-four-candidate-valid mask

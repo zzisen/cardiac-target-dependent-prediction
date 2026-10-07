@@ -1,0 +1,4 @@
+﻿contrast,risk_difference,sign_convention
+C0_minus_SHARED,0.004622662649664266,first policy risk minus second policy risk
+C0_minus_EXACT,0.011739921779863383,first policy risk minus second policy risk
+SHARED_minus_EXACT,0.007117259130199116,first policy risk minus second policy risk

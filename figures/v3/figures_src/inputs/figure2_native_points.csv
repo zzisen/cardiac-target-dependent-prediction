@@ -1,0 +1,18 @@
+system,policy,value,metric,role,source,source_field,biological_n,support
+Awinda,C0,15.050970453516847,NRMSE percent,reference,canonical_adaptive.csv,fixed_C0_risk,10,FROZEN_SYSTEM_SUPPORT
+Awinda,Shared,13.135133354450582,NRMSE percent,fixed resolution,canonical_adaptive.csv,fixed_shared_risk,10,FROZEN_SYSTEM_SUPPORT
+Awinda,Exact,10.960564843006948,NRMSE percent,fixed resolution,canonical_adaptive.csv,fixed_exact_risk,10,FROZEN_SYSTEM_SUPPORT
+RLC-1,C0,1.0482427658478546,standardized MAE,reference,canonical_adaptive.csv,fixed_C0_risk,7,FROZEN_SYSTEM_SUPPORT
+RLC-1,Shared,0.9985615634386,standardized MAE,fixed resolution,canonical_adaptive.csv,fixed_shared_risk,7,FROZEN_SYSTEM_SUPPORT
+RLC-1,Family,0.8634615776935937,standardized MAE,fixed resolution,canonical_adaptive.csv,fixed_family_risk,7,FROZEN_SYSTEM_SUPPORT
+RLC-1,Exact,0.8537279044934455,standardized MAE,fixed resolution,canonical_adaptive.csv,fixed_exact_risk,7,FROZEN_SYSTEM_SUPPORT
+Radbill,C0,0.8495551603003364,standardized MAE,reference,canonical_adaptive.csv,fixed_C0_risk,17,"A25_STRICT_SUPPORT_FIXED_POLICY_RECOMPUTE; 126 target-valid cells/17 contributors; all 19 outer folds, IDs 9 and 19 unscored"
+Radbill,Shared,0.854274384776178,standardized MAE,fixed resolution,canonical_adaptive.csv,fixed_shared_risk,17,"A25_STRICT_SUPPORT_FIXED_POLICY_RECOMPUTE; 126 target-valid cells/17 contributors; all 19 outer folds, IDs 9 and 19 unscored"
+Radbill,Family,0.5854607893338551,standardized MAE,fixed resolution,canonical_adaptive.csv,fixed_family_risk,17,"A25_STRICT_SUPPORT_FIXED_POLICY_RECOMPUTE; 126 target-valid cells/17 contributors; all 19 outer folds, IDs 9 and 19 unscored"
+Radbill,Exact,0.5117711175951137,standardized MAE,fixed resolution,canonical_adaptive.csv,fixed_exact_risk,17,"A25_STRICT_SUPPORT_FIXED_POLICY_RECOMPUTE; 126 target-valid cells/17 contributors; all 19 outer folds, IDs 9 and 19 unscored"
+Radbill,Conventional,0.5046457996976736,standardized MAE,separate comparator,canonical_adaptive.csv,fixed_conventional_comparator,17,"A25_STRICT_SUPPORT_FIXED_POLICY_RECOMPUTE; 126 target-valid cells/17 contributors; all 19 outer folds, IDs 9 and 19 unscored"
+Tanner,C0,2.2108611431187737,native MAE,reference,canonical_adaptive.csv,fixed_C0_risk,7,FROZEN_SYSTEM_SUPPORT
+Tanner,Shared,0.6440619684823827,native MAE,fixed resolution,canonical_adaptive.csv,fixed_shared_risk,7,FROZEN_SYSTEM_SUPPORT
+Tanner,Exact,0.6256929450345122,native MAE,fixed resolution,canonical_adaptive.csv,fixed_exact_risk,7,FROZEN_SYSTEM_SUPPORT
+Tanner,Nearest-rate,0.6171286781881886,native MAE (mN/mm²),separate comparator,canonical_master.csv,EV-0102,7,28 trabecula × target predictions; frozen A25 native comparator
+Tanner,Random,0.6158614737139215,native MAE (mN/mm²),separate comparator,canonical_master.csv,EV-0103,7,28 trabecula × target predictions; frozen A25 native comparator

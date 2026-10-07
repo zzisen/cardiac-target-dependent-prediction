@@ -1,0 +1,65 @@
+{
+  "figure": 5,
+  "dimensions_inches": [
+    7.2,
+    7.4
+  ],
+  "png_dpi": 600,
+  "source_sha256": {
+    "canonical_training.csv": "a3bb5925eb9136e6bc24ff7bc1614388598c7af4ba982a3333f43a1e473ef13f",
+    "canonical_transport.csv": "c57caffb1c85bf62f78079db870a97a8f119be2e6f71b46ae88bd2de8d132d97",
+    "training_risks.csv": "c054ed2c69ecfc7bbc45c73a214c1faa40488b8d4931b1179b5c9cbf21888ddc",
+    "training_bootstrap.csv": "234088dd36ea167d34834c8864e78823e2c4f145a5b20c1411856d345910eabc",
+    "training_contrasts.csv": "d6ccbe0fffffbb767e96ee68ab324040129c3f8de8b61821775690994d423a62",
+    "training_exact_actions.csv": "df4eb014cc92d2c717e84433274af04babc1aac2ee5f485907bd3f4458e91a0b",
+    "training_shared_actions.csv": "6d82402b9026aba66a387dc24c425fc875e51504fc8e9045bc8f8854bd08e197",
+    "training_deletion_contrasts.csv": "5466cb2424c39d153cc3f1bcb8a2916adca6a5987fa324cc3327892cb8ea31f9",
+    "transport_risks.csv": "cbfd696164ad4e7a47ca9b75a16e025fedc2a2449352399c6241cbbd6148841b",
+    "transport_target_summary.csv": "56c8045ae9e8ebd6d9f5f5e6fee847e218e4318d2f6d8e36f1a095f1b7d683dd"
+  },
+  "checks": {
+    "training_support": [
+      44,
+      352,
+      7,
+      8
+    ],
+    "transport_support": [
+      9,
+      27,
+      2
+    ],
+    "heatmap_shape": [
+      7,
+      8
+    ],
+    "heatmap_rows_sum_to_44": true,
+    "exact_map_matches_canonical_json": true,
+    "shared_action_counts": {
+      "pSYK": 43,
+      "pERK1/2": 1
+    },
+    "deletion_rows": 44,
+    "direction_preserving_deletions": {
+      "C0_minus_SHARED": 44,
+      "C0_minus_EXACT": 43,
+      "SHARED_minus_EXACT": 44
+    },
+    "contrast_intervals_not_on_policy_risks": true,
+    "no_new_resampling_or_refit": true,
+    "Stanford_target_means_match_overall": true,
+    "historical_artwork_read": false
+  },
+  "transforms": "Exact count aggregation validated against 308 source selections; frozen point values and intervals retained. No scientific model rerun.",
+  "minimum_text_pt": 7.5,
+  "transport_metric_authority": {
+    "source": "P2_V3_ABT/B2_STANFORD_TRANSPORT_LUNA15_2026-10-06/B2_STANFORD_EXECUTION.py",
+    "lines": [
+      154,
+      157,
+      167
+    ],
+    "definition": "yz=(y-training_mean)/training_sample_sd; loss=mean((yz-pred_z)**2)",
+    "display": "Mean squared standardized error; training-frozen scaling. Not raw fraction MSE."
+  }
+}

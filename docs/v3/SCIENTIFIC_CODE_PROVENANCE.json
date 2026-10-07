@@ -1,0 +1,121 @@
+[
+  {
+    "source": "P2_V3_ABT\\A23_EXECUTION_LUNA7_RESUMED_2026-10-06\\a23_luna7_execute.py",
+    "source_sha256": "7d78d49afecd068874cebe6b6e7f2a2e536f34134dcbf905d11d8e957af34c5b",
+    "public_file": "analysis/v3/code/cardiac_fixed.py",
+    "verbatim_scientific_functions": [
+      "_sample_sd",
+      "fit_rlc_standardized_ols",
+      "load_rlc_support",
+      "run_rlc_family",
+      "read_awinda_spec_frequency_grid",
+      "load_awinda_support",
+      "awinda_ridge_predict",
+      "run_awinda"
+    ],
+    "function_ast_unchanged": true,
+    "portability_changes": "Release-local path/config globals; administrative packaging and private workflow omitted"
+  },
+  {
+    "source": "P2_V3_ABT\\A24_MATCHED_COMPLEXITY_FAMILY_CONTROL_CODEX_2026-10-06\\a24_run.py",
+    "source_sha256": "5d90cc848312c6562a9358c9f80d340f3f70f59044980a61093307d84581d13a",
+    "public_file": "analysis/v3/code/matched_families.py",
+    "verbatim_scientific_functions": [
+      "read_csv",
+      "canonical_blocks",
+      "all_pairings",
+      "partition_registries",
+      "truth",
+      "rlc_fit",
+      "load_rlc_data",
+      "compute_rlc",
+      "rad_mean_sd",
+      "load_radbill",
+      "rad_fit",
+      "rad_predict",
+      "rad_inner",
+      "rank_summaries",
+      "leave_one_unit",
+      "compute_radbill_selections",
+      "compute_radbill_predictions"
+    ],
+    "function_ast_unchanged": true,
+    "portability_changes": "Release-local path/config globals; administrative packaging and private workflow omitted"
+  },
+  {
+    "source": "P2_V3_ABT\\A25_ADAPTIVE_TARGET_RESOLUTION_CODEX_2026-10-06\\a25_adaptive_execute.py",
+    "source_sha256": "071ab277525a790675e6ccbae4177596a579d0db03302695c6615631dfe558ab",
+    "public_file": "analysis/v3/code/adaptive_resolution.py",
+    "verbatim_scientific_functions": [
+      "sha256",
+      "verify_radbill_strict_support",
+      "sample_sd",
+      "cached",
+      "load_rlc",
+      "load_radbill",
+      "load_tanner",
+      "read_awinda_frequency_grid",
+      "load_awinda",
+      "load_all_data",
+      "make_fit_cache",
+      "rlc_fit_predict",
+      "rlc_inner_error_cube",
+      "rlc_select",
+      "tanner_predict",
+      "tanner_inner_score_cube",
+      "tanner_select",
+      "radbill_fit_model",
+      "radbill_predict",
+      "radbill_inner_score_cube",
+      "radbill_select",
+      "awinda_predict",
+      "awinda_score_cube",
+      "awinda_select",
+      "action_for",
+      "predict_non_awinda",
+      "predict_awinda",
+      "middle_system_risk",
+      "support_count",
+      "exact_tied_coarser",
+      "recompute_radbill_strict_fixed_policies",
+      "unit_loss_from_predictions",
+      "native_risk",
+      "middle_unit_loss",
+      "selected_actions_json",
+      "run_adaptive_system",
+      "resolutions_freq_rows"
+    ],
+    "function_ast_unchanged": true,
+    "portability_changes": "Release-local path/config globals; administrative packaging and private workflow omitted"
+  },
+  {
+    "source": "P2_V3_ABT\\B1_OUTCOME_EXECUTION_LUNA14_2026-10-06\\main_execution.py",
+    "source_sha256": "7c469b783f1a0186da500e0dc3f7d082bdd5defbfa664ac198b84fdbe1acbb04",
+    "public_file": "analysis/v3/code/training_execution.py",
+    "byte_identical": true
+  },
+  {
+    "source": "P2_V3_ABT\\B1_OUTCOME_EXECUTION_LUNA14_2026-10-06\\independent_replay.py",
+    "source_sha256": "1f58887a50807cc5a0cf31bda0e9d6b6e945bd9f9a6072b8dbd5d17dc3f35859",
+    "public_file": "analysis/v3/code/training_independent_replay.py",
+    "byte_identical": true
+  },
+  {
+    "source": "P2_V3_ABT\\B2_STANFORD_TRANSPORT_LUNA15_2026-10-06\\B2_STANFORD_EXECUTION.py",
+    "source_sha256": "3ec4c38d0ef06059c981783733b87c74061fa51d860c8d776be2892f2ada41a5",
+    "public_file": "analysis/v3/code/transport_execution.py",
+    "byte_identical": true
+  },
+  {
+    "source": "P2_V3_ABT\\B2_STANFORD_TRANSPORT_LUNA15_2026-10-06\\B2_TRAINING_ONLY_FREEZE.py",
+    "source_sha256": "4cb9c8781bc15598b235236335940ca662be47ac6360ea456b7a897164374d13",
+    "public_file": "analysis/v3/code/transport_training_models.py",
+    "byte_identical": true
+  },
+  {
+    "source": "P2_V3_ABT\\B2_STANFORD_TRANSPORT_LUNA15_2026-10-06\\B2_STANFORD_INDEPENDENT_REPLAY.py",
+    "source_sha256": "eade00f274bbab2267024a5cd581e46d21b234d1376279f9fc1c5138c09a8b30",
+    "public_file": "analysis/v3/code/transport_independent_replay.py",
+    "byte_identical": true
+  }
+]

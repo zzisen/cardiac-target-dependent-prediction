@@ -1,0 +1,15 @@
+system,family,condition_label,semantic_source
+RLC-1,Peak,3 µM Peak,owner full-rebuild contract; canonical A24 family definitions
+RLC-1,Peak,10 µM Peak,owner full-rebuild contract; canonical A24 family definitions
+RLC-1,TTP,3 µM TTP,owner full-rebuild contract; canonical A24 family definitions
+RLC-1,TTP,10 µM TTP,owner full-rebuild contract; canonical A24 family definitions
+RLC-1,RT50,3 µM RT50,owner full-rebuild contract; canonical A24 family definitions
+RLC-1,RT50,10 µM RT50,owner full-rebuild contract; canonical A24 family definitions
+Radbill,QT,110 QT,owner full-rebuild contract; canonical A24 family definitions
+Radbill,QT,120 QT,owner full-rebuild contract; canonical A24 family definitions
+Radbill,QT,130-first QT,owner full-rebuild contract; canonical A24 family definitions
+Radbill,QT,130-last QT,owner full-rebuild contract; canonical A24 family definitions
+Radbill,PP,110 PP,owner full-rebuild contract; canonical A24 family definitions
+Radbill,PP,120 PP,owner full-rebuild contract; canonical A24 family definitions
+Radbill,PP,130-first PP,owner full-rebuild contract; canonical A24 family definitions
+Radbill,PP,130-last PP,owner full-rebuild contract; canonical A24 family definitions

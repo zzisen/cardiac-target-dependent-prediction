@@ -1,0 +1,24 @@
+check_id,case,quantity,n,action_index,analytic_value,reference_value,monte_carlo_value,mc_standard_error,absolute_difference,tolerance,pass,notes
+M2_ROOT,Sol two-target shared-versus-exact benchmark,continuous crossover n,,,0.992284957546,0.992284957546,,,4.4408920985e-16,5e-8,TRUE,Closed-form normal-CDF risks; continuous n root.
+M2_D_N_0.001,Sol two-target shared-versus-exact benchmark,Rbar_shared minus Rbar_exact,0.001,,-0.000554684309566,-0.000555,,,3.15690433517e-07,1e-06,TRUE,Published benchmark value is rounded to 6 decimals.
+M2_D_N_0.01,Sol two-target shared-versus-exact benchmark,Rbar_shared minus Rbar_exact,0.01,,-0.0017316589305,-0.001732,,,3.4106950027e-07,1e-06,TRUE,Published benchmark value is rounded to 6 decimals.
+M2_D_N_0.1,Sol two-target shared-versus-exact benchmark,Rbar_shared minus Rbar_exact,0.1,,-0.00479263971746,-0.004793,,,3.6028254464e-07,1e-06,TRUE,Published benchmark value is rounded to 6 decimals.
+M2_D_N_0.5,Sol two-target shared-versus-exact benchmark,Rbar_shared minus Rbar_exact,0.5,,-0.00502982683727,-0.005030,,,1.73162725638e-07,1e-06,TRUE,Published benchmark value is rounded to 6 decimals.
+M2_D_N_1,Sol two-target shared-versus-exact benchmark,Rbar_shared minus Rbar_exact,1,,9.18418634532e-05,0.000092,,,1.58136546765e-07,1e-06,TRUE,Published benchmark value is rounded to 6 decimals.
+M2_D_N_2,Sol two-target shared-versus-exact benchmark,Rbar_shared minus Rbar_exact,2,,0.0118384954804,0.011838,,,4.95480383092e-07,1e-06,TRUE,Published benchmark value is rounded to 6 decimals.
+M2_D_N_10,Sol two-target shared-versus-exact benchmark,Rbar_shared minus Rbar_exact,10,,0.0389635308304,0.038964,,,4.69169574586e-07,1e-06,TRUE,Published benchmark value is rounded to 6 decimals.
+M3_POSITIVE_DEFINITE_ACTION_1,M3_POSITIVE_DEFINITE,selection probability,1,1,0.327343491761,,0.327562,0.000331805462706,0.000218508238551,0.00219083277624,TRUE,N=2000000; six binomial SE plus 0.0002 integration allowance.
+M3_POSITIVE_DEFINITE_ACTION_2,M3_POSITIVE_DEFINITE,selection probability,1,2,0.335922654468,,0.335839,0.000333975017541,8.36544675417e-05,0.00220385010525,TRUE,N=2000000; six binomial SE plus 0.0002 integration allowance.
+M3_POSITIVE_DEFINITE_ACTION_3,M3_POSITIVE_DEFINITE,selection probability,1,3,0.336733853771,,0.336599,0.000334173731385,0.000134853771009,0.00220504238831,TRUE,N=2000000; six binomial SE plus 0.0002 integration allowance.
+M4_POSITIVE_DEFINITE_ACTION_1,M4_POSITIVE_DEFINITE,selection probability,1,1,0.270638158738,,0.270369,0.000314160107089,0.000269158738076,0.00208496064254,TRUE,N=2000000; six binomial SE plus 0.0002 integration allowance.
+M4_POSITIVE_DEFINITE_ACTION_2,M4_POSITIVE_DEFINITE,selection probability,1,2,0.278277429848,,0.278223,0.000316890439967,5.44298476216e-05,0.0021013426398,TRUE,N=2000000; six binomial SE plus 0.0002 integration allowance.
+M4_POSITIVE_DEFINITE_ACTION_3,M4_POSITIVE_DEFINITE,selection probability,1,3,0.268484543391,,0.2688955,0.000313369265684,0.000410956608699,0.00208021559411,TRUE,N=2000000; six binomial SE plus 0.0002 integration allowance.
+M4_POSITIVE_DEFINITE_ACTION_4,M4_POSITIVE_DEFINITE,selection probability,1,4,0.182599838733,,0.1825125,0.000273182299598,8.73387331953e-05,0.00183909379759,TRUE,N=2000000; six binomial SE plus 0.0002 integration allowance.
+TIED_ORACLE_M3_ACTION_1,TIED_ORACLE_M3,selection probability,1,1,0.385413926941,,0.3850555,0.000344143888411,0.000358426940547,0.00226486333046,TRUE,N=2000000; six binomial SE plus 0.0002 integration allowance.
+TIED_ORACLE_M3_ACTION_2,TIED_ORACLE_M3,selection probability,1,2,0.385413926941,,0.386168,0.000344143888411,0.000754073059453,0.00226486333046,TRUE,N=2000000; six binomial SE plus 0.0002 integration allowance.
+TIED_ORACLE_M3_ACTION_3,TIED_ORACLE_M3,selection probability,1,3,0.229172146119,,0.2287765,0.000297197134544,0.000395646118906,0.00198318280726,TRUE,N=2000000; six binomial SE plus 0.0002 integration allowance.
+TIED_ORACLE_M3_EXCESS,TIED_ORACLE_M3,expected excess risk,1,,0.0916688584476,,0.0915106,0.000118878853818,0.000158258447562,0.000913273122905,TRUE,The two tied oracle actions each have zero gap and contribute zero excess.
+SINGULAR_ACTION_1,singular PSD with permanent estimator tie,selection probability,1,1,0.691462461274,,,,0,0,TRUE,Exact 1D reduction; actions 1 and 2 tie on every draw; priority gives the tie to action 1.
+SINGULAR_ACTION_2,singular PSD with permanent estimator tie,selection probability,1,2,0,,,,0,0,TRUE,Exact 1D reduction; actions 1 and 2 tie on every draw; priority gives the tie to action 1.
+SINGULAR_ACTION_3,singular PSD with permanent estimator tie,selection probability,1,3,0.308537538726,,,,0,0,TRUE,Exact 1D reduction; actions 1 and 2 tie on every draw; priority gives the tie to action 1.
+SINGULAR_EXCESS,singular PSD with permanent estimator tie,expected excess risk,1,,0.154268769363,,,,0,0,TRUE,Only action 3 is non-oracle and its true gap is 0.5.

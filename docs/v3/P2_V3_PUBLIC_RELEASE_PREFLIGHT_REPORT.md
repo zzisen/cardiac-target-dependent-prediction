@@ -1,0 +1,17 @@
+# P2 V3 public release preflight
+
+P2_V3_PUBLIC_RELEASE_PREFLIGHT_PASS
+
+Stages 1–3 passed before candidate preparation: reader-facing cleanup and approved Summary strengthening; truthful single-author AI disclosure; discrete schematic Figure 1C and points-only Figure 5D; unchanged scientific results; all 32 DOCX pages visually inspected; 15 editable Supplement tables checked cell by cell; native Word equations; PDF bounds/font checks; self-contained SVG glyph outlines. No supplementary figures were added.
+
+The local candidate continues the existing public repository at historical v1.0.2 commit 0861aa8bfa939e916a1fa4abd5ad076d637b7467. The live repository is public, main is the default branch, authenticated push permission is available, and v2.0.0 has no conflict. Historical v1.0.2 tag and release fingerprints were recorded for preservation. No GitHub Actions workflows are configured; no CI result is implied.
+
+A fresh isolated Conda environment was created from the exact 67-package Windows binary lock, then requirements-v3.txt was installed. The clean quick replay passes: published input hashes; all scientific module imports and cardiac data loaders; declared theoretical benchmarks; all 15/35 matched-partition risks and ranks; independent nested 44-patient selection/fitting with all 924 losses; independent full-training selection/refits plus 54 Stanford losses; four adaptive risks reaggregated from predictions; all five figures, 15 exports, byte-identical. The quick replay does not reread raw FCS events or refit all cardiac models. Full prespecified cardiac and optional raw-decoding entry points are supplied and their scope is explicit.
+
+Portability work changes release-local input paths and removes private workflow/administrative routines. Recorded AST comparisons verify scientific function bodies are unchanged. Independent training/transport implementations and finite-action verification code are copied unchanged. The ordinary pip renderer initially gave different file hashes because of FreeType 2.6.1 versus 2.13.3; this was resolved with a documented binary lock, not a change in scientific values or artwork.
+
+Source fetch instructions identify exact Figshare/Dryad records and versions. The live Dryad API independently confirms cytometry version 4, CC0, the 5,863,234,104-byte archive and SHA-256; the small RLC workbook matches its attributed upstream hash and CC-BY license. Large raw archives, FCS files, publisher PDFs, private prompts/correspondence, credentials, machine environments, and development history are excluded from the V3 public addition. Historical already-public files and upstream Apache notices remain intact. Project-authored code remains MIT; project-derived data/documentation remain CC BY 4.0; third-party inputs retain upstream terms.
+
+The manuscript availability text matches this candidate's repository, v2.0.0 tag, release scope, and licensing. Its sole pending value is the specific new Zenodo version DOI, intentionally inserted only after publication. The existing Zenodo version DOI is 10.5281/zenodo.23114693; the independently verified shared concept DOI is 10.5281/zenodo.23113843. P2 GitHub integration is not enabled; publication will use the existing record's New version workflow.
+
+Evidence: CLEAN_REPRODUCTION_REPORT.json; RELEASE_SOURCE_MANIFEST.csv; FIGURE_SOURCE_MANIFEST.csv; SCIENTIFIC_CODE_PROVENANCE.json; the private QA directory retains content/layout checks and immutable historical metadata snapshots. This gate authorizes no scientific change.

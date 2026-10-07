@@ -1,0 +1,11 @@
+name: p2-target-resolution-v2
+channels:
+  - defaults
+dependencies:
+  - python=3.10.18
+  - matplotlib-base=3.10.0=py310he19b0ae_0
+  - freetype=2.13.3
+  - pip
+  - pip:
+      - -r requirements-v3.txt
+# Use environment-v3-win64-explicit.txt for the complete binary lock.

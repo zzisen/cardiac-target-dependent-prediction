@@ -1,0 +1,4 @@
+policy,overall_equal_patient_equal_target_risk,patient_count,target_count,patient_target_cells
+C0,35.69360519780011,44,7,308
+SHARED,32.16854479710208,44,7,308
+EXACT,41.88470766681574,44,7,308

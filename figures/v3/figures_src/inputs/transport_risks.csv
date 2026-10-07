@@ -1,0 +1,4 @@
+﻿policy,risk,patients,targets,patient_target_cells,weighting
+C0,0.3576312020641367,9,2,18,"equal patient, equal target"
+SHARED,0.3530085394144724,9,2,18,"equal patient, equal target"
+EXACT,0.3458912802842733,9,2,18,"equal patient, equal target"

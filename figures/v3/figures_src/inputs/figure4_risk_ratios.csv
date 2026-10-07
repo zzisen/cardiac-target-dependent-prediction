@@ -1,0 +1,5 @@
+system,fixed_resolution,best_fixed_native_risk,adaptive_native_risk,native_metric,best_fixed_normalized,adaptive_normalized,reference_role,comparator_exclusion
+Awinda,Exact,10.960564843006948,10.919862082400952,NRMSE percent,1,0.9962864358553596672375141899,descriptive realized best eligible fixed resolution; not oracle,C0 and Conventional and nearest/random are not resolution candidates
+RLC-1,Exact,0.8537279044934455,1.0024434266096864,standardized MAE,1,1.174195456577561901773514807,descriptive realized best eligible fixed resolution; not oracle,C0 and Conventional and nearest/random are not resolution candidates
+Radbill,Exact,0.5117711175951137,0.5224307752998568,standardized MAE,1,1.020828955246310829566088136,descriptive realized best eligible fixed resolution; not oracle,C0 and Conventional and nearest/random are not resolution candidates
+Tanner,Exact,0.6256929450345122,0.6325059281810032,native MAE,1,1.010888700600763857081889133,descriptive realized best eligible fixed resolution; not oracle,C0 and Conventional and nearest/random are not resolution candidates

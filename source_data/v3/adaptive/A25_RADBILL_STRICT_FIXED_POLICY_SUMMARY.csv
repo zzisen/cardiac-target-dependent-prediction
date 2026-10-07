@@ -1,0 +1,6 @@
+﻿support_label,policy_id,n_biological_units,n_target_cells,standardized_AE_risk,aggregation
+A25_STRICT_SUPPORT_FIXED_POLICY_RECOMPUTE,C0,17,126,0.8495551603003364,pooled mean standardized absolute error over the 126 target-valid participant-target cells
+A25_STRICT_SUPPORT_FIXED_POLICY_RECOMPUTE,SHARED,17,126,0.8542743847761779,pooled mean standardized absolute error over the 126 target-valid participant-target cells
+A25_STRICT_SUPPORT_FIXED_POLICY_RECOMPUTE,FAMILY,17,126,0.5854607893338553,pooled mean standardized absolute error over the 126 target-valid participant-target cells
+A25_STRICT_SUPPORT_FIXED_POLICY_RECOMPUTE,EXACT,17,126,0.5117711175951137,pooled mean standardized absolute error over the 126 target-valid participant-target cells
+A25_STRICT_SUPPORT_FIXED_POLICY_RECOMPUTE,CONVENTIONAL,17,126,0.5046457996976736,pooled mean standardized absolute error over the 126 target-valid participant-target cells

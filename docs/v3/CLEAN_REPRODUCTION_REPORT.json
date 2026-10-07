@@ -1,0 +1,200 @@
+{
+  "status": "PASS",
+  "seconds": 30.310026168823242,
+  "python": "3.10.18",
+  "environment": {
+    "numpy": "2.2.5",
+    "scipy": "1.15.3",
+    "pandas": "2.3.1",
+    "matplotlib": "3.10.0",
+    "Pillow": "11.3.0"
+  },
+  "scope": "Offline quick replay: training/transport independently refit, cardiac saved fold losses reaggregated, analytic two-action root verified, five figures rebuilt. Raw event parsing and full cardiac nested fits are separate commands.",
+  "checks": [
+    {
+      "check": "release input/source/figure SHA-256 manifest",
+      "status": "PASS"
+    },
+    {
+      "check": "all portable cardiac loaders and prespecified grids",
+      "status": "PASS"
+    },
+    {
+      "check": "two-action analytic Gaussian benchmark",
+      "status": "PASS",
+      "root": 0.9922849575458867,
+      "checks": 8
+    },
+    {
+      "check": "all matched-partition risks/ranks reaggregated; no refitting",
+      "status": "PASS",
+      "systems": {
+        "RLC1": {
+          "partitions": 15,
+          "natural_rank": 1,
+          "natural_risk": 0.8634615776935939
+        },
+        "RADBILL": {
+          "partitions": 35,
+          "natural_rank": 1,
+          "natural_risk": 0.5737144234495096
+        }
+      }
+    },
+    {
+      "check": "independent nested 44-patient selection and loss replay",
+      "status": "PASS",
+      "result": {
+        "report": "training/B1_INDEPENDENT_REPLAY_REPORT.md",
+        "verified_by_process_exit": true,
+        "loss_cells": 924,
+        "patient_target_cells": 308
+      }
+    },
+    {
+      "check": "independent full-training model and Stanford transport replay",
+      "status": "PASS",
+      "result": {
+        "replay": "PASS",
+        "inputs": [
+          "frozen B1 compact summary",
+          "frozen B2 training-only model registry",
+          "B2 Stanford compact summary"
+        ],
+        "training_selection_recomputed": true,
+        "training_refit_coefficients_recomputed": true,
+        "patient_target_policy_losses_reproduced": 54,
+        "risks_reproduced": 3,
+        "primary_contrasts_reproduced": 3,
+        "max_absolute_loss_difference": 0.0,
+        "max_absolute_risk_difference": 0.0,
+        "max_absolute_contrast_difference": 0.0,
+        "independent_risks": {
+          "C0": 0.3576312020641367,
+          "SHARED": 0.3530085394144724,
+          "EXACT": 0.3458912802842733
+        },
+        "independent_contrasts": {
+          "C0_minus_SHARED": 0.004622662649664266,
+          "C0_minus_EXACT": 0.011739921779863383,
+          "SHARED_minus_EXACT": 0.007117259130199116
+        },
+        "training_channels": {
+          "SHARED": "pSYK",
+          "EXACT": {
+            "Dasatinib": "pSYK",
+            "IL-7": "pSTAT5"
+          }
+        },
+        "event_data_reread_by_replay": false
+      }
+    },
+    {
+      "check": "adaptive risks reaggregated from held-out predictions",
+      "status": "PASS",
+      "risks": {
+        "RLC1_RAT": 1.0024434266096864,
+        "RADBILL_HUMAN_PACING": 0.5224307752998568,
+        "TANNER_RAT_TRABECULA": 0.6325059281810032,
+        "AWINDA_MOUSE": 10.919862082400952
+      }
+    },
+    {
+      "check": "all five figure source builds",
+      "status": "PASS",
+      "byte_identical_outputs": 15,
+      "files": [
+        {
+          "file": "P2_V3_Figure1_V3_0.png",
+          "expected_sha256": "a390f27f032e77f71ab9e0bd9bb654f62035390eec5404a9cefa6b60fbfae87e",
+          "rebuilt_sha256": "a390f27f032e77f71ab9e0bd9bb654f62035390eec5404a9cefa6b60fbfae87e",
+          "identical": true
+        },
+        {
+          "file": "P2_V3_Figure1_V3_0.pdf",
+          "expected_sha256": "e81ac6aee76b7bd45d31c12fa0086baa27125ff5903f06399c165c8a34d9f813",
+          "rebuilt_sha256": "e81ac6aee76b7bd45d31c12fa0086baa27125ff5903f06399c165c8a34d9f813",
+          "identical": true
+        },
+        {
+          "file": "P2_V3_Figure1_V3_0.svg",
+          "expected_sha256": "a1bbf0d482e70528c32f4e0784ea6a146f0155a0c0c41a97976f2e6850eb5671",
+          "rebuilt_sha256": "a1bbf0d482e70528c32f4e0784ea6a146f0155a0c0c41a97976f2e6850eb5671",
+          "identical": true
+        },
+        {
+          "file": "P2_V3_Figure2_V3_0.png",
+          "expected_sha256": "721ad8e19238e5c426f0a79fa8f8714b0459d9e9cc28f6309b029f393973d1db",
+          "rebuilt_sha256": "721ad8e19238e5c426f0a79fa8f8714b0459d9e9cc28f6309b029f393973d1db",
+          "identical": true
+        },
+        {
+          "file": "P2_V3_Figure2_V3_0.pdf",
+          "expected_sha256": "6f904ff1c0a087c74dc6c4e5e8228ad4e8751538599fbadd4e13c52d1b5d7326",
+          "rebuilt_sha256": "6f904ff1c0a087c74dc6c4e5e8228ad4e8751538599fbadd4e13c52d1b5d7326",
+          "identical": true
+        },
+        {
+          "file": "P2_V3_Figure2_V3_0.svg",
+          "expected_sha256": "c810c7e099b05a93f3d2c1ffd6d8b9fc0e917bbca194af2b0af03a7d5225c724",
+          "rebuilt_sha256": "c810c7e099b05a93f3d2c1ffd6d8b9fc0e917bbca194af2b0af03a7d5225c724",
+          "identical": true
+        },
+        {
+          "file": "P2_V3_Figure3_V3_0.png",
+          "expected_sha256": "21308cd99db25676d86805ec272eb948adc62fdeb9b14f9cf943fcdacdcf9b33",
+          "rebuilt_sha256": "21308cd99db25676d86805ec272eb948adc62fdeb9b14f9cf943fcdacdcf9b33",
+          "identical": true
+        },
+        {
+          "file": "P2_V3_Figure3_V3_0.pdf",
+          "expected_sha256": "efd51cb8dd393aba801fbd2565bcbe345ac23e3f78790bcfe0b5f8f7502bd6c3",
+          "rebuilt_sha256": "efd51cb8dd393aba801fbd2565bcbe345ac23e3f78790bcfe0b5f8f7502bd6c3",
+          "identical": true
+        },
+        {
+          "file": "P2_V3_Figure3_V3_0.svg",
+          "expected_sha256": "d1f7519e040b1020ce098173d7001c07dbf0d0e6f76e56bc2882c147df30c68c",
+          "rebuilt_sha256": "d1f7519e040b1020ce098173d7001c07dbf0d0e6f76e56bc2882c147df30c68c",
+          "identical": true
+        },
+        {
+          "file": "P2_V3_Figure4_V3_0.png",
+          "expected_sha256": "203d09c8a35fa27189cf6b8db079333dc8b2c73f6fea833238352feb89cc3a33",
+          "rebuilt_sha256": "203d09c8a35fa27189cf6b8db079333dc8b2c73f6fea833238352feb89cc3a33",
+          "identical": true
+        },
+        {
+          "file": "P2_V3_Figure4_V3_0.pdf",
+          "expected_sha256": "6f2ddd7df8053599fd2187fda41b087cdff7e343db9580ab6d77da146d21ae1f",
+          "rebuilt_sha256": "6f2ddd7df8053599fd2187fda41b087cdff7e343db9580ab6d77da146d21ae1f",
+          "identical": true
+        },
+        {
+          "file": "P2_V3_Figure4_V3_0.svg",
+          "expected_sha256": "ea500e8b6c600f504ccd2d421e4666593bfbfc165c34a8cd3baf373524d4f49c",
+          "rebuilt_sha256": "ea500e8b6c600f504ccd2d421e4666593bfbfc165c34a8cd3baf373524d4f49c",
+          "identical": true
+        },
+        {
+          "file": "P2_V3_Figure5_V3_0.png",
+          "expected_sha256": "d9c450853cda8fccf3ecb386acda9da381399043000353e37ab8134621422af4",
+          "rebuilt_sha256": "d9c450853cda8fccf3ecb386acda9da381399043000353e37ab8134621422af4",
+          "identical": true
+        },
+        {
+          "file": "P2_V3_Figure5_V3_0.pdf",
+          "expected_sha256": "f43ae88096543a3517d8f07e0db07cc83ec61344ce5ac3d43717ba3c85fc1922",
+          "rebuilt_sha256": "f43ae88096543a3517d8f07e0db07cc83ec61344ce5ac3d43717ba3c85fc1922",
+          "identical": true
+        },
+        {
+          "file": "P2_V3_Figure5_V3_0.svg",
+          "expected_sha256": "4148aa6b297d6bfaaac082c1f8c4be011240ac56f40f422655106c603e9abeb7",
+          "rebuilt_sha256": "4148aa6b297d6bfaaac082c1f8c4be011240ac56f40f422655106c603e9abeb7",
+          "identical": true
+        }
+      ]
+    }
+  ]
+}

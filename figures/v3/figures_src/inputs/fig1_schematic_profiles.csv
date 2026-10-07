@@ -1,0 +1,10 @@
+profile,resolution,display_x,display_y,role
+Monotonic improvement,Shared,0.0,0.75,arbitrary schematic geometry; NOT empirical data
+Monotonic improvement,Family,1.0,0.54,arbitrary schematic geometry; NOT empirical data
+Monotonic improvement,Exact,2.0,0.29,arbitrary schematic geometry; NOT empirical data
+Intermediate minimum,Shared,0.0,0.6,arbitrary schematic geometry; NOT empirical data
+Intermediate minimum,Family,1.0,0.24,arbitrary schematic geometry; NOT empirical data
+Intermediate minimum,Exact,2.0,0.41,arbitrary schematic geometry; NOT empirical data
+Non-monotone ordering,Shared,0.0,0.28,arbitrary schematic geometry; NOT empirical data
+Non-monotone ordering,Family,1.0,0.66,arbitrary schematic geometry; NOT empirical data
+Non-monotone ordering,Exact,2.0,0.5,arbitrary schematic geometry; NOT empirical data

@@ -1,0 +1,11 @@
+system,resolution,selected,total,frequency,shown_in_artwork
+Awinda,Shared,1,10,0.1,True
+Awinda,Exact,9,10,0.9,True
+RLC-1,Shared,2,7,0.2857142857142857,True
+RLC-1,Family,3,7,0.42857142857142855,True
+RLC-1,Exact,2,7,0.2857142857142857,True
+Radbill,Shared,0,17,0.0,False
+Radbill,Family,2,17,0.11764705882352941,True
+Radbill,Exact,15,17,0.8823529411764706,True
+Tanner,Shared,3,7,0.42857142857142855,True
+Tanner,Exact,4,7,0.5714285714285714,True
