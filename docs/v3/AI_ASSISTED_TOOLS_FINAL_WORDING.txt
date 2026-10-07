@@ -1,1 +1,14 @@
-OpenAI ChatGPT and Codex were used to assist with secondary checks of mathematical derivations, identification of relevant published methods and computational approaches, code development and debugging, data parsing and analysis execution, figure-code preparation and reproducibility checks, research iteration and interpretation support, and manuscript drafting and editing. References and numerical outputs used in the final manuscript were checked against the original sources or executable analyses. All AI-assisted outputs were reviewed by the author, who takes full responsibility for the final work.
+Declaration of generative AI and AI-assisted technologies in the manuscript preparation and research workflow
+
+OpenAI ChatGPT and Codex were used to assist with secondary checks of mathematical derivations, identification of relevant published methods and computational approaches, code development and debugging, data parsing and analysis execution, figure-code preparation and reproducibility checks, research iteration and interpretation support, and manuscript drafting and editing. References, analytical decisions, numerical outputs and final figures used in the manuscript were checked against the original sources or executable analyses. All AI-assisted outputs were reviewed by the authors, who take full responsibility for the final work.
+
+Methods
+AI assistance for code development, debugging and final figure-code preparation used OpenAI Codex (GPT-6.1 Sol; model identifier gpt-6.1-sol; high reasoning effort). Deterministic Python scripts executed the analyses and rendered plots directly from declared analysis tables; conceptual panels used explicitly schematic coordinates. The rendering environment used Python 3.10.18, Matplotlib 3.10.0, NumPy 2.2.5, Pillow 11.3.0 and FreeType 2.13.3. The authors verified the code, numerical outputs and final figures. No AI tool fabricated or altered the underlying experimental data.
+
+The explanatory schematic panels were implemented with AI-assisted figure-code development using OpenAI Codex (GPT-6.1 Sol; model identifier gpt-6.1-sol; high reasoning effort) and rendered reproducibly with Python/Matplotlib; all scientific content and final artwork were verified by the authors.
+
+The explanatory family-structure diagrams in (A) and (C) were implemented with AI-assisted figure-code development using OpenAI Codex (GPT-6.1 Sol; model identifier gpt-6.1-sol; high reasoning effort) and rendered reproducibly with Python/Matplotlib; the quantitative panels use the prespecified analysis outputs.
+
+The explanatory layout elements in (A) and (F) were implemented with AI-assisted figure-code development using OpenAI Codex (GPT-6.1 Sol; model identifier gpt-6.1-sol; high reasoning effort) and rendered reproducibly with Python/Matplotlib; the quantitative panels use the prespecified analysis outputs.
+
+Figures 2 and 4: reproducible data visualizations; computational AI assistance disclosed in Methods. No AI-generated primary research images.

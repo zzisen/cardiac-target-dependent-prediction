@@ -1,18 +1,26 @@
 {
-  "title": "P2 target-resolution analysis — major V3 manuscript release",
-  "version": "2.0.0",
+  "title": "P2 target-resolution analysis — V3 authorship and disclosure patch",
+  "version": "2.0.1",
   "upload_type": "software",
-  "description": "Reproducible finite-action target-resolution analyses accompanying the V3 manuscript. Project-authored code: MIT; project-authored derived data/documentation: CC BY 4.0; third-party materials retain upstream terms. Large upstream raw archives are not redistributed. Historical v1.0.2 remains available.",
+  "description": "Metadata and submission-package patch aligning final three-author manuscript authorship and precise AI disclosure. Scientific results, analyses, numerical outputs, figure source code and all 15 figure exports are unchanged from v2.0.0. Code: MIT; derived data/documentation: CC BY 4.0; third-party inputs retain upstream terms. Historical v1.0.2 and v2.0.0 remain immutable.",
   "creators": [
     {
       "name": "Zhou, Zisen",
       "affiliation": "Auckland Bioengineering Institute, University of Auckland"
+    },
+    {
+      "name": "Zhang, Yaopu",
+      "affiliation": "Harbin Institute of Technology (Shenzhen)"
+    },
+    {
+      "name": "Pang, Haoran",
+      "affiliation": "Harbin Institute of Technology"
     }
   ],
   "license": "MIT",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/zzisen/cardiac-target-dependent-prediction/releases/tag/v2.0.0",
+      "identifier": "https://github.com/zzisen/cardiac-target-dependent-prediction/releases/tag/v2.0.1",
       "relation": "isSupplementTo",
       "scheme": "url"
     }
@@ -22,5 +30,6 @@
     "measurement design",
     "nested validation",
     "cardiac prediction"
-  ]
+  ],
+  "doi": "10.5281/zenodo.23203165"
 }

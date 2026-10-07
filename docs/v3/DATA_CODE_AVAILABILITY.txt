@@ -1,1 +1,4 @@
-Derived numerical tables and figure source data are included in this exact v2.0.0 archive. Analysis code, configurations, and verified outputs are available at https://github.com/zzisen/cardiac-target-dependent-prediction/releases/tag/v2.0.0. The shared Zenodo concept is https://doi.org/10.5281/zenodo.23113843; the final manuscript cites the new specific version DOI after publication. Source datasets remain available from their upstream Figshare and Dryad records. Project-authored code is MIT; project-authored derived data and documentation are CC BY 4.0; third-party materials retain their upstream terms.
+Zisen Zhou; Yaopu Zhang; Haoran Pang. Frozen V3 scientific code, derived data and figures: https://github.com/zzisen/cardiac-target-dependent-prediction/releases/tag/v2.0.1
+Specific DOI: 10.5281/zenodo.23203165
+Concept DOI: 10.5281/zenodo.23113843
+Code MIT; project-derived data/documentation CC BY 4.0; upstream terms unchanged.

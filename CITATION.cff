@@ -1,26 +1,38 @@
 cff-version: 1.2.0
-message: "Please cite the specific v2.0.0 Zenodo version for exact reproducibility."
-title: "P2 target-resolution analysis — major V3 manuscript release"
-version: "2.0.0"
+message: "Please cite the specific v2.0.1 Zenodo version for exact reproducibility."
+title: "P2 target-resolution analysis — V3 authorship and disclosure patch"
+version: "2.0.1"
 date-released: "2026-10-07"
 type: software
 authors:
   - family-names: Zhou
     given-names: Zisen
     affiliation: "Auckland Bioengineering Institute, University of Auckland"
+  - family-names: Zhang
+    given-names: Yaopu
+    affiliation: "Harbin Institute of Technology (Shenzhen)"
+  - family-names: Pang
+    given-names: Haoran
+    affiliation: "Harbin Institute of Technology"
 repository-code: "https://github.com/zzisen/cardiac-target-dependent-prediction"
-url: "https://github.com/zzisen/cardiac-target-dependent-prediction/releases/tag/v2.0.0"
+url: "https://github.com/zzisen/cardiac-target-dependent-prediction/releases/tag/v2.0.1"
 license: MIT
+doi: "10.5281/zenodo.23203165"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23113843"
-    description: "Shared concept DOI; select version 2.0.0 for exact reproduction"
+    description: "Shared concept DOI; select version 2.0.1 for exact reproduction"
 preferred-citation:
   type: software
-  title: "P2 target-resolution analysis — major V3 manuscript release"
+  title: "P2 target-resolution analysis — V3 authorship and disclosure patch"
   authors:
     - family-names: Zhou
       given-names: Zisen
-  version: "2.0.0"
+    - family-names: Zhang
+      given-names: Yaopu
+    - family-names: Pang
+      given-names: Haoran
+  doi: "10.5281/zenodo.23203165"
+  version: "2.0.1"
   date-released: "2026-10-07"
-  url: "https://github.com/zzisen/cardiac-target-dependent-prediction/releases/tag/v2.0.0"
+  url: "https://github.com/zzisen/cardiac-target-dependent-prediction/releases/tag/v2.0.1"

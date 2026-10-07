@@ -1,6 +1,6 @@
 # P2 target-resolution analysis — V3 manuscript release
 
-Software release **v2.0.0** accompanies the V3 manuscript, *Target resolution shapes deployable measurement design under finite biological data*, by Zisen Zhou (Auckland Bioengineering Institute, University of Auckland). This is the same project as historical v1.0.2, whose tag, release, DOI, code, and data remain accessible.
+Software release **v2.0.1** accompanies the V3 manuscript, *Target resolution shapes deployable measurement design under finite biological data*, by Zisen Zhou (Auckland Bioengineering Institute, University of Auckland), Yaopu Zhang (Harbin Institute of Technology (Shenzhen)), and Haoran Pang (Harbin Institute of Technology). This is the same project as historical v1.0.2, whose tag, release, DOI, code, and data remain accessible.
 
 V3 adds finite-action Gaussian verification, exhaustive matched-family controls (15 and 35 partitions), fully nested adaptive resolution in four cardiac systems, a 44-patient non-cardiac training benchmark, and nine-patient training-fixed Stanford transport. Numerical outputs retain their native metrics. No journal acceptance is claimed.
 
@@ -25,6 +25,10 @@ Final 600-dpi PNG and vector PDF/SVG files are under `figures/v3/`. SVG uses sel
 
 Project-authored code is MIT; project-authored derived data and documentation are CC BY 4.0. Third-party materials retain upstream licenses. The small RLC Figshare workbook redistributed in `analysis/v3/inputs/project` is CC BY 4.0 with attribution in [V3 source instructions](docs/v3/SOURCE_DATA.md). Large upstream FCS archives and source-publication PDFs are omitted; download them separately. Existing Apache-2.0 model source notices are preserved.
 
-See [DATA_SOURCES.md](DATA_SOURCES.md), [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md), [LICENSE](LICENSE), [DATA_LICENSE.md](DATA_LICENSE.md), and [CITATION.cff](CITATION.cff). The verified shared Zenodo concept DOI is [10.5281/zenodo.23113843](https://doi.org/10.5281/zenodo.23113843); cite the specific v2.0.0 version for exact reproduction.
+See [DATA_SOURCES.md](DATA_SOURCES.md), [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md), [LICENSE](LICENSE), [DATA_LICENSE.md](DATA_LICENSE.md), and [CITATION.cff](CITATION.cff). The verified shared Zenodo concept DOI is [10.5281/zenodo.23113843](https://doi.org/10.5281/zenodo.23113843); cite the specific v2.0.1 version for exact reproduction.
 
 The historical v1.0.2 README is preserved in `docs/v3/HISTORICAL_V1_0_2_README.md`. Pre-existing top-level analysis directories retain the historical methods and inputs; the V3 entry points select the new contracts explicitly.
+
+## Authorship and disclosure patch
+
+Version v2.0.1 aligns final manuscript authorship and AI-assisted workflow disclosure. No scientific analysis, result, input, figure code or figure export changes. Historical v2.0.0 remains available unchanged. Cite Zisen Zhou, Yaopu Zhang and Haoran Pang (2026), P2 target-resolution analysis — V3 authorship and disclosure patch, v2.0.1, https://doi.org/10.5281/zenodo.23203165.
